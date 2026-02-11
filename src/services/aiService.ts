@@ -9,10 +9,7 @@ export interface AIAnalysisResult {
 
 export type Persona = 'ORB' | 'SANDBOX' | 'ME' | 'SCAN';
 
-// Initialize Gemini API
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY || "");
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
+// initialization moved to function scope
 export const aiService = {
   /**
    * Send image or text to Gemini and receive 'Vibe Oracle' and tags.
@@ -63,6 +60,17 @@ export const aiService = {
     `;
 
     try {
+      // Direct Initialization
+      const key = import.meta.env.VITE_GEMINI_API_KEY;
+      if (!key) {
+        console.error("GLTCH_CRITICAL: VITE_GEMINI_API_KEY is completely empty.");
+        throw new Error("API_KEY_MISSING");
+      }
+      console.log(`[GLTCH_DEBUG] Key Loaded: ${key.slice(0, 4)}****${key.slice(-4)}`);
+
+      const genAI = new GoogleGenerativeAI(key);
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
       const result = await model.generateContent(prompt);
       const response = await result.response;
       const text = response.text();
@@ -99,6 +107,9 @@ export const aiService = {
     SECRET: ${rawText}`;
 
     try {
+      const key = import.meta.env.VITE_GEMINI_API_KEY;
+      const genAI = new GoogleGenerativeAI(key || "");
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       const result = await model.generateContent(prompt);
       return (await result.response).text();
     } catch {

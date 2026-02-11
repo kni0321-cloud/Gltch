@@ -1,4 +1,5 @@
 # GLTCH Project
+**LIVE_DEPLOY_URL**: [gltch-zeta.vercel.app](https://gltch-zeta.vercel.app)
 
 ## Overview
 GLTCH is a cyber-mysticism narrative experience exploring the boundaries between digital existence and human consciousness.

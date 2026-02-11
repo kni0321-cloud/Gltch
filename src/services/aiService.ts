@@ -9,7 +9,7 @@ export interface AIAnalysisResult {
 
 export type Persona = 'ORB' | 'SANDBOX' | 'ME' | 'SCAN';
 
-// initialization moved to function scope
+// Gemini is initialized per-call to ensure env vars are loaded at runtime
 export const aiService = {
   /**
    * Send image or text to Gemini and receive 'Vibe Oracle' and tags.
@@ -60,15 +60,14 @@ export const aiService = {
     `;
 
     try {
-      // Direct Initialization
-      const key = import.meta.env.VITE_GEMINI_API_KEY;
-      if (!key) {
-        console.error("GLTCH_CRITICAL: VITE_GEMINI_API_KEY is completely empty.");
-        throw new Error("API_KEY_MISSING");
+      // Per-call initialization — ensures env vars are resolved at runtime
+      const currentKey = import.meta.env.VITE_GEMINI_API_KEY;
+      if (!currentKey) {
+        console.error("GLTCH_CRITICAL: VITE_GEMINI_API_KEY is missing at runtime.");
+        throw new Error("API_KEY_MISSING_AT_RUNTIME");
       }
-      console.log(`[GLTCH_DEBUG] Key Loaded: ${key.slice(0, 4)}****${key.slice(-4)}`);
 
-      const genAI = new GoogleGenerativeAI(key);
+      const genAI = new GoogleGenerativeAI(currentKey);
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       const result = await model.generateContent(prompt);
@@ -107,8 +106,10 @@ export const aiService = {
     SECRET: ${rawText}`;
 
     try {
-      const key = import.meta.env.VITE_GEMINI_API_KEY;
-      const genAI = new GoogleGenerativeAI(key || "");
+      const currentKey = import.meta.env.VITE_GEMINI_API_KEY;
+      if (!currentKey) throw new Error("API_KEY_MISSING_AT_RUNTIME");
+
+      const genAI = new GoogleGenerativeAI(currentKey);
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       const result = await model.generateContent(prompt);
       return (await result.response).text();

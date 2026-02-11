@@ -9,7 +9,39 @@ export interface AIAnalysisResult {
 
 export type Persona = 'ORB' | 'SANDBOX' | 'ME' | 'SCAN';
 
-// Gemini is initialized per-call to ensure env vars are loaded at runtime
+// ── Model Configuration ──────────────────────────────────────────────
+// Default: gemini-2.5-flash (cost-effective, with thinking chain)
+// Fallback: gemini-2.5-flash-lite
+// Flagship: gemini-3-pro (complex audit / deep analysis only)
+const MODEL_DEFAULT = 'gemini-2.5-flash';
+const MODEL_LITE = 'gemini-2.5-flash-lite';
+const MODEL_FLAGSHIP = 'gemini-3-pro';
+
+/**
+ * Per-call Gemini initialization.
+ * Reads key + model from env at RUNTIME — prevents Vercel cold-start dead-lock.
+ */
+function _getModel(tier: 'default' | 'lite' | 'flagship' = 'default') {
+  const currentKey = import.meta.env.VITE_GEMINI_API_KEY;
+  if (!currentKey) {
+    console.error('GLTCH_CRITICAL: VITE_GEMINI_API_KEY is missing at runtime.');
+    throw new Error('API_KEY_MISSING_AT_RUNTIME');
+  }
+
+  const modelMap = {
+    default: import.meta.env.VITE_GEMINI_MODEL || MODEL_DEFAULT,
+    lite: MODEL_LITE,
+    flagship: MODEL_FLAGSHIP,
+  } as const;
+
+  const modelId = modelMap[tier];
+  console.log(`[GLTCH] Gemini init → tier=${tier}  model=${modelId}`);
+
+  const genAI = new GoogleGenerativeAI(currentKey);
+  return genAI.getGenerativeModel({ model: modelId });
+}
+
+// ── Service ──────────────────────────────────────────────────────────
 export const aiService = {
   /**
    * Send image or text to Gemini and receive 'Vibe Oracle' and tags.
@@ -23,6 +55,9 @@ export const aiService = {
     const environment = input.context || { time: new Date().toLocaleTimeString(), device: 'MOBILE_TERMINAL', ambient: 'NORMAL' };
     const persona = input.persona || 'SCAN';
     const appAgeDays = Math.floor((Date.now() - (input.context?.appAge || Date.now())) / (1000 * 60 * 60 * 24));
+
+    // Detect complex-audit intent → route to flagship model
+    const isComplexAudit = /audit|deep.?analysis|sovereignty.?lock|stress.?test/i.test(input.text || '');
 
     const PERSONA_GUIDES = {
       ORB: `Persona: The Seductive Whisperer. Tone: Seductive, Observant, Ambiguous. ${appAgeDays < 7 ? 'User is new, be welcoming and instructional.' : 'User is established, be demanding.'}`,
@@ -60,15 +95,7 @@ export const aiService = {
     `;
 
     try {
-      // Per-call initialization — ensures env vars are resolved at runtime
-      const currentKey = import.meta.env.VITE_GEMINI_API_KEY;
-      if (!currentKey) {
-        console.error("GLTCH_CRITICAL: VITE_GEMINI_API_KEY is missing at runtime.");
-        throw new Error("API_KEY_MISSING_AT_RUNTIME");
-      }
-
-      const genAI = new GoogleGenerativeAI(currentKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      const model = _getModel(isComplexAudit ? 'flagship' : 'default');
 
       const result = await model.generateContent(prompt);
       const response = await result.response;
@@ -81,6 +108,20 @@ export const aiService = {
       }
       throw new Error("Invalid JSON response from AI");
     } catch (error: any) {
+      // ── Automatic fallback to lite model on primary failure ──
+      if (error.message !== 'API_KEY_MISSING_AT_RUNTIME') {
+        try {
+          console.warn('[GLTCH] Primary model failed, falling back to lite…');
+          const fallback = _getModel('lite');
+          const result = await fallback.generateContent(prompt);
+          const text = (await result.response).text();
+          const jsonMatch = text.match(/\{[\s\S]*\}/);
+          if (jsonMatch) return JSON.parse(jsonMatch[0]);
+        } catch (fallbackErr) {
+          console.error('[GLTCH] Fallback model also failed:', fallbackErr);
+        }
+      }
+
       console.error("GLTCH_API_ERROR:", error);
 
       // Rate Limit / Overload Handling
@@ -106,11 +147,7 @@ export const aiService = {
     SECRET: ${rawText}`;
 
     try {
-      const currentKey = import.meta.env.VITE_GEMINI_API_KEY;
-      if (!currentKey) throw new Error("API_KEY_MISSING_AT_RUNTIME");
-
-      const genAI = new GoogleGenerativeAI(currentKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      const model = _getModel('default');
       const result = await model.generateContent(prompt);
       return (await result.response).text();
     } catch {
@@ -122,3 +159,4 @@ export const aiService = {
     return "Your frequency signature is evolving. Continue the ritual.";
   }
 };
+

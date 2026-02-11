@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-pure-black text-white font-mono;
+    min-height: 100dvh;
+  }
+}
+
+@layer components {
+
+  /* CMO Requirement: Global Grain Overlay */
+  .grain-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+    filter: contrast(170%) brightness(1000%);
+    mix-blend-mode: overlay;
+    opacity: 0.15;
+  }
+
+  /* CMO Requirement: Global Scanlines */
+  .scanlines {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    pointer-events: none;
+    background: linear-gradient(to bottom,
+        transparent 50%,
+        rgba(191, 0, 255, 0.03) 50%);
+    background-size: 100% 4px;
+  }
+
+  /* CMO Requirement: Glitch Shadow */
+  .glitch-shadow {
+    box-shadow: 4px 0px 0px rgba(255, 0, 0, 0.7), -4px 0px 0px rgba(0, 255, 255, 0.7);
+  }
+
+  /* CMO Requirement: Text Glitch Animation (Anti-Jitter) */
+  .glitch-text {
+    animation: glitch-skew 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+    letter-spacing: -0.05em;
+  }
+
+  /* CMO Requirement: Debris Visuals */
+  .debris-fragment {
+    clip-path: polygon(10% 0%, 90% 10%, 100% 80%, 80% 100%, 0% 90%);
+    background-color: #333333 !important;
+    border: 1px solid #555 !important;
+    box-shadow: none !important;
+    animation: debris-float 5s ease-in-out infinite;
+  }
+
+  @keyframes debris-float {
+
+    0%,
+    100% {
+      transform: rotate(0deg) translateY(0px);
+    }
+
+    50% {
+      transform: rotate(5deg) translateY(-2px);
+    }
+  }
+
+  @keyframes glitch-skew {
+    0% {
+      transform: translate(0)
+    }
+
+    20% {
+      transform: translate(-1px, 1px)
+    }
+
+    40% {
+      transform: translate(-1px, -1px)
+    }
+
+    60% {
+      transform: translate(1px, 1px)
+    }
+
+    80% {
+      transform: translate(1px, -1px)
+    }
+
+    100% {
+      transform: translate(0)
+    }
+  }
+
+  .orb-glow {
+    background: radial-gradient(circle, rgba(191, 0, 255, 0.6) 0%, rgba(0, 0, 0, 0) 75%);
+  }
+
+  /* Enhanced Speech Bubble Styles */
+  .vibe-dots {
+    background-image: radial-gradient(rgba(191, 0, 255, 0.2) 1px, transparent 1px);
+    background-size: 4px 4px;
+  }
+
+  .system-glow {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    background: rgba(15, 15, 15, 0.95);
+  }
+
+  .speech-bubble-tail {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 55% 85%, 50% 100%, 45% 85%, 0% 85%);
+  }
+
+  .speech-bubble-tail-alt {
+    clip-path: polygon(0% 15%, 45% 15%, 50% 0%, 55% 15%, 100% 15%, 100% 100%, 0% 100%);
+  }
+
+  .holographic-scroll {
+    position: relative;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    animation: holographic-shimmer 3s ease-in-out infinite;
+  }
+
+  @keyframes holographic-shimmer {
+
+    0%,
+    100% {
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3), inset 0 0 30px rgba(255, 215, 0, 0.1);
+    }
+
+    50% {
+      box-shadow: 0 0 40px rgba(255, 215, 0, 0.5), inset 0 0 50px rgba(255, 215, 0, 0.2);
+    }
+  }
+
+  .ghose-pulse {
+    animation: ghost-breathing 4s ease-in-out infinite;
+  }
+
+  @keyframes ghost-breathing {
+
+    0%,
+    100% {
+      filter: blur(2px) opacity(0.4);
+      transform: scale(0.95);
+    }
+
+    50% {
+      filter: blur(0px) opacity(0.8);
+      transform: scale(1.05);
+    }
+  }
+
+  .s-grade-glow {
+    position: relative;
+    animation: s-grade-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes s-grade-pulse {
+
+    0%,
+    100% {
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 0 40px rgba(255, 215, 0, 0.3), inset 0 0 20px rgba(255, 215, 0, 0.1);
+    }
+
+    50% {
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.8), 0 0 60px rgba(255, 215, 0, 0.5), inset 0 0 30px rgba(255, 215, 0, 0.2);
+    }
+  }
+
+}
+
+/* Custom Utilities for HUD and Orbs */
+.hud-bracket {
+  @apply w-10 h-10 border-primary;
+}
+
+.viewfinder-crosshair {
+  background: linear-gradient(90deg, transparent 48%, #BF00FF 49%, #BF00FF 51%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, #BF00FF 49%, #BF00FF 51%, transparent 52%);
+}

@@ -1,0 +1,5 @@
+export const GAME_CONFIG = {
+    MEMORY_RESCUE_COST: 2,
+    DAILY_CREDITS: 3,
+    MAX_CREDITS: 3
+};

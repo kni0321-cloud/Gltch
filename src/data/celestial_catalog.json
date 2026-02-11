@@ -1,0 +1,8802 @@
+[
+  {
+    "id": "STAR_0",
+    "name": "Celestial-0",
+    "ra": "22:43:57",
+    "dec": "+85:03:31",
+    "mag": 0.17,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_1",
+    "name": "Celestial-1",
+    "ra": "12:41:28",
+    "dec": "+61:53:24",
+    "mag": 5.51,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_2",
+    "name": "Celestial-2",
+    "ra": "09:52:42",
+    "dec": "+47:26:13",
+    "mag": 0.99,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_3",
+    "name": "Celestial-3",
+    "ra": "10:32:25",
+    "dec": "-82:57:39",
+    "mag": 1.58,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_4",
+    "name": "Celestial-4",
+    "ra": "22:31:18",
+    "dec": "+64:02:58",
+    "mag": 0.05,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_5",
+    "name": "Celestial-5",
+    "ra": "03:55:09",
+    "dec": "-40:18:20",
+    "mag": 4.01,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_6",
+    "name": "Celestial-6",
+    "ra": "05:27:38",
+    "dec": "-66:54:24",
+    "mag": 5.77,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_7",
+    "name": "Celestial-7",
+    "ra": "06:11:37",
+    "dec": "-41:25:21",
+    "mag": 1.12,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_8",
+    "name": "Celestial-8",
+    "ra": "12:36:54",
+    "dec": "+32:53:23",
+    "mag": 5.52,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_9",
+    "name": "Celestial-9",
+    "ra": "00:05:10",
+    "dec": "-49:30:41",
+    "mag": 1.61,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_10",
+    "name": "Celestial-10",
+    "ra": "21:45:05",
+    "dec": "-53:14:54",
+    "mag": -0.23,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_11",
+    "name": "Celestial-11",
+    "ra": "20:48:04",
+    "dec": "-84:10:25",
+    "mag": 3.32,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_12",
+    "name": "Celestial-12",
+    "ra": "13:39:30",
+    "dec": "+84:32:47",
+    "mag": -0.03,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_13",
+    "name": "Celestial-13",
+    "ra": "23:17:31",
+    "dec": "-11:38:33",
+    "mag": 0.87,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_14",
+    "name": "Celestial-14",
+    "ra": "06:09:07",
+    "dec": "+18:06:00",
+    "mag": 3.3,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_15",
+    "name": "Celestial-15",
+    "ra": "14:08:08",
+    "dec": "-11:07:33",
+    "mag": 2.87,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_16",
+    "name": "Celestial-16",
+    "ra": "19:43:36",
+    "dec": "-24:35:28",
+    "mag": 4.11,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_17",
+    "name": "Celestial-17",
+    "ra": "15:25:57",
+    "dec": "+79:10:47",
+    "mag": -0.79,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_18",
+    "name": "Celestial-18",
+    "ra": "16:38:28",
+    "dec": "-36:13:10",
+    "mag": 4.37,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_19",
+    "name": "Celestial-19",
+    "ra": "13:37:58",
+    "dec": "-01:01:39",
+    "mag": 3.56,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_20",
+    "name": "Celestial-20",
+    "ra": "22:45:56",
+    "dec": "-27:31:56",
+    "mag": 3.19,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_21",
+    "name": "Celestial-21",
+    "ra": "17:00:42",
+    "dec": "+63:12:30",
+    "mag": 0.68,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_22",
+    "name": "Celestial-22",
+    "ra": "02:26:43",
+    "dec": "+09:38:12",
+    "mag": 3.1,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_23",
+    "name": "Celestial-23",
+    "ra": "14:38:05",
+    "dec": "+28:21:26",
+    "mag": 0.45,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_24",
+    "name": "Celestial-24",
+    "ra": "12:58:45",
+    "dec": "-73:08:24",
+    "mag": 1.94,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_25",
+    "name": "Celestial-25",
+    "ra": "22:26:05",
+    "dec": "-07:20:55",
+    "mag": -0.55,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_26",
+    "name": "Celestial-26",
+    "ra": "00:19:36",
+    "dec": "-80:26:08",
+    "mag": 3.3,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_27",
+    "name": "Celestial-27",
+    "ra": "05:01:25",
+    "dec": "-54:48:15",
+    "mag": 3.56,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_28",
+    "name": "Celestial-28",
+    "ra": "14:25:48",
+    "dec": "+32:42:44",
+    "mag": 5.54,
+    "constellation": "Orion"
+  },
+  {
+    "id": "STAR_29",
+    "name": "Celestial-29",
+    "ra": "14:42:21",
+    "dec": "-32:17:39",
+    "mag": 2.93,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_30",
+    "name": "Celestial-30",
+    "ra": "17:35:05",
+    "dec": "-71:49:06",
+    "mag": 0.51,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_31",
+    "name": "Celestial-31",
+    "ra": "23:38:09",
+    "dec": "-84:25:38",
+    "mag": 4.47,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_32",
+    "name": "Celestial-32",
+    "ra": "21:58:38",
+    "dec": "-78:03:22",
+    "mag": 5.13,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_33",
+    "name": "Celestial-33",
+    "ra": "13:16:25",
+    "dec": "+45:08:21",
+    "mag": 0.62,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_34",
+    "name": "Celestial-34",
+    "ra": "17:40:44",
+    "dec": "-14:52:46",
+    "mag": -0.99,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_35",
+    "name": "Celestial-35",
+    "ra": "02:24:17",
+    "dec": "-13:04:55",
+    "mag": 2.19,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_36",
+    "name": "Celestial-36",
+    "ra": "19:51:03",
+    "dec": "+61:59:38",
+    "mag": 1.55,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_37",
+    "name": "Celestial-37",
+    "ra": "07:27:18",
+    "dec": "+69:04:44",
+    "mag": -0.63,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_38",
+    "name": "Celestial-38",
+    "ra": "22:18:38",
+    "dec": "-62:17:21",
+    "mag": 2.71,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_39",
+    "name": "Celestial-39",
+    "ra": "05:19:01",
+    "dec": "-19:06:37",
+    "mag": 3.92,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_40",
+    "name": "Celestial-40",
+    "ra": "02:29:22",
+    "dec": "+89:25:48",
+    "mag": 0.22,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_41",
+    "name": "Celestial-41",
+    "ra": "06:43:47",
+    "dec": "+75:46:38",
+    "mag": 0.25,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_42",
+    "name": "Celestial-42",
+    "ra": "04:32:26",
+    "dec": "-20:19:03",
+    "mag": 5.95,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_43",
+    "name": "Celestial-43",
+    "ra": "15:50:50",
+    "dec": "+25:47:02",
+    "mag": 5.92,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_44",
+    "name": "Celestial-44",
+    "ra": "06:19:05",
+    "dec": "+10:24:11",
+    "mag": 0.17,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_45",
+    "name": "Celestial-45",
+    "ra": "15:06:56",
+    "dec": "-79:25:52",
+    "mag": 5.29,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_46",
+    "name": "Celestial-46",
+    "ra": "19:41:00",
+    "dec": "+39:31:55",
+    "mag": 5.95,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_47",
+    "name": "Celestial-47",
+    "ra": "02:19:53",
+    "dec": "+66:21:07",
+    "mag": -0.58,
+    "constellation": "Orion"
+  },
+  {
+    "id": "STAR_48",
+    "name": "Celestial-48",
+    "ra": "09:51:10",
+    "dec": "-68:51:55",
+    "mag": 1.54,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_49",
+    "name": "Celestial-49",
+    "ra": "18:08:17",
+    "dec": "+83:05:52",
+    "mag": 3.81,
+    "constellation": "Orion"
+  },
+  {
+    "id": "STAR_50",
+    "name": "Celestial-50",
+    "ra": "16:32:21",
+    "dec": "-50:48:54",
+    "mag": 3.3,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_51",
+    "name": "Celestial-51",
+    "ra": "03:12:19",
+    "dec": "-06:45:30",
+    "mag": 2.15,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_52",
+    "name": "Celestial-52",
+    "ra": "15:57:26",
+    "dec": "+50:36:55",
+    "mag": 2.18,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_53",
+    "name": "Celestial-53",
+    "ra": "17:38:14",
+    "dec": "-86:49:46",
+    "mag": 4.25,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_54",
+    "name": "Celestial-54",
+    "ra": "10:11:45",
+    "dec": "-13:35:50",
+    "mag": 4.62,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_55",
+    "name": "Celestial-55",
+    "ra": "06:56:17",
+    "dec": "+78:49:35",
+    "mag": 3.82,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_56",
+    "name": "Celestial-56",
+    "ra": "19:57:07",
+    "dec": "+63:08:23",
+    "mag": 3.16,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_57",
+    "name": "Celestial-57",
+    "ra": "11:52:58",
+    "dec": "+81:02:57",
+    "mag": -0.5,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_58",
+    "name": "Celestial-58",
+    "ra": "14:56:02",
+    "dec": "-21:56:28",
+    "mag": 1.81,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_59",
+    "name": "Celestial-59",
+    "ra": "12:04:48",
+    "dec": "-01:46:37",
+    "mag": 5.74,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_60",
+    "name": "Celestial-60",
+    "ra": "10:27:24",
+    "dec": "+70:13:36",
+    "mag": -0.4,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_61",
+    "name": "Celestial-61",
+    "ra": "08:58:11",
+    "dec": "+33:28:35",
+    "mag": 4.07,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_62",
+    "name": "Celestial-62",
+    "ra": "22:13:08",
+    "dec": "+87:41:37",
+    "mag": 1.44,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_63",
+    "name": "Celestial-63",
+    "ra": "08:03:57",
+    "dec": "-42:27:31",
+    "mag": 1.49,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_64",
+    "name": "Celestial-64",
+    "ra": "11:59:12",
+    "dec": "+72:13:52",
+    "mag": 5.8,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_65",
+    "name": "Celestial-65",
+    "ra": "06:42:02",
+    "dec": "+65:01:48",
+    "mag": -0.12,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_66",
+    "name": "Celestial-66",
+    "ra": "12:31:15",
+    "dec": "+83:46:00",
+    "mag": 1.94,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_67",
+    "name": "Celestial-67",
+    "ra": "11:45:03",
+    "dec": "-19:58:54",
+    "mag": 1.85,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_68",
+    "name": "Celestial-68",
+    "ra": "22:42:28",
+    "dec": "+77:54:52",
+    "mag": 3.14,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_69",
+    "name": "Celestial-69",
+    "ra": "15:23:18",
+    "dec": "-08:27:31",
+    "mag": 1.12,
+    "constellation": "Orion"
+  },
+  {
+    "id": "STAR_70",
+    "name": "Celestial-70",
+    "ra": "17:14:02",
+    "dec": "-76:26:47",
+    "mag": 5.24,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_71",
+    "name": "Celestial-71",
+    "ra": "18:36:55",
+    "dec": "-22:43:15",
+    "mag": 0.28,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_72",
+    "name": "Celestial-72",
+    "ra": "19:44:18",
+    "dec": "-07:38:40",
+    "mag": 1.16,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_73",
+    "name": "Celestial-73",
+    "ra": "19:42:57",
+    "dec": "+76:32:35",
+    "mag": 2.21,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_74",
+    "name": "Celestial-74",
+    "ra": "03:26:39",
+    "dec": "+58:39:34",
+    "mag": 1.13,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_75",
+    "name": "Celestial-75",
+    "ra": "01:27:00",
+    "dec": "+36:43:04",
+    "mag": 5.68,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_76",
+    "name": "Celestial-76",
+    "ra": "19:31:55",
+    "dec": "-13:13:18",
+    "mag": 1.65,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_77",
+    "name": "Celestial-77",
+    "ra": "13:08:21",
+    "dec": "+31:16:24",
+    "mag": 2.62,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_78",
+    "name": "Celestial-78",
+    "ra": "18:09:56",
+    "dec": "-51:08:43",
+    "mag": -0.07,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_79",
+    "name": "Celestial-79",
+    "ra": "08:19:39",
+    "dec": "-60:51:22",
+    "mag": 2.22,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_80",
+    "name": "Celestial-80",
+    "ra": "11:55:47",
+    "dec": "-85:00:09",
+    "mag": 3.33,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_81",
+    "name": "Celestial-81",
+    "ra": "02:49:18",
+    "dec": "+19:05:10",
+    "mag": 4.08,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_82",
+    "name": "Celestial-82",
+    "ra": "22:52:26",
+    "dec": "-24:06:22",
+    "mag": 5.47,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_83",
+    "name": "Celestial-83",
+    "ra": "07:01:59",
+    "dec": "+08:53:44",
+    "mag": 2.76,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_84",
+    "name": "Celestial-84",
+    "ra": "10:25:12",
+    "dec": "+70:09:16",
+    "mag": 0.85,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_85",
+    "name": "Celestial-85",
+    "ra": "04:12:12",
+    "dec": "+74:46:12",
+    "mag": 3.78,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_86",
+    "name": "Celestial-86",
+    "ra": "20:18:06",
+    "dec": "-50:16:19",
+    "mag": 1.78,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_87",
+    "name": "Celestial-87",
+    "ra": "08:15:00",
+    "dec": "+82:30:17",
+    "mag": 5.96,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_88",
+    "name": "Celestial-88",
+    "ra": "17:44:03",
+    "dec": "+56:15:54",
+    "mag": 2.54,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_89",
+    "name": "Celestial-89",
+    "ra": "05:19:50",
+    "dec": "-53:09:44",
+    "mag": 0.66,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_90",
+    "name": "Celestial-90",
+    "ra": "01:47:11",
+    "dec": "-36:04:51",
+    "mag": 3.04,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_91",
+    "name": "Celestial-91",
+    "ra": "04:29:25",
+    "dec": "+23:03:20",
+    "mag": 2.54,
+    "constellation": "Orion"
+  },
+  {
+    "id": "STAR_92",
+    "name": "Celestial-92",
+    "ra": "19:36:14",
+    "dec": "-89:24:48",
+    "mag": 5.6,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_93",
+    "name": "Celestial-93",
+    "ra": "09:50:52",
+    "dec": "+78:59:40",
+    "mag": 5.71,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_94",
+    "name": "Celestial-94",
+    "ra": "06:32:57",
+    "dec": "-52:33:27",
+    "mag": 0.27,
+    "constellation": "Cygnus"
+  },
+  {
+    "id": "STAR_95",
+    "name": "Celestial-95",
+    "ra": "18:09:49",
+    "dec": "-55:37:29",
+    "mag": 3.9,
+    "constellation": "Ursa Major"
+  },
+  {
+    "id": "STAR_96",
+    "name": "Celestial-96",
+    "ra": "15:11:09",
+    "dec": "+28:03:38",
+    "mag": 2.11,
+    "constellation": "Centaurus"
+  },
+  {
+    "id": "STAR_97",
+    "name": "Celestial-97",
+    "ra": "19:09:15",
+    "dec": "+70:40:36",
+    "mag": -0.24,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "STAR_98",
+    "name": "Celestial-98",
+    "ra": "16:26:30",
+    "dec": "+44:17:58",
+    "mag": 3.63,
+    "constellation": "Cassiopeia"
+  },
+  {
+    "id": "STAR_99",
+    "name": "Celestial-99",
+    "ra": "06:05:31",
+    "dec": "+18:19:54",
+    "mag": 5.01,
+    "constellation": "Lyra"
+  },
+  {
+    "id": "ASTEROID_0",
+    "name": "Asteroid-0",
+    "ra": "05:29:21",
+    "dec": "+10:11:51",
+    "mag": 13.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_1",
+    "name": "Asteroid-1",
+    "ra": "03:01:26",
+    "dec": "-61:41:02",
+    "mag": 13.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_2",
+    "name": "Asteroid-2",
+    "ra": "12:08:47",
+    "dec": "-00:52:47",
+    "mag": 19.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_3",
+    "name": "Asteroid-3",
+    "ra": "20:42:31",
+    "dec": "-79:48:38",
+    "mag": 18.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_4",
+    "name": "Asteroid-4",
+    "ra": "04:55:52",
+    "dec": "+50:13:43",
+    "mag": 15.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_5",
+    "name": "Asteroid-5",
+    "ra": "12:14:35",
+    "dec": "+51:30:43",
+    "mag": 10.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_6",
+    "name": "Asteroid-6",
+    "ra": "10:48:24",
+    "dec": "-20:06:37",
+    "mag": 14.51,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_7",
+    "name": "Asteroid-7",
+    "ra": "12:21:41",
+    "dec": "+33:51:28",
+    "mag": 17.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_8",
+    "name": "Asteroid-8",
+    "ra": "04:38:04",
+    "dec": "+36:44:30",
+    "mag": 19.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_9",
+    "name": "Asteroid-9",
+    "ra": "07:19:00",
+    "dec": "+15:05:19",
+    "mag": 13.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_10",
+    "name": "Asteroid-10",
+    "ra": "04:17:29",
+    "dec": "-86:59:29",
+    "mag": 16.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_11",
+    "name": "Asteroid-11",
+    "ra": "12:56:22",
+    "dec": "+56:57:00",
+    "mag": 11.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_12",
+    "name": "Asteroid-12",
+    "ra": "11:51:47",
+    "dec": "-41:23:36",
+    "mag": 15.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_13",
+    "name": "Asteroid-13",
+    "ra": "07:29:48",
+    "dec": "+75:32:39",
+    "mag": 11.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_14",
+    "name": "Asteroid-14",
+    "ra": "08:40:14",
+    "dec": "-83:02:14",
+    "mag": 13.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_15",
+    "name": "Asteroid-15",
+    "ra": "20:05:52",
+    "dec": "+14:45:01",
+    "mag": 13.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_16",
+    "name": "Asteroid-16",
+    "ra": "05:42:11",
+    "dec": "+33:25:11",
+    "mag": 15.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_17",
+    "name": "Asteroid-17",
+    "ra": "21:09:36",
+    "dec": "-79:20:55",
+    "mag": 14.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_18",
+    "name": "Asteroid-18",
+    "ra": "00:48:23",
+    "dec": "+71:42:32",
+    "mag": 12.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_19",
+    "name": "Asteroid-19",
+    "ra": "12:30:06",
+    "dec": "+78:42:21",
+    "mag": 15.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_20",
+    "name": "Asteroid-20",
+    "ra": "17:43:38",
+    "dec": "-79:44:35",
+    "mag": 11.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_21",
+    "name": "Asteroid-21",
+    "ra": "06:05:30",
+    "dec": "+46:59:45",
+    "mag": 10.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_22",
+    "name": "Asteroid-22",
+    "ra": "05:59:56",
+    "dec": "-50:32:37",
+    "mag": 11.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_23",
+    "name": "Asteroid-23",
+    "ra": "20:04:44",
+    "dec": "-09:45:09",
+    "mag": 19.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_24",
+    "name": "Asteroid-24",
+    "ra": "22:04:11",
+    "dec": "-39:01:27",
+    "mag": 10.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_25",
+    "name": "Asteroid-25",
+    "ra": "14:30:00",
+    "dec": "-79:29:06",
+    "mag": 12.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_26",
+    "name": "Asteroid-26",
+    "ra": "00:25:22",
+    "dec": "-71:50:38",
+    "mag": 15.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_27",
+    "name": "Asteroid-27",
+    "ra": "11:23:52",
+    "dec": "+80:38:05",
+    "mag": 19.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_28",
+    "name": "Asteroid-28",
+    "ra": "10:19:39",
+    "dec": "+69:10:26",
+    "mag": 14.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_29",
+    "name": "Asteroid-29",
+    "ra": "11:16:24",
+    "dec": "+40:38:27",
+    "mag": 12.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_30",
+    "name": "Asteroid-30",
+    "ra": "17:38:23",
+    "dec": "-45:51:04",
+    "mag": 14.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_31",
+    "name": "Asteroid-31",
+    "ra": "14:01:04",
+    "dec": "-65:47:01",
+    "mag": 19.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_32",
+    "name": "Asteroid-32",
+    "ra": "18:46:24",
+    "dec": "-44:18:54",
+    "mag": 14.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_33",
+    "name": "Asteroid-33",
+    "ra": "10:00:24",
+    "dec": "+83:54:39",
+    "mag": 10.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_34",
+    "name": "Asteroid-34",
+    "ra": "17:31:32",
+    "dec": "-11:39:23",
+    "mag": 17.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_35",
+    "name": "Asteroid-35",
+    "ra": "11:27:03",
+    "dec": "+19:15:51",
+    "mag": 12.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_36",
+    "name": "Asteroid-36",
+    "ra": "18:09:30",
+    "dec": "+29:55:48",
+    "mag": 15.22,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_37",
+    "name": "Asteroid-37",
+    "ra": "20:51:18",
+    "dec": "-46:42:39",
+    "mag": 15.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_38",
+    "name": "Asteroid-38",
+    "ra": "18:29:52",
+    "dec": "+71:30:56",
+    "mag": 17.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_39",
+    "name": "Asteroid-39",
+    "ra": "07:05:06",
+    "dec": "+05:07:31",
+    "mag": 16.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_40",
+    "name": "Asteroid-40",
+    "ra": "09:08:04",
+    "dec": "+60:09:26",
+    "mag": 12.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_41",
+    "name": "Asteroid-41",
+    "ra": "20:07:08",
+    "dec": "-20:21:25",
+    "mag": 10.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_42",
+    "name": "Asteroid-42",
+    "ra": "00:38:24",
+    "dec": "+70:46:10",
+    "mag": 16.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_43",
+    "name": "Asteroid-43",
+    "ra": "13:55:40",
+    "dec": "+00:33:07",
+    "mag": 17.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_44",
+    "name": "Asteroid-44",
+    "ra": "07:48:31",
+    "dec": "+05:37:05",
+    "mag": 15.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_45",
+    "name": "Asteroid-45",
+    "ra": "07:54:20",
+    "dec": "-34:13:37",
+    "mag": 17.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_46",
+    "name": "Asteroid-46",
+    "ra": "15:51:47",
+    "dec": "-30:09:56",
+    "mag": 15.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_47",
+    "name": "Asteroid-47",
+    "ra": "13:14:57",
+    "dec": "-31:20:03",
+    "mag": 14.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_48",
+    "name": "Asteroid-48",
+    "ra": "21:04:26",
+    "dec": "-02:59:45",
+    "mag": 13.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_49",
+    "name": "Asteroid-49",
+    "ra": "13:49:48",
+    "dec": "-22:48:12",
+    "mag": 15.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_50",
+    "name": "Asteroid-50",
+    "ra": "14:15:55",
+    "dec": "+20:10:33",
+    "mag": 17.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_51",
+    "name": "Asteroid-51",
+    "ra": "22:39:09",
+    "dec": "+55:59:39",
+    "mag": 11.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_52",
+    "name": "Asteroid-52",
+    "ra": "22:18:03",
+    "dec": "+86:47:56",
+    "mag": 12.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_53",
+    "name": "Asteroid-53",
+    "ra": "00:59:37",
+    "dec": "+55:54:51",
+    "mag": 19.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_54",
+    "name": "Asteroid-54",
+    "ra": "08:11:08",
+    "dec": "+07:15:34",
+    "mag": 11.51,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_55",
+    "name": "Asteroid-55",
+    "ra": "07:51:31",
+    "dec": "+45:06:48",
+    "mag": 14.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_56",
+    "name": "Asteroid-56",
+    "ra": "04:12:35",
+    "dec": "+81:27:04",
+    "mag": 11.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_57",
+    "name": "Asteroid-57",
+    "ra": "06:50:51",
+    "dec": "+03:32:30",
+    "mag": 10.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_58",
+    "name": "Asteroid-58",
+    "ra": "05:37:41",
+    "dec": "+37:15:36",
+    "mag": 16.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_59",
+    "name": "Asteroid-59",
+    "ra": "21:29:09",
+    "dec": "+16:11:13",
+    "mag": 18.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_60",
+    "name": "Asteroid-60",
+    "ra": "17:08:31",
+    "dec": "-09:18:27",
+    "mag": 16.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_61",
+    "name": "Asteroid-61",
+    "ra": "12:29:26",
+    "dec": "-12:09:59",
+    "mag": 13.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_62",
+    "name": "Asteroid-62",
+    "ra": "20:00:56",
+    "dec": "-40:51:18",
+    "mag": 15.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_63",
+    "name": "Asteroid-63",
+    "ra": "06:18:37",
+    "dec": "-77:56:14",
+    "mag": 12.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_64",
+    "name": "Asteroid-64",
+    "ra": "07:40:29",
+    "dec": "+27:47:32",
+    "mag": 19.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_65",
+    "name": "Asteroid-65",
+    "ra": "01:21:32",
+    "dec": "+42:25:23",
+    "mag": 11.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_66",
+    "name": "Asteroid-66",
+    "ra": "12:03:42",
+    "dec": "+75:49:41",
+    "mag": 14.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_67",
+    "name": "Asteroid-67",
+    "ra": "04:14:34",
+    "dec": "+59:14:48",
+    "mag": 11.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_68",
+    "name": "Asteroid-68",
+    "ra": "09:34:43",
+    "dec": "+66:13:09",
+    "mag": 16.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_69",
+    "name": "Asteroid-69",
+    "ra": "14:50:39",
+    "dec": "-05:14:15",
+    "mag": 12.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_70",
+    "name": "Asteroid-70",
+    "ra": "13:09:42",
+    "dec": "-33:17:26",
+    "mag": 17.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_71",
+    "name": "Asteroid-71",
+    "ra": "15:01:26",
+    "dec": "-47:27:01",
+    "mag": 10.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_72",
+    "name": "Asteroid-72",
+    "ra": "18:32:07",
+    "dec": "-10:17:56",
+    "mag": 19.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_73",
+    "name": "Asteroid-73",
+    "ra": "11:19:53",
+    "dec": "-27:46:27",
+    "mag": 16.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_74",
+    "name": "Asteroid-74",
+    "ra": "19:51:57",
+    "dec": "+82:39:19",
+    "mag": 10.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_75",
+    "name": "Asteroid-75",
+    "ra": "21:15:23",
+    "dec": "-36:29:30",
+    "mag": 16.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_76",
+    "name": "Asteroid-76",
+    "ra": "07:12:57",
+    "dec": "-14:23:24",
+    "mag": 10.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_77",
+    "name": "Asteroid-77",
+    "ra": "16:31:04",
+    "dec": "-15:14:46",
+    "mag": 16.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_78",
+    "name": "Asteroid-78",
+    "ra": "14:24:20",
+    "dec": "-04:07:31",
+    "mag": 11.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_79",
+    "name": "Asteroid-79",
+    "ra": "13:16:41",
+    "dec": "-39:17:59",
+    "mag": 18.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_80",
+    "name": "Asteroid-80",
+    "ra": "22:12:39",
+    "dec": "+32:37:14",
+    "mag": 16.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_81",
+    "name": "Asteroid-81",
+    "ra": "14:46:26",
+    "dec": "-59:13:47",
+    "mag": 12.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_82",
+    "name": "Asteroid-82",
+    "ra": "00:44:52",
+    "dec": "+16:07:41",
+    "mag": 12.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_83",
+    "name": "Asteroid-83",
+    "ra": "04:48:57",
+    "dec": "-11:48:44",
+    "mag": 18.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_84",
+    "name": "Asteroid-84",
+    "ra": "22:04:36",
+    "dec": "-46:24:48",
+    "mag": 17.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_85",
+    "name": "Asteroid-85",
+    "ra": "05:46:50",
+    "dec": "+05:13:24",
+    "mag": 13.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_86",
+    "name": "Asteroid-86",
+    "ra": "10:32:00",
+    "dec": "+02:40:29",
+    "mag": 18.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_87",
+    "name": "Asteroid-87",
+    "ra": "08:13:14",
+    "dec": "-78:05:07",
+    "mag": 12.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_88",
+    "name": "Asteroid-88",
+    "ra": "05:40:22",
+    "dec": "-35:01:17",
+    "mag": 15.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_89",
+    "name": "Asteroid-89",
+    "ra": "06:07:04",
+    "dec": "-06:25:10",
+    "mag": 11.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_90",
+    "name": "Asteroid-90",
+    "ra": "04:29:44",
+    "dec": "-48:47:02",
+    "mag": 19.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_91",
+    "name": "Asteroid-91",
+    "ra": "03:42:59",
+    "dec": "-89:08:27",
+    "mag": 10.48,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_92",
+    "name": "Asteroid-92",
+    "ra": "15:02:11",
+    "dec": "+85:15:04",
+    "mag": 15.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_93",
+    "name": "Asteroid-93",
+    "ra": "00:22:57",
+    "dec": "-15:49:09",
+    "mag": 13.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_94",
+    "name": "Asteroid-94",
+    "ra": "23:47:35",
+    "dec": "+76:57:04",
+    "mag": 10.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_95",
+    "name": "Asteroid-95",
+    "ra": "21:30:26",
+    "dec": "-53:01:42",
+    "mag": 10.06,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_96",
+    "name": "Asteroid-96",
+    "ra": "20:39:54",
+    "dec": "+52:51:55",
+    "mag": 11.75,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_97",
+    "name": "Asteroid-97",
+    "ra": "10:19:05",
+    "dec": "+07:12:46",
+    "mag": 14.75,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_98",
+    "name": "Asteroid-98",
+    "ra": "18:07:12",
+    "dec": "+46:45:35",
+    "mag": 19.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_99",
+    "name": "Asteroid-99",
+    "ra": "03:07:03",
+    "dec": "+06:13:18",
+    "mag": 15.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_100",
+    "name": "Asteroid-100",
+    "ra": "11:50:09",
+    "dec": "-65:07:37",
+    "mag": 18.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_101",
+    "name": "Asteroid-101",
+    "ra": "11:01:37",
+    "dec": "+65:28:19",
+    "mag": 12.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_102",
+    "name": "Asteroid-102",
+    "ra": "04:18:46",
+    "dec": "+29:45:19",
+    "mag": 14.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_103",
+    "name": "Asteroid-103",
+    "ra": "18:12:42",
+    "dec": "+43:16:46",
+    "mag": 19.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_104",
+    "name": "Asteroid-104",
+    "ra": "10:30:27",
+    "dec": "+79:35:19",
+    "mag": 11.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_105",
+    "name": "Asteroid-105",
+    "ra": "15:02:25",
+    "dec": "-13:13:21",
+    "mag": 12.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_106",
+    "name": "Asteroid-106",
+    "ra": "11:42:49",
+    "dec": "-11:12:46",
+    "mag": 12.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_107",
+    "name": "Asteroid-107",
+    "ra": "02:15:36",
+    "dec": "-56:44:20",
+    "mag": 16.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_108",
+    "name": "Asteroid-108",
+    "ra": "23:23:17",
+    "dec": "+03:52:26",
+    "mag": 18.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_109",
+    "name": "Asteroid-109",
+    "ra": "07:45:44",
+    "dec": "+13:38:24",
+    "mag": 11.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_110",
+    "name": "Asteroid-110",
+    "ra": "22:54:17",
+    "dec": "-47:54:50",
+    "mag": 17.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_111",
+    "name": "Asteroid-111",
+    "ra": "12:45:14",
+    "dec": "-40:36:50",
+    "mag": 13.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_112",
+    "name": "Asteroid-112",
+    "ra": "04:20:27",
+    "dec": "-38:08:49",
+    "mag": 12.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_113",
+    "name": "Asteroid-113",
+    "ra": "03:46:53",
+    "dec": "+28:11:58",
+    "mag": 13.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_114",
+    "name": "Asteroid-114",
+    "ra": "11:28:57",
+    "dec": "+43:06:47",
+    "mag": 12.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_115",
+    "name": "Asteroid-115",
+    "ra": "18:08:42",
+    "dec": "+59:55:31",
+    "mag": 13.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_116",
+    "name": "Asteroid-116",
+    "ra": "01:07:15",
+    "dec": "-80:03:09",
+    "mag": 10.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_117",
+    "name": "Asteroid-117",
+    "ra": "17:45:36",
+    "dec": "+74:30:02",
+    "mag": 17.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_118",
+    "name": "Asteroid-118",
+    "ra": "23:42:38",
+    "dec": "+68:18:31",
+    "mag": 12.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_119",
+    "name": "Asteroid-119",
+    "ra": "07:15:00",
+    "dec": "-10:06:06",
+    "mag": 14.22,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_120",
+    "name": "Asteroid-120",
+    "ra": "07:40:04",
+    "dec": "-27:56:29",
+    "mag": 17.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_121",
+    "name": "Asteroid-121",
+    "ra": "23:59:22",
+    "dec": "-12:48:43",
+    "mag": 17.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_122",
+    "name": "Asteroid-122",
+    "ra": "00:25:12",
+    "dec": "-58:21:54",
+    "mag": 14.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_123",
+    "name": "Asteroid-123",
+    "ra": "08:05:14",
+    "dec": "+67:49:39",
+    "mag": 12.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_124",
+    "name": "Asteroid-124",
+    "ra": "11:42:59",
+    "dec": "+82:08:50",
+    "mag": 19.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_125",
+    "name": "Asteroid-125",
+    "ra": "15:43:00",
+    "dec": "+47:36:50",
+    "mag": 15.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_126",
+    "name": "Asteroid-126",
+    "ra": "16:20:08",
+    "dec": "-17:56:42",
+    "mag": 16.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_127",
+    "name": "Asteroid-127",
+    "ra": "03:24:03",
+    "dec": "+80:08:54",
+    "mag": 19.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_128",
+    "name": "Asteroid-128",
+    "ra": "01:05:52",
+    "dec": "+63:53:40",
+    "mag": 16.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_129",
+    "name": "Asteroid-129",
+    "ra": "11:19:32",
+    "dec": "-76:43:37",
+    "mag": 19.2,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_130",
+    "name": "Asteroid-130",
+    "ra": "17:16:25",
+    "dec": "+86:52:00",
+    "mag": 19.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_131",
+    "name": "Asteroid-131",
+    "ra": "04:01:39",
+    "dec": "-33:41:02",
+    "mag": 17.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_132",
+    "name": "Asteroid-132",
+    "ra": "06:46:35",
+    "dec": "-72:56:15",
+    "mag": 14.2,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_133",
+    "name": "Asteroid-133",
+    "ra": "11:57:49",
+    "dec": "-64:26:28",
+    "mag": 18.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_134",
+    "name": "Asteroid-134",
+    "ra": "19:59:58",
+    "dec": "-70:21:14",
+    "mag": 19.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_135",
+    "name": "Asteroid-135",
+    "ra": "06:12:04",
+    "dec": "-09:16:05",
+    "mag": 19.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_136",
+    "name": "Asteroid-136",
+    "ra": "17:24:15",
+    "dec": "-56:57:01",
+    "mag": 18.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_137",
+    "name": "Asteroid-137",
+    "ra": "18:38:33",
+    "dec": "+21:42:29",
+    "mag": 15.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_138",
+    "name": "Asteroid-138",
+    "ra": "13:41:56",
+    "dec": "-05:42:36",
+    "mag": 14.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_139",
+    "name": "Asteroid-139",
+    "ra": "05:17:57",
+    "dec": "+63:09:15",
+    "mag": 18.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_140",
+    "name": "Asteroid-140",
+    "ra": "14:50:44",
+    "dec": "-83:32:44",
+    "mag": 11.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_141",
+    "name": "Asteroid-141",
+    "ra": "11:21:37",
+    "dec": "-04:58:57",
+    "mag": 16.44,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_142",
+    "name": "Asteroid-142",
+    "ra": "07:49:59",
+    "dec": "-81:24:53",
+    "mag": 11.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_143",
+    "name": "Asteroid-143",
+    "ra": "16:45:02",
+    "dec": "-55:21:20",
+    "mag": 19.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_144",
+    "name": "Asteroid-144",
+    "ra": "16:52:07",
+    "dec": "-70:28:05",
+    "mag": 15.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_145",
+    "name": "Asteroid-145",
+    "ra": "16:58:22",
+    "dec": "-81:50:38",
+    "mag": 12.08,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_146",
+    "name": "Asteroid-146",
+    "ra": "06:41:31",
+    "dec": "-84:59:56",
+    "mag": 19.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_147",
+    "name": "Asteroid-147",
+    "ra": "08:52:41",
+    "dec": "-81:06:57",
+    "mag": 16.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_148",
+    "name": "Asteroid-148",
+    "ra": "16:09:28",
+    "dec": "+88:10:39",
+    "mag": 14.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_149",
+    "name": "Asteroid-149",
+    "ra": "10:39:17",
+    "dec": "-53:39:12",
+    "mag": 13.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_150",
+    "name": "Asteroid-150",
+    "ra": "16:50:41",
+    "dec": "-34:51:56",
+    "mag": 16.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_151",
+    "name": "Asteroid-151",
+    "ra": "03:22:58",
+    "dec": "-84:03:16",
+    "mag": 17.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_152",
+    "name": "Asteroid-152",
+    "ra": "16:12:29",
+    "dec": "-88:30:06",
+    "mag": 10.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_153",
+    "name": "Asteroid-153",
+    "ra": "06:38:54",
+    "dec": "-35:42:27",
+    "mag": 18.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_154",
+    "name": "Asteroid-154",
+    "ra": "10:26:45",
+    "dec": "-42:39:42",
+    "mag": 19.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_155",
+    "name": "Asteroid-155",
+    "ra": "07:55:28",
+    "dec": "-32:06:59",
+    "mag": 17.75,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_156",
+    "name": "Asteroid-156",
+    "ra": "08:55:25",
+    "dec": "+57:38:24",
+    "mag": 14.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_157",
+    "name": "Asteroid-157",
+    "ra": "03:49:50",
+    "dec": "-84:39:24",
+    "mag": 17.48,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_158",
+    "name": "Asteroid-158",
+    "ra": "00:11:12",
+    "dec": "+14:27:11",
+    "mag": 10.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_159",
+    "name": "Asteroid-159",
+    "ra": "21:12:07",
+    "dec": "-70:27:17",
+    "mag": 15.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_160",
+    "name": "Asteroid-160",
+    "ra": "00:00:50",
+    "dec": "+64:25:00",
+    "mag": 15.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_161",
+    "name": "Asteroid-161",
+    "ra": "20:21:32",
+    "dec": "-03:09:16",
+    "mag": 15.67,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_162",
+    "name": "Asteroid-162",
+    "ra": "01:58:55",
+    "dec": "-24:43:02",
+    "mag": 17.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_163",
+    "name": "Asteroid-163",
+    "ra": "15:30:10",
+    "dec": "+16:16:20",
+    "mag": 18.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_164",
+    "name": "Asteroid-164",
+    "ra": "18:15:49",
+    "dec": "+58:39:00",
+    "mag": 17.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_165",
+    "name": "Asteroid-165",
+    "ra": "12:25:20",
+    "dec": "+10:43:02",
+    "mag": 18.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_166",
+    "name": "Asteroid-166",
+    "ra": "02:35:37",
+    "dec": "-55:09:49",
+    "mag": 17.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_167",
+    "name": "Asteroid-167",
+    "ra": "02:16:30",
+    "dec": "+31:40:10",
+    "mag": 16.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_168",
+    "name": "Asteroid-168",
+    "ra": "18:08:01",
+    "dec": "+81:54:26",
+    "mag": 17.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_169",
+    "name": "Asteroid-169",
+    "ra": "10:05:05",
+    "dec": "-67:36:47",
+    "mag": 10.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_170",
+    "name": "Asteroid-170",
+    "ra": "17:40:24",
+    "dec": "+89:52:00",
+    "mag": 16.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_171",
+    "name": "Asteroid-171",
+    "ra": "10:18:50",
+    "dec": "+87:46:23",
+    "mag": 17.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_172",
+    "name": "Asteroid-172",
+    "ra": "11:12:55",
+    "dec": "-01:53:04",
+    "mag": 13.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_173",
+    "name": "Asteroid-173",
+    "ra": "23:09:27",
+    "dec": "-41:28:35",
+    "mag": 11.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_174",
+    "name": "Asteroid-174",
+    "ra": "18:00:58",
+    "dec": "+03:43:02",
+    "mag": 13.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_175",
+    "name": "Asteroid-175",
+    "ra": "04:19:15",
+    "dec": "+42:14:47",
+    "mag": 12.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_176",
+    "name": "Asteroid-176",
+    "ra": "22:34:40",
+    "dec": "+51:02:33",
+    "mag": 10.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_177",
+    "name": "Asteroid-177",
+    "ra": "11:25:33",
+    "dec": "+55:02:28",
+    "mag": 13.22,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_178",
+    "name": "Asteroid-178",
+    "ra": "03:23:40",
+    "dec": "-32:02:15",
+    "mag": 12.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_179",
+    "name": "Asteroid-179",
+    "ra": "17:58:26",
+    "dec": "-71:34:42",
+    "mag": 16.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_180",
+    "name": "Asteroid-180",
+    "ra": "14:32:39",
+    "dec": "+19:01:00",
+    "mag": 13.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_181",
+    "name": "Asteroid-181",
+    "ra": "02:36:25",
+    "dec": "+43:38:01",
+    "mag": 19.38,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_182",
+    "name": "Asteroid-182",
+    "ra": "14:16:43",
+    "dec": "-09:31:27",
+    "mag": 12.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_183",
+    "name": "Asteroid-183",
+    "ra": "19:30:28",
+    "dec": "+80:14:20",
+    "mag": 13.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_184",
+    "name": "Asteroid-184",
+    "ra": "14:21:34",
+    "dec": "-52:53:31",
+    "mag": 12.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_185",
+    "name": "Asteroid-185",
+    "ra": "15:00:41",
+    "dec": "-72:09:15",
+    "mag": 15.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_186",
+    "name": "Asteroid-186",
+    "ra": "06:37:04",
+    "dec": "+53:59:47",
+    "mag": 15.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_187",
+    "name": "Asteroid-187",
+    "ra": "10:38:00",
+    "dec": "+13:47:18",
+    "mag": 11.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_188",
+    "name": "Asteroid-188",
+    "ra": "15:37:02",
+    "dec": "-46:38:26",
+    "mag": 10.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_189",
+    "name": "Asteroid-189",
+    "ra": "15:57:18",
+    "dec": "-77:02:47",
+    "mag": 10.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_190",
+    "name": "Asteroid-190",
+    "ra": "04:14:09",
+    "dec": "+85:22:34",
+    "mag": 19.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_191",
+    "name": "Asteroid-191",
+    "ra": "17:55:41",
+    "dec": "+48:42:39",
+    "mag": 10.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_192",
+    "name": "Asteroid-192",
+    "ra": "02:46:11",
+    "dec": "-43:18:35",
+    "mag": 17.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_193",
+    "name": "Asteroid-193",
+    "ra": "12:09:44",
+    "dec": "-72:14:46",
+    "mag": 13.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_194",
+    "name": "Asteroid-194",
+    "ra": "09:19:20",
+    "dec": "+85:54:07",
+    "mag": 18.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_195",
+    "name": "Asteroid-195",
+    "ra": "21:42:09",
+    "dec": "+28:37:18",
+    "mag": 14.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_196",
+    "name": "Asteroid-196",
+    "ra": "02:17:38",
+    "dec": "-80:23:09",
+    "mag": 14.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_197",
+    "name": "Asteroid-197",
+    "ra": "18:09:54",
+    "dec": "-86:16:51",
+    "mag": 10.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_198",
+    "name": "Asteroid-198",
+    "ra": "09:06:49",
+    "dec": "-56:54:33",
+    "mag": 15.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_199",
+    "name": "Asteroid-199",
+    "ra": "18:34:53",
+    "dec": "-68:56:09",
+    "mag": 17.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_200",
+    "name": "Asteroid-200",
+    "ra": "18:43:42",
+    "dec": "-88:41:12",
+    "mag": 15.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_201",
+    "name": "Asteroid-201",
+    "ra": "13:42:08",
+    "dec": "-41:19:09",
+    "mag": 15.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_202",
+    "name": "Asteroid-202",
+    "ra": "12:51:55",
+    "dec": "+46:40:50",
+    "mag": 11.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_203",
+    "name": "Asteroid-203",
+    "ra": "07:52:17",
+    "dec": "-87:52:46",
+    "mag": 12.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_204",
+    "name": "Asteroid-204",
+    "ra": "04:00:52",
+    "dec": "-55:54:15",
+    "mag": 10.49,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_205",
+    "name": "Asteroid-205",
+    "ra": "20:37:46",
+    "dec": "+68:57:53",
+    "mag": 14.51,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_206",
+    "name": "Asteroid-206",
+    "ra": "01:18:07",
+    "dec": "+14:25:11",
+    "mag": 13.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_207",
+    "name": "Asteroid-207",
+    "ra": "19:44:32",
+    "dec": "-50:58:36",
+    "mag": 13.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_208",
+    "name": "Asteroid-208",
+    "ra": "12:36:00",
+    "dec": "+68:24:24",
+    "mag": 13.49,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_209",
+    "name": "Asteroid-209",
+    "ra": "16:19:35",
+    "dec": "+45:20:50",
+    "mag": 14.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_210",
+    "name": "Asteroid-210",
+    "ra": "06:33:28",
+    "dec": "-71:33:09",
+    "mag": 18.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_211",
+    "name": "Asteroid-211",
+    "ra": "01:10:28",
+    "dec": "-72:12:18",
+    "mag": 15.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_212",
+    "name": "Asteroid-212",
+    "ra": "14:09:48",
+    "dec": "-03:17:45",
+    "mag": 15.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_213",
+    "name": "Asteroid-213",
+    "ra": "18:59:17",
+    "dec": "-35:11:01",
+    "mag": 17.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_214",
+    "name": "Asteroid-214",
+    "ra": "02:13:54",
+    "dec": "+48:52:40",
+    "mag": 19.33,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_215",
+    "name": "Asteroid-215",
+    "ra": "16:29:31",
+    "dec": "+51:47:20",
+    "mag": 18.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_216",
+    "name": "Asteroid-216",
+    "ra": "21:00:38",
+    "dec": "+00:03:49",
+    "mag": 12.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_217",
+    "name": "Asteroid-217",
+    "ra": "20:52:32",
+    "dec": "-63:38:10",
+    "mag": 16.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_218",
+    "name": "Asteroid-218",
+    "ra": "12:43:58",
+    "dec": "+70:00:17",
+    "mag": 12.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_219",
+    "name": "Asteroid-219",
+    "ra": "23:09:55",
+    "dec": "+18:14:34",
+    "mag": 15.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_220",
+    "name": "Asteroid-220",
+    "ra": "06:29:13",
+    "dec": "-67:34:46",
+    "mag": 17.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_221",
+    "name": "Asteroid-221",
+    "ra": "12:36:28",
+    "dec": "+44:59:34",
+    "mag": 15.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_222",
+    "name": "Asteroid-222",
+    "ra": "17:53:51",
+    "dec": "-32:25:10",
+    "mag": 11.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_223",
+    "name": "Asteroid-223",
+    "ra": "09:53:36",
+    "dec": "+05:06:10",
+    "mag": 10.2,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_224",
+    "name": "Asteroid-224",
+    "ra": "14:40:07",
+    "dec": "-27:34:35",
+    "mag": 17.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_225",
+    "name": "Asteroid-225",
+    "ra": "03:49:04",
+    "dec": "+21:53:16",
+    "mag": 13.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_226",
+    "name": "Asteroid-226",
+    "ra": "06:01:40",
+    "dec": "+03:24:59",
+    "mag": 11.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_227",
+    "name": "Asteroid-227",
+    "ra": "15:36:01",
+    "dec": "-86:24:37",
+    "mag": 19.48,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_228",
+    "name": "Asteroid-228",
+    "ra": "14:19:55",
+    "dec": "-84:28:39",
+    "mag": 19.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_229",
+    "name": "Asteroid-229",
+    "ra": "11:48:48",
+    "dec": "+78:25:00",
+    "mag": 12.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_230",
+    "name": "Asteroid-230",
+    "ra": "04:57:43",
+    "dec": "+26:49:37",
+    "mag": 14.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_231",
+    "name": "Asteroid-231",
+    "ra": "04:56:22",
+    "dec": "-47:25:23",
+    "mag": 17.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_232",
+    "name": "Asteroid-232",
+    "ra": "12:54:47",
+    "dec": "+23:38:32",
+    "mag": 19.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_233",
+    "name": "Asteroid-233",
+    "ra": "21:54:16",
+    "dec": "+81:43:17",
+    "mag": 15.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_234",
+    "name": "Asteroid-234",
+    "ra": "23:39:40",
+    "dec": "-53:05:08",
+    "mag": 15.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_235",
+    "name": "Asteroid-235",
+    "ra": "11:19:59",
+    "dec": "-59:22:44",
+    "mag": 19.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_236",
+    "name": "Asteroid-236",
+    "ra": "23:15:51",
+    "dec": "-73:26:03",
+    "mag": 11.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_237",
+    "name": "Asteroid-237",
+    "ra": "02:00:12",
+    "dec": "+76:20:01",
+    "mag": 17.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_238",
+    "name": "Asteroid-238",
+    "ra": "17:52:53",
+    "dec": "+20:21:10",
+    "mag": 16.08,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_239",
+    "name": "Asteroid-239",
+    "ra": "23:26:13",
+    "dec": "+00:12:35",
+    "mag": 12.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_240",
+    "name": "Asteroid-240",
+    "ra": "20:35:57",
+    "dec": "-33:11:30",
+    "mag": 11.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_241",
+    "name": "Asteroid-241",
+    "ra": "21:40:12",
+    "dec": "-44:07:40",
+    "mag": 15.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_242",
+    "name": "Asteroid-242",
+    "ra": "01:31:21",
+    "dec": "+70:15:47",
+    "mag": 17.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_243",
+    "name": "Asteroid-243",
+    "ra": "08:12:19",
+    "dec": "+84:45:33",
+    "mag": 11.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_244",
+    "name": "Asteroid-244",
+    "ra": "14:08:45",
+    "dec": "-55:28:52",
+    "mag": 15.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_245",
+    "name": "Asteroid-245",
+    "ra": "09:10:05",
+    "dec": "+63:24:09",
+    "mag": 12.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_246",
+    "name": "Asteroid-246",
+    "ra": "23:14:24",
+    "dec": "-64:46:59",
+    "mag": 12.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_247",
+    "name": "Asteroid-247",
+    "ra": "14:54:46",
+    "dec": "+15:10:36",
+    "mag": 18.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_248",
+    "name": "Asteroid-248",
+    "ra": "15:35:54",
+    "dec": "+46:23:39",
+    "mag": 15.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_249",
+    "name": "Asteroid-249",
+    "ra": "11:00:00",
+    "dec": "-43:16:56",
+    "mag": 18.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_250",
+    "name": "Asteroid-250",
+    "ra": "20:41:44",
+    "dec": "+53:54:27",
+    "mag": 18.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_251",
+    "name": "Asteroid-251",
+    "ra": "10:52:55",
+    "dec": "+08:09:54",
+    "mag": 16.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_252",
+    "name": "Asteroid-252",
+    "ra": "17:50:01",
+    "dec": "+30:40:19",
+    "mag": 19.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_253",
+    "name": "Asteroid-253",
+    "ra": "12:43:33",
+    "dec": "-32:19:17",
+    "mag": 13.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_254",
+    "name": "Asteroid-254",
+    "ra": "23:01:51",
+    "dec": "+26:49:24",
+    "mag": 16.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_255",
+    "name": "Asteroid-255",
+    "ra": "20:25:54",
+    "dec": "-01:34:07",
+    "mag": 13.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_256",
+    "name": "Asteroid-256",
+    "ra": "17:39:01",
+    "dec": "-61:19:56",
+    "mag": 10.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_257",
+    "name": "Asteroid-257",
+    "ra": "17:09:09",
+    "dec": "-44:30:11",
+    "mag": 14.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_258",
+    "name": "Asteroid-258",
+    "ra": "19:24:51",
+    "dec": "+64:52:08",
+    "mag": 11.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_259",
+    "name": "Asteroid-259",
+    "ra": "19:16:32",
+    "dec": "+59:35:09",
+    "mag": 10.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_260",
+    "name": "Asteroid-260",
+    "ra": "13:27:22",
+    "dec": "-46:54:19",
+    "mag": 18.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_261",
+    "name": "Asteroid-261",
+    "ra": "08:39:20",
+    "dec": "-18:59:27",
+    "mag": 16.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_262",
+    "name": "Asteroid-262",
+    "ra": "05:52:09",
+    "dec": "+63:05:45",
+    "mag": 12.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_263",
+    "name": "Asteroid-263",
+    "ra": "10:05:26",
+    "dec": "-03:22:16",
+    "mag": 19.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_264",
+    "name": "Asteroid-264",
+    "ra": "19:10:01",
+    "dec": "+00:48:28",
+    "mag": 10.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_265",
+    "name": "Asteroid-265",
+    "ra": "05:57:56",
+    "dec": "-18:12:21",
+    "mag": 16.67,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_266",
+    "name": "Asteroid-266",
+    "ra": "12:11:38",
+    "dec": "+12:29:21",
+    "mag": 17.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_267",
+    "name": "Asteroid-267",
+    "ra": "05:06:22",
+    "dec": "+36:51:16",
+    "mag": 17.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_268",
+    "name": "Asteroid-268",
+    "ra": "02:12:03",
+    "dec": "-60:36:15",
+    "mag": 16.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_269",
+    "name": "Asteroid-269",
+    "ra": "19:45:20",
+    "dec": "+48:04:38",
+    "mag": 12.08,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_270",
+    "name": "Asteroid-270",
+    "ra": "15:47:18",
+    "dec": "-18:50:44",
+    "mag": 12.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_271",
+    "name": "Asteroid-271",
+    "ra": "01:05:07",
+    "dec": "-21:02:09",
+    "mag": 16.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_272",
+    "name": "Asteroid-272",
+    "ra": "01:57:32",
+    "dec": "-51:16:01",
+    "mag": 15.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_273",
+    "name": "Asteroid-273",
+    "ra": "08:44:33",
+    "dec": "-74:24:46",
+    "mag": 16.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_274",
+    "name": "Asteroid-274",
+    "ra": "05:56:50",
+    "dec": "+17:29:33",
+    "mag": 19.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_275",
+    "name": "Asteroid-275",
+    "ra": "23:24:10",
+    "dec": "-35:19:40",
+    "mag": 17.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_276",
+    "name": "Asteroid-276",
+    "ra": "00:41:19",
+    "dec": "-12:24:00",
+    "mag": 13.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_277",
+    "name": "Asteroid-277",
+    "ra": "18:23:45",
+    "dec": "-24:19:19",
+    "mag": 10.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_278",
+    "name": "Asteroid-278",
+    "ra": "13:22:51",
+    "dec": "+13:22:41",
+    "mag": 14.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_279",
+    "name": "Asteroid-279",
+    "ra": "08:58:29",
+    "dec": "-80:16:49",
+    "mag": 14.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_280",
+    "name": "Asteroid-280",
+    "ra": "12:25:19",
+    "dec": "+29:47:02",
+    "mag": 11.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_281",
+    "name": "Asteroid-281",
+    "ra": "14:13:21",
+    "dec": "-19:59:17",
+    "mag": 11.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_282",
+    "name": "Asteroid-282",
+    "ra": "06:24:00",
+    "dec": "+53:16:36",
+    "mag": 13.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_283",
+    "name": "Asteroid-283",
+    "ra": "08:33:09",
+    "dec": "+08:18:11",
+    "mag": 14.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_284",
+    "name": "Asteroid-284",
+    "ra": "08:33:45",
+    "dec": "+29:31:20",
+    "mag": 16.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_285",
+    "name": "Asteroid-285",
+    "ra": "08:33:54",
+    "dec": "-80:00:32",
+    "mag": 10.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_286",
+    "name": "Asteroid-286",
+    "ra": "19:56:02",
+    "dec": "+84:13:16",
+    "mag": 12.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_287",
+    "name": "Asteroid-287",
+    "ra": "14:11:27",
+    "dec": "-77:44:58",
+    "mag": 10.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_288",
+    "name": "Asteroid-288",
+    "ra": "02:46:05",
+    "dec": "-47:20:42",
+    "mag": 19.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_289",
+    "name": "Asteroid-289",
+    "ra": "03:59:01",
+    "dec": "+34:06:12",
+    "mag": 18.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_290",
+    "name": "Asteroid-290",
+    "ra": "21:07:06",
+    "dec": "+31:22:01",
+    "mag": 16.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_291",
+    "name": "Asteroid-291",
+    "ra": "22:53:52",
+    "dec": "-28:15:30",
+    "mag": 17.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_292",
+    "name": "Asteroid-292",
+    "ra": "08:17:15",
+    "dec": "-50:09:36",
+    "mag": 15.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_293",
+    "name": "Asteroid-293",
+    "ra": "13:10:55",
+    "dec": "+00:52:54",
+    "mag": 10.48,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_294",
+    "name": "Asteroid-294",
+    "ra": "19:08:02",
+    "dec": "+74:39:56",
+    "mag": 16.06,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_295",
+    "name": "Asteroid-295",
+    "ra": "22:40:34",
+    "dec": "+54:36:44",
+    "mag": 15.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_296",
+    "name": "Asteroid-296",
+    "ra": "03:14:21",
+    "dec": "+00:53:39",
+    "mag": 19.58,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_297",
+    "name": "Asteroid-297",
+    "ra": "21:39:12",
+    "dec": "+70:17:40",
+    "mag": 18.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_298",
+    "name": "Asteroid-298",
+    "ra": "11:08:58",
+    "dec": "-71:33:25",
+    "mag": 12.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_299",
+    "name": "Asteroid-299",
+    "ra": "19:59:05",
+    "dec": "-45:57:01",
+    "mag": 14.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_300",
+    "name": "Asteroid-300",
+    "ra": "20:15:23",
+    "dec": "+04:48:50",
+    "mag": 10.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_301",
+    "name": "Asteroid-301",
+    "ra": "03:19:11",
+    "dec": "-39:43:37",
+    "mag": 19.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_302",
+    "name": "Asteroid-302",
+    "ra": "06:55:34",
+    "dec": "+85:00:55",
+    "mag": 11.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_303",
+    "name": "Asteroid-303",
+    "ra": "17:14:53",
+    "dec": "-16:54:26",
+    "mag": 17.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_304",
+    "name": "Asteroid-304",
+    "ra": "20:50:56",
+    "dec": "-78:51:54",
+    "mag": 15.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_305",
+    "name": "Asteroid-305",
+    "ra": "03:22:32",
+    "dec": "-85:13:35",
+    "mag": 10.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_306",
+    "name": "Asteroid-306",
+    "ra": "14:26:06",
+    "dec": "-68:07:27",
+    "mag": 18.51,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_307",
+    "name": "Asteroid-307",
+    "ra": "10:56:51",
+    "dec": "+69:48:48",
+    "mag": 12.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_308",
+    "name": "Asteroid-308",
+    "ra": "07:52:49",
+    "dec": "-18:55:21",
+    "mag": 13.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_309",
+    "name": "Asteroid-309",
+    "ra": "05:33:28",
+    "dec": "-59:58:15",
+    "mag": 16.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_310",
+    "name": "Asteroid-310",
+    "ra": "13:11:07",
+    "dec": "+46:23:00",
+    "mag": 11.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_311",
+    "name": "Asteroid-311",
+    "ra": "15:12:23",
+    "dec": "-18:03:14",
+    "mag": 17.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_312",
+    "name": "Asteroid-312",
+    "ra": "10:02:12",
+    "dec": "+73:50:05",
+    "mag": 12.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_313",
+    "name": "Asteroid-313",
+    "ra": "02:54:00",
+    "dec": "+40:55:03",
+    "mag": 10.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_314",
+    "name": "Asteroid-314",
+    "ra": "09:24:57",
+    "dec": "+35:40:58",
+    "mag": 10.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_315",
+    "name": "Asteroid-315",
+    "ra": "17:48:41",
+    "dec": "-76:02:06",
+    "mag": 14.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_316",
+    "name": "Asteroid-316",
+    "ra": "19:20:03",
+    "dec": "+24:44:24",
+    "mag": 13.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_317",
+    "name": "Asteroid-317",
+    "ra": "05:31:38",
+    "dec": "+13:04:19",
+    "mag": 16.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_318",
+    "name": "Asteroid-318",
+    "ra": "03:21:50",
+    "dec": "+12:13:02",
+    "mag": 16.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_319",
+    "name": "Asteroid-319",
+    "ra": "04:44:24",
+    "dec": "-17:28:35",
+    "mag": 16.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_320",
+    "name": "Asteroid-320",
+    "ra": "16:07:02",
+    "dec": "-12:08:26",
+    "mag": 10.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_321",
+    "name": "Asteroid-321",
+    "ra": "09:03:54",
+    "dec": "-10:17:24",
+    "mag": 16.06,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_322",
+    "name": "Asteroid-322",
+    "ra": "03:29:25",
+    "dec": "-24:03:00",
+    "mag": 16.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_323",
+    "name": "Asteroid-323",
+    "ra": "01:42:20",
+    "dec": "+83:59:02",
+    "mag": 15.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_324",
+    "name": "Asteroid-324",
+    "ra": "20:43:47",
+    "dec": "-23:42:26",
+    "mag": 12.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_325",
+    "name": "Asteroid-325",
+    "ra": "14:02:23",
+    "dec": "+74:02:11",
+    "mag": 13.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_326",
+    "name": "Asteroid-326",
+    "ra": "17:53:27",
+    "dec": "+24:42:15",
+    "mag": 12.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_327",
+    "name": "Asteroid-327",
+    "ra": "07:43:31",
+    "dec": "+50:11:07",
+    "mag": 16.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_328",
+    "name": "Asteroid-328",
+    "ra": "18:47:42",
+    "dec": "-27:12:36",
+    "mag": 13.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_329",
+    "name": "Asteroid-329",
+    "ra": "20:21:15",
+    "dec": "+83:28:39",
+    "mag": 16.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_330",
+    "name": "Asteroid-330",
+    "ra": "00:56:42",
+    "dec": "+81:33:42",
+    "mag": 13.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_331",
+    "name": "Asteroid-331",
+    "ra": "23:20:15",
+    "dec": "-78:09:54",
+    "mag": 10.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_332",
+    "name": "Asteroid-332",
+    "ra": "04:09:10",
+    "dec": "-01:04:22",
+    "mag": 17.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_333",
+    "name": "Asteroid-333",
+    "ra": "16:21:03",
+    "dec": "-72:52:40",
+    "mag": 13.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_334",
+    "name": "Asteroid-334",
+    "ra": "16:36:27",
+    "dec": "+81:49:44",
+    "mag": 11.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_335",
+    "name": "Asteroid-335",
+    "ra": "09:02:12",
+    "dec": "-27:11:52",
+    "mag": 18.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_336",
+    "name": "Asteroid-336",
+    "ra": "09:51:45",
+    "dec": "-52:24:09",
+    "mag": 12.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_337",
+    "name": "Asteroid-337",
+    "ra": "01:30:24",
+    "dec": "-11:47:06",
+    "mag": 17.06,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_338",
+    "name": "Asteroid-338",
+    "ra": "21:41:33",
+    "dec": "-21:54:20",
+    "mag": 14.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_339",
+    "name": "Asteroid-339",
+    "ra": "18:18:43",
+    "dec": "-09:15:50",
+    "mag": 11.22,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_340",
+    "name": "Asteroid-340",
+    "ra": "23:40:31",
+    "dec": "+71:13:48",
+    "mag": 18.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_341",
+    "name": "Asteroid-341",
+    "ra": "05:09:12",
+    "dec": "+07:55:40",
+    "mag": 13.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_342",
+    "name": "Asteroid-342",
+    "ra": "07:48:03",
+    "dec": "-27:04:44",
+    "mag": 16.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_343",
+    "name": "Asteroid-343",
+    "ra": "03:22:09",
+    "dec": "+04:05:23",
+    "mag": 11.2,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_344",
+    "name": "Asteroid-344",
+    "ra": "01:41:39",
+    "dec": "-19:35:09",
+    "mag": 15.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_345",
+    "name": "Asteroid-345",
+    "ra": "12:53:14",
+    "dec": "-54:47:20",
+    "mag": 10.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_346",
+    "name": "Asteroid-346",
+    "ra": "10:57:03",
+    "dec": "+17:19:38",
+    "mag": 12.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_347",
+    "name": "Asteroid-347",
+    "ra": "08:02:13",
+    "dec": "+74:52:14",
+    "mag": 16.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_348",
+    "name": "Asteroid-348",
+    "ra": "08:26:11",
+    "dec": "-23:11:42",
+    "mag": 10.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_349",
+    "name": "Asteroid-349",
+    "ra": "11:55:46",
+    "dec": "-88:31:23",
+    "mag": 17.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_350",
+    "name": "Asteroid-350",
+    "ra": "01:43:41",
+    "dec": "-10:14:32",
+    "mag": 14.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_351",
+    "name": "Asteroid-351",
+    "ra": "08:06:16",
+    "dec": "-76:21:17",
+    "mag": 15.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_352",
+    "name": "Asteroid-352",
+    "ra": "02:44:38",
+    "dec": "-68:47:30",
+    "mag": 15.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_353",
+    "name": "Asteroid-353",
+    "ra": "20:54:42",
+    "dec": "-58:12:01",
+    "mag": 10.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_354",
+    "name": "Asteroid-354",
+    "ra": "22:24:11",
+    "dec": "-77:30:34",
+    "mag": 15.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_355",
+    "name": "Asteroid-355",
+    "ra": "15:47:14",
+    "dec": "+80:05:35",
+    "mag": 13.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_356",
+    "name": "Asteroid-356",
+    "ra": "08:44:48",
+    "dec": "+03:08:44",
+    "mag": 17.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_357",
+    "name": "Asteroid-357",
+    "ra": "06:15:07",
+    "dec": "+69:19:15",
+    "mag": 15.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_358",
+    "name": "Asteroid-358",
+    "ra": "20:34:09",
+    "dec": "+59:35:44",
+    "mag": 14.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_359",
+    "name": "Asteroid-359",
+    "ra": "05:58:36",
+    "dec": "-89:33:04",
+    "mag": 16.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_360",
+    "name": "Asteroid-360",
+    "ra": "17:29:14",
+    "dec": "-39:42:44",
+    "mag": 15.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_361",
+    "name": "Asteroid-361",
+    "ra": "07:10:35",
+    "dec": "-07:50:32",
+    "mag": 17.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_362",
+    "name": "Asteroid-362",
+    "ra": "23:57:45",
+    "dec": "+49:10:19",
+    "mag": 12.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_363",
+    "name": "Asteroid-363",
+    "ra": "22:24:32",
+    "dec": "+60:08:21",
+    "mag": 13.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_364",
+    "name": "Asteroid-364",
+    "ra": "01:45:32",
+    "dec": "-16:42:45",
+    "mag": 12.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_365",
+    "name": "Asteroid-365",
+    "ra": "00:08:52",
+    "dec": "-15:19:55",
+    "mag": 14.44,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_366",
+    "name": "Asteroid-366",
+    "ra": "12:17:52",
+    "dec": "+08:53:39",
+    "mag": 10.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_367",
+    "name": "Asteroid-367",
+    "ra": "01:23:00",
+    "dec": "+62:31:39",
+    "mag": 11.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_368",
+    "name": "Asteroid-368",
+    "ra": "08:04:41",
+    "dec": "+69:47:20",
+    "mag": 19.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_369",
+    "name": "Asteroid-369",
+    "ra": "05:26:56",
+    "dec": "-50:23:08",
+    "mag": 17.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_370",
+    "name": "Asteroid-370",
+    "ra": "07:49:23",
+    "dec": "-07:01:36",
+    "mag": 15.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_371",
+    "name": "Asteroid-371",
+    "ra": "21:31:10",
+    "dec": "-76:54:00",
+    "mag": 10.22,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_372",
+    "name": "Asteroid-372",
+    "ra": "15:49:53",
+    "dec": "+89:54:30",
+    "mag": 19.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_373",
+    "name": "Asteroid-373",
+    "ra": "04:57:44",
+    "dec": "-49:08:30",
+    "mag": 16.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_374",
+    "name": "Asteroid-374",
+    "ra": "03:31:15",
+    "dec": "-65:36:34",
+    "mag": 16.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_375",
+    "name": "Asteroid-375",
+    "ra": "12:49:44",
+    "dec": "-78:07:08",
+    "mag": 11.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_376",
+    "name": "Asteroid-376",
+    "ra": "07:09:56",
+    "dec": "-05:21:37",
+    "mag": 12.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_377",
+    "name": "Asteroid-377",
+    "ra": "23:17:58",
+    "dec": "-50:58:33",
+    "mag": 12.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_378",
+    "name": "Asteroid-378",
+    "ra": "22:21:53",
+    "dec": "-79:44:29",
+    "mag": 13.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_379",
+    "name": "Asteroid-379",
+    "ra": "11:02:09",
+    "dec": "+21:25:39",
+    "mag": 17.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_380",
+    "name": "Asteroid-380",
+    "ra": "16:02:30",
+    "dec": "+51:53:47",
+    "mag": 13.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_381",
+    "name": "Asteroid-381",
+    "ra": "20:41:45",
+    "dec": "+05:50:49",
+    "mag": 14.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_382",
+    "name": "Asteroid-382",
+    "ra": "20:34:09",
+    "dec": "-69:19:27",
+    "mag": 14.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_383",
+    "name": "Asteroid-383",
+    "ra": "11:04:51",
+    "dec": "-25:42:23",
+    "mag": 15.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_384",
+    "name": "Asteroid-384",
+    "ra": "07:21:00",
+    "dec": "-74:10:23",
+    "mag": 18.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_385",
+    "name": "Asteroid-385",
+    "ra": "04:07:28",
+    "dec": "-85:51:58",
+    "mag": 14.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_386",
+    "name": "Asteroid-386",
+    "ra": "10:10:55",
+    "dec": "+49:38:15",
+    "mag": 13.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_387",
+    "name": "Asteroid-387",
+    "ra": "21:22:04",
+    "dec": "+01:27:52",
+    "mag": 17.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_388",
+    "name": "Asteroid-388",
+    "ra": "09:50:30",
+    "dec": "-04:58:08",
+    "mag": 15.31,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_389",
+    "name": "Asteroid-389",
+    "ra": "16:56:04",
+    "dec": "+56:29:11",
+    "mag": 14.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_390",
+    "name": "Asteroid-390",
+    "ra": "00:10:08",
+    "dec": "-61:24:48",
+    "mag": 12.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_391",
+    "name": "Asteroid-391",
+    "ra": "08:49:03",
+    "dec": "+16:46:00",
+    "mag": 19.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_392",
+    "name": "Asteroid-392",
+    "ra": "03:12:16",
+    "dec": "-32:33:03",
+    "mag": 11.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_393",
+    "name": "Asteroid-393",
+    "ra": "02:03:19",
+    "dec": "+12:40:40",
+    "mag": 10.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_394",
+    "name": "Asteroid-394",
+    "ra": "20:13:14",
+    "dec": "+74:54:37",
+    "mag": 14.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_395",
+    "name": "Asteroid-395",
+    "ra": "03:00:44",
+    "dec": "-04:16:33",
+    "mag": 18.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_396",
+    "name": "Asteroid-396",
+    "ra": "22:34:53",
+    "dec": "+12:00:29",
+    "mag": 17.51,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_397",
+    "name": "Asteroid-397",
+    "ra": "18:28:32",
+    "dec": "-47:08:01",
+    "mag": 18.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_398",
+    "name": "Asteroid-398",
+    "ra": "00:37:04",
+    "dec": "-79:25:20",
+    "mag": 19.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_399",
+    "name": "Asteroid-399",
+    "ra": "09:49:23",
+    "dec": "+36:22:25",
+    "mag": 14.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_400",
+    "name": "Asteroid-400",
+    "ra": "02:31:58",
+    "dec": "+16:35:24",
+    "mag": 15.31,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_401",
+    "name": "Asteroid-401",
+    "ra": "11:25:48",
+    "dec": "+73:56:19",
+    "mag": 16.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_402",
+    "name": "Asteroid-402",
+    "ra": "19:01:38",
+    "dec": "-27:09:17",
+    "mag": 15.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_403",
+    "name": "Asteroid-403",
+    "ra": "04:46:46",
+    "dec": "+60:26:01",
+    "mag": 17.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_404",
+    "name": "Asteroid-404",
+    "ra": "02:59:00",
+    "dec": "+10:48:29",
+    "mag": 12.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_405",
+    "name": "Asteroid-405",
+    "ra": "16:51:28",
+    "dec": "+56:57:24",
+    "mag": 10.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_406",
+    "name": "Asteroid-406",
+    "ra": "17:03:19",
+    "dec": "+49:20:07",
+    "mag": 10.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_407",
+    "name": "Asteroid-407",
+    "ra": "06:58:33",
+    "dec": "-56:07:24",
+    "mag": 13.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_408",
+    "name": "Asteroid-408",
+    "ra": "04:16:03",
+    "dec": "+01:02:51",
+    "mag": 11.31,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_409",
+    "name": "Asteroid-409",
+    "ra": "19:55:39",
+    "dec": "+10:25:53",
+    "mag": 10.67,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_410",
+    "name": "Asteroid-410",
+    "ra": "19:48:21",
+    "dec": "-89:14:18",
+    "mag": 18.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_411",
+    "name": "Asteroid-411",
+    "ra": "18:59:43",
+    "dec": "-11:48:55",
+    "mag": 17.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_412",
+    "name": "Asteroid-412",
+    "ra": "03:59:03",
+    "dec": "-77:37:07",
+    "mag": 13.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_413",
+    "name": "Asteroid-413",
+    "ra": "13:08:18",
+    "dec": "+85:20:13",
+    "mag": 15.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_414",
+    "name": "Asteroid-414",
+    "ra": "19:41:50",
+    "dec": "+08:43:58",
+    "mag": 18.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_415",
+    "name": "Asteroid-415",
+    "ra": "17:22:06",
+    "dec": "+21:26:25",
+    "mag": 10.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_416",
+    "name": "Asteroid-416",
+    "ra": "07:05:13",
+    "dec": "+33:44:51",
+    "mag": 17.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_417",
+    "name": "Asteroid-417",
+    "ra": "04:39:24",
+    "dec": "+57:02:49",
+    "mag": 18.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_418",
+    "name": "Asteroid-418",
+    "ra": "00:11:18",
+    "dec": "+85:00:03",
+    "mag": 18.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_419",
+    "name": "Asteroid-419",
+    "ra": "19:59:25",
+    "dec": "-24:58:21",
+    "mag": 18.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_420",
+    "name": "Asteroid-420",
+    "ra": "17:16:06",
+    "dec": "-79:20:22",
+    "mag": 16.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_421",
+    "name": "Asteroid-421",
+    "ra": "04:21:40",
+    "dec": "-27:37:16",
+    "mag": 18.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_422",
+    "name": "Asteroid-422",
+    "ra": "16:11:02",
+    "dec": "-04:33:50",
+    "mag": 12.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_423",
+    "name": "Asteroid-423",
+    "ra": "15:13:34",
+    "dec": "-18:50:05",
+    "mag": 16.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_424",
+    "name": "Asteroid-424",
+    "ra": "07:55:30",
+    "dec": "-54:35:56",
+    "mag": 12.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_425",
+    "name": "Asteroid-425",
+    "ra": "04:53:10",
+    "dec": "+89:44:07",
+    "mag": 16.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_426",
+    "name": "Asteroid-426",
+    "ra": "12:46:25",
+    "dec": "-23:13:57",
+    "mag": 11.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_427",
+    "name": "Asteroid-427",
+    "ra": "23:57:00",
+    "dec": "+50:06:24",
+    "mag": 10.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_428",
+    "name": "Asteroid-428",
+    "ra": "15:08:00",
+    "dec": "-60:57:56",
+    "mag": 19.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_429",
+    "name": "Asteroid-429",
+    "ra": "15:10:49",
+    "dec": "+08:46:11",
+    "mag": 14.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_430",
+    "name": "Asteroid-430",
+    "ra": "14:16:21",
+    "dec": "+01:01:00",
+    "mag": 14.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_431",
+    "name": "Asteroid-431",
+    "ra": "00:52:34",
+    "dec": "-58:30:00",
+    "mag": 11.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_432",
+    "name": "Asteroid-432",
+    "ra": "23:07:42",
+    "dec": "+64:22:08",
+    "mag": 11.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_433",
+    "name": "Asteroid-433",
+    "ra": "12:08:31",
+    "dec": "-73:21:41",
+    "mag": 14.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_434",
+    "name": "Asteroid-434",
+    "ra": "09:56:54",
+    "dec": "-43:18:49",
+    "mag": 18.7,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_435",
+    "name": "Asteroid-435",
+    "ra": "18:43:46",
+    "dec": "-24:45:24",
+    "mag": 19.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_436",
+    "name": "Asteroid-436",
+    "ra": "18:15:31",
+    "dec": "-84:05:49",
+    "mag": 12.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_437",
+    "name": "Asteroid-437",
+    "ra": "07:55:19",
+    "dec": "-10:22:05",
+    "mag": 11.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_438",
+    "name": "Asteroid-438",
+    "ra": "23:32:16",
+    "dec": "+18:40:39",
+    "mag": 11.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_439",
+    "name": "Asteroid-439",
+    "ra": "10:14:56",
+    "dec": "-27:41:14",
+    "mag": 18.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_440",
+    "name": "Asteroid-440",
+    "ra": "11:44:52",
+    "dec": "+24:02:39",
+    "mag": 18.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_441",
+    "name": "Asteroid-441",
+    "ra": "14:59:50",
+    "dec": "+75:01:36",
+    "mag": 13.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_442",
+    "name": "Asteroid-442",
+    "ra": "07:36:38",
+    "dec": "-84:55:28",
+    "mag": 19.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_443",
+    "name": "Asteroid-443",
+    "ra": "04:35:15",
+    "dec": "-04:23:57",
+    "mag": 14.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_444",
+    "name": "Asteroid-444",
+    "ra": "17:46:36",
+    "dec": "+50:44:42",
+    "mag": 13.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_445",
+    "name": "Asteroid-445",
+    "ra": "17:42:27",
+    "dec": "-64:13:16",
+    "mag": 14.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_446",
+    "name": "Asteroid-446",
+    "ra": "12:48:11",
+    "dec": "-59:57:39",
+    "mag": 18.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_447",
+    "name": "Asteroid-447",
+    "ra": "18:15:22",
+    "dec": "-36:13:46",
+    "mag": 16.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_448",
+    "name": "Asteroid-448",
+    "ra": "07:23:40",
+    "dec": "+22:17:09",
+    "mag": 16.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_449",
+    "name": "Asteroid-449",
+    "ra": "04:36:36",
+    "dec": "+17:07:34",
+    "mag": 17.7,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_450",
+    "name": "Asteroid-450",
+    "ra": "21:58:16",
+    "dec": "-65:45:39",
+    "mag": 15.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_451",
+    "name": "Asteroid-451",
+    "ra": "09:11:54",
+    "dec": "-75:50:54",
+    "mag": 14.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_452",
+    "name": "Asteroid-452",
+    "ra": "19:54:03",
+    "dec": "-34:09:32",
+    "mag": 10.38,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_453",
+    "name": "Asteroid-453",
+    "ra": "06:06:09",
+    "dec": "+18:04:02",
+    "mag": 13.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_454",
+    "name": "Asteroid-454",
+    "ra": "22:00:26",
+    "dec": "+32:04:55",
+    "mag": 16.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_455",
+    "name": "Asteroid-455",
+    "ra": "02:15:08",
+    "dec": "+38:00:00",
+    "mag": 17.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_456",
+    "name": "Asteroid-456",
+    "ra": "01:30:25",
+    "dec": "-82:23:34",
+    "mag": 17.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_457",
+    "name": "Asteroid-457",
+    "ra": "17:16:25",
+    "dec": "-08:27:21",
+    "mag": 19.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_458",
+    "name": "Asteroid-458",
+    "ra": "11:40:46",
+    "dec": "+00:27:43",
+    "mag": 11.49,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_459",
+    "name": "Asteroid-459",
+    "ra": "14:53:05",
+    "dec": "-67:04:01",
+    "mag": 18.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_460",
+    "name": "Asteroid-460",
+    "ra": "15:13:17",
+    "dec": "+87:44:13",
+    "mag": 13.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_461",
+    "name": "Asteroid-461",
+    "ra": "06:47:23",
+    "dec": "-82:05:19",
+    "mag": 10.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_462",
+    "name": "Asteroid-462",
+    "ra": "09:00:59",
+    "dec": "+83:42:49",
+    "mag": 19.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_463",
+    "name": "Asteroid-463",
+    "ra": "05:12:21",
+    "dec": "-36:58:06",
+    "mag": 11.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_464",
+    "name": "Asteroid-464",
+    "ra": "17:23:17",
+    "dec": "+76:58:18",
+    "mag": 13.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_465",
+    "name": "Asteroid-465",
+    "ra": "23:03:02",
+    "dec": "+26:48:03",
+    "mag": 16.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_466",
+    "name": "Asteroid-466",
+    "ra": "00:00:37",
+    "dec": "-31:55:43",
+    "mag": 18.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_467",
+    "name": "Asteroid-467",
+    "ra": "00:49:58",
+    "dec": "-37:07:13",
+    "mag": 16.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_468",
+    "name": "Asteroid-468",
+    "ra": "22:15:50",
+    "dec": "-73:27:41",
+    "mag": 15.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_469",
+    "name": "Asteroid-469",
+    "ra": "01:46:47",
+    "dec": "-16:11:29",
+    "mag": 12.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_470",
+    "name": "Asteroid-470",
+    "ra": "13:27:13",
+    "dec": "+23:56:05",
+    "mag": 11.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_471",
+    "name": "Asteroid-471",
+    "ra": "00:13:15",
+    "dec": "-45:31:27",
+    "mag": 16.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_472",
+    "name": "Asteroid-472",
+    "ra": "18:05:26",
+    "dec": "+26:25:24",
+    "mag": 10.7,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_473",
+    "name": "Asteroid-473",
+    "ra": "08:12:14",
+    "dec": "-10:58:48",
+    "mag": 14.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_474",
+    "name": "Asteroid-474",
+    "ra": "03:37:00",
+    "dec": "-37:29:29",
+    "mag": 17.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_475",
+    "name": "Asteroid-475",
+    "ra": "21:28:48",
+    "dec": "+25:27:43",
+    "mag": 12.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_476",
+    "name": "Asteroid-476",
+    "ra": "18:17:31",
+    "dec": "+89:41:07",
+    "mag": 17.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_477",
+    "name": "Asteroid-477",
+    "ra": "04:44:08",
+    "dec": "+61:17:45",
+    "mag": 13.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_478",
+    "name": "Asteroid-478",
+    "ra": "12:17:26",
+    "dec": "-52:09:26",
+    "mag": 10.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_479",
+    "name": "Asteroid-479",
+    "ra": "16:07:39",
+    "dec": "+53:01:05",
+    "mag": 13.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_480",
+    "name": "Asteroid-480",
+    "ra": "18:38:58",
+    "dec": "-29:31:01",
+    "mag": 12.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_481",
+    "name": "Asteroid-481",
+    "ra": "07:38:53",
+    "dec": "-67:09:55",
+    "mag": 15.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_482",
+    "name": "Asteroid-482",
+    "ra": "17:27:03",
+    "dec": "+11:11:09",
+    "mag": 12.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_483",
+    "name": "Asteroid-483",
+    "ra": "15:01:50",
+    "dec": "-60:43:32",
+    "mag": 18.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_484",
+    "name": "Asteroid-484",
+    "ra": "20:23:58",
+    "dec": "+12:10:14",
+    "mag": 19.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_485",
+    "name": "Asteroid-485",
+    "ra": "14:05:24",
+    "dec": "-35:31:23",
+    "mag": 18.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_486",
+    "name": "Asteroid-486",
+    "ra": "13:05:24",
+    "dec": "+37:52:49",
+    "mag": 19.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_487",
+    "name": "Asteroid-487",
+    "ra": "16:08:38",
+    "dec": "+84:13:38",
+    "mag": 19.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_488",
+    "name": "Asteroid-488",
+    "ra": "05:15:51",
+    "dec": "-55:06:12",
+    "mag": 19.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_489",
+    "name": "Asteroid-489",
+    "ra": "21:37:46",
+    "dec": "+26:21:58",
+    "mag": 18.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_490",
+    "name": "Asteroid-490",
+    "ra": "15:16:55",
+    "dec": "-58:09:35",
+    "mag": 16.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_491",
+    "name": "Asteroid-491",
+    "ra": "10:10:44",
+    "dec": "-33:44:35",
+    "mag": 13.58,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_492",
+    "name": "Asteroid-492",
+    "ra": "11:49:19",
+    "dec": "+34:31:54",
+    "mag": 18.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_493",
+    "name": "Asteroid-493",
+    "ra": "19:55:49",
+    "dec": "-06:43:49",
+    "mag": 17.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_494",
+    "name": "Asteroid-494",
+    "ra": "10:21:00",
+    "dec": "+79:37:09",
+    "mag": 16.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_495",
+    "name": "Asteroid-495",
+    "ra": "23:48:47",
+    "dec": "-04:28:04",
+    "mag": 18.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_496",
+    "name": "Asteroid-496",
+    "ra": "03:44:43",
+    "dec": "-52:52:10",
+    "mag": 11.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_497",
+    "name": "Asteroid-497",
+    "ra": "07:01:33",
+    "dec": "+20:17:56",
+    "mag": 11.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_498",
+    "name": "Asteroid-498",
+    "ra": "08:29:03",
+    "dec": "+70:16:11",
+    "mag": 19.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_499",
+    "name": "Asteroid-499",
+    "ra": "19:14:48",
+    "dec": "+72:38:49",
+    "mag": 17.49,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_500",
+    "name": "Asteroid-500",
+    "ra": "16:46:47",
+    "dec": "+74:31:11",
+    "mag": 13.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_501",
+    "name": "Asteroid-501",
+    "ra": "06:37:15",
+    "dec": "+17:55:45",
+    "mag": 17.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_502",
+    "name": "Asteroid-502",
+    "ra": "03:54:18",
+    "dec": "-26:35:34",
+    "mag": 18.75,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_503",
+    "name": "Asteroid-503",
+    "ra": "06:43:25",
+    "dec": "+76:01:19",
+    "mag": 10.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_504",
+    "name": "Asteroid-504",
+    "ra": "05:45:11",
+    "dec": "-88:09:49",
+    "mag": 19.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_505",
+    "name": "Asteroid-505",
+    "ra": "03:17:53",
+    "dec": "-12:29:39",
+    "mag": 13.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_506",
+    "name": "Asteroid-506",
+    "ra": "16:02:34",
+    "dec": "+36:31:03",
+    "mag": 18.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_507",
+    "name": "Asteroid-507",
+    "ra": "16:21:43",
+    "dec": "+86:01:18",
+    "mag": 14.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_508",
+    "name": "Asteroid-508",
+    "ra": "21:42:20",
+    "dec": "-73:45:56",
+    "mag": 12.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_509",
+    "name": "Asteroid-509",
+    "ra": "21:16:36",
+    "dec": "+43:48:59",
+    "mag": 11.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_510",
+    "name": "Asteroid-510",
+    "ra": "13:06:25",
+    "dec": "+09:15:09",
+    "mag": 19.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_511",
+    "name": "Asteroid-511",
+    "ra": "14:49:07",
+    "dec": "-87:55:39",
+    "mag": 16.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_512",
+    "name": "Asteroid-512",
+    "ra": "01:15:37",
+    "dec": "-05:21:01",
+    "mag": 11.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_513",
+    "name": "Asteroid-513",
+    "ra": "23:09:46",
+    "dec": "-63:00:15",
+    "mag": 15.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_514",
+    "name": "Asteroid-514",
+    "ra": "06:35:03",
+    "dec": "+37:07:40",
+    "mag": 17.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_515",
+    "name": "Asteroid-515",
+    "ra": "08:39:01",
+    "dec": "-17:13:23",
+    "mag": 18.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_516",
+    "name": "Asteroid-516",
+    "ra": "14:56:55",
+    "dec": "-88:23:42",
+    "mag": 10.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_517",
+    "name": "Asteroid-517",
+    "ra": "19:28:59",
+    "dec": "+21:34:20",
+    "mag": 17.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_518",
+    "name": "Asteroid-518",
+    "ra": "01:10:39",
+    "dec": "+87:07:39",
+    "mag": 12.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_519",
+    "name": "Asteroid-519",
+    "ra": "15:32:26",
+    "dec": "-45:05:48",
+    "mag": 14.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_520",
+    "name": "Asteroid-520",
+    "ra": "18:42:16",
+    "dec": "-30:50:52",
+    "mag": 11.7,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_521",
+    "name": "Asteroid-521",
+    "ra": "19:33:16",
+    "dec": "-14:36:20",
+    "mag": 14.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_522",
+    "name": "Asteroid-522",
+    "ra": "07:05:51",
+    "dec": "+09:47:58",
+    "mag": 18.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_523",
+    "name": "Asteroid-523",
+    "ra": "22:11:26",
+    "dec": "-16:24:53",
+    "mag": 18.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_524",
+    "name": "Asteroid-524",
+    "ra": "23:01:31",
+    "dec": "-71:16:20",
+    "mag": 12.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_525",
+    "name": "Asteroid-525",
+    "ra": "22:46:11",
+    "dec": "+32:35:05",
+    "mag": 19.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_526",
+    "name": "Asteroid-526",
+    "ra": "10:04:34",
+    "dec": "+56:35:48",
+    "mag": 13.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_527",
+    "name": "Asteroid-527",
+    "ra": "18:16:59",
+    "dec": "+89:50:16",
+    "mag": 17.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_528",
+    "name": "Asteroid-528",
+    "ra": "10:26:19",
+    "dec": "+49:14:57",
+    "mag": 17.7,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_529",
+    "name": "Asteroid-529",
+    "ra": "22:29:21",
+    "dec": "-87:09:39",
+    "mag": 13.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_530",
+    "name": "Asteroid-530",
+    "ra": "10:10:09",
+    "dec": "-75:35:03",
+    "mag": 18.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_531",
+    "name": "Asteroid-531",
+    "ra": "12:46:10",
+    "dec": "+09:58:09",
+    "mag": 12.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_532",
+    "name": "Asteroid-532",
+    "ra": "16:08:26",
+    "dec": "+41:33:22",
+    "mag": 13.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_533",
+    "name": "Asteroid-533",
+    "ra": "16:30:28",
+    "dec": "+45:14:05",
+    "mag": 19.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_534",
+    "name": "Asteroid-534",
+    "ra": "23:09:33",
+    "dec": "+08:09:04",
+    "mag": 12.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_535",
+    "name": "Asteroid-535",
+    "ra": "12:11:50",
+    "dec": "+14:02:53",
+    "mag": 14.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_536",
+    "name": "Asteroid-536",
+    "ra": "05:47:06",
+    "dec": "-68:21:57",
+    "mag": 12.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_537",
+    "name": "Asteroid-537",
+    "ra": "00:13:29",
+    "dec": "-23:33:49",
+    "mag": 19.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_538",
+    "name": "Asteroid-538",
+    "ra": "04:25:13",
+    "dec": "-20:24:07",
+    "mag": 11.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_539",
+    "name": "Asteroid-539",
+    "ra": "23:41:52",
+    "dec": "+63:27:41",
+    "mag": 15.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_540",
+    "name": "Asteroid-540",
+    "ra": "15:37:23",
+    "dec": "+02:51:57",
+    "mag": 10.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_541",
+    "name": "Asteroid-541",
+    "ra": "17:22:23",
+    "dec": "-43:30:53",
+    "mag": 14.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_542",
+    "name": "Asteroid-542",
+    "ra": "03:03:34",
+    "dec": "-67:27:21",
+    "mag": 11.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_543",
+    "name": "Asteroid-543",
+    "ra": "02:18:42",
+    "dec": "-10:49:14",
+    "mag": 13.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_544",
+    "name": "Asteroid-544",
+    "ra": "14:35:45",
+    "dec": "+84:02:27",
+    "mag": 14.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_545",
+    "name": "Asteroid-545",
+    "ra": "08:58:36",
+    "dec": "+65:02:17",
+    "mag": 18.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_546",
+    "name": "Asteroid-546",
+    "ra": "13:52:46",
+    "dec": "-35:44:33",
+    "mag": 15.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_547",
+    "name": "Asteroid-547",
+    "ra": "06:25:00",
+    "dec": "+86:31:06",
+    "mag": 10.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_548",
+    "name": "Asteroid-548",
+    "ra": "07:02:03",
+    "dec": "-49:43:30",
+    "mag": 15.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_549",
+    "name": "Asteroid-549",
+    "ra": "11:24:52",
+    "dec": "+61:43:47",
+    "mag": 12.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_550",
+    "name": "Asteroid-550",
+    "ra": "19:52:46",
+    "dec": "-83:52:30",
+    "mag": 18.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_551",
+    "name": "Asteroid-551",
+    "ra": "18:52:10",
+    "dec": "+81:03:53",
+    "mag": 15.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_552",
+    "name": "Asteroid-552",
+    "ra": "10:46:03",
+    "dec": "-06:20:32",
+    "mag": 16.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_553",
+    "name": "Asteroid-553",
+    "ra": "03:39:35",
+    "dec": "-40:39:04",
+    "mag": 11.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_554",
+    "name": "Asteroid-554",
+    "ra": "18:21:14",
+    "dec": "+30:45:25",
+    "mag": 10.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_555",
+    "name": "Asteroid-555",
+    "ra": "23:37:03",
+    "dec": "+35:52:06",
+    "mag": 18.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_556",
+    "name": "Asteroid-556",
+    "ra": "06:33:56",
+    "dec": "-42:15:37",
+    "mag": 19.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_557",
+    "name": "Asteroid-557",
+    "ra": "04:32:01",
+    "dec": "+35:57:08",
+    "mag": 19.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_558",
+    "name": "Asteroid-558",
+    "ra": "05:51:34",
+    "dec": "-35:00:20",
+    "mag": 16.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_559",
+    "name": "Asteroid-559",
+    "ra": "12:23:41",
+    "dec": "+41:22:37",
+    "mag": 13.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_560",
+    "name": "Asteroid-560",
+    "ra": "17:36:04",
+    "dec": "+47:25:44",
+    "mag": 16.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_561",
+    "name": "Asteroid-561",
+    "ra": "15:38:36",
+    "dec": "+67:38:28",
+    "mag": 17.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_562",
+    "name": "Asteroid-562",
+    "ra": "14:46:21",
+    "dec": "+03:22:35",
+    "mag": 19.14,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_563",
+    "name": "Asteroid-563",
+    "ra": "16:10:36",
+    "dec": "+02:56:52",
+    "mag": 16.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_564",
+    "name": "Asteroid-564",
+    "ra": "08:02:48",
+    "dec": "+58:25:08",
+    "mag": 15.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_565",
+    "name": "Asteroid-565",
+    "ra": "01:36:27",
+    "dec": "+13:50:51",
+    "mag": 14.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_566",
+    "name": "Asteroid-566",
+    "ra": "22:01:53",
+    "dec": "-46:22:28",
+    "mag": 16.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_567",
+    "name": "Asteroid-567",
+    "ra": "20:29:29",
+    "dec": "-75:40:49",
+    "mag": 14.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_568",
+    "name": "Asteroid-568",
+    "ra": "11:51:41",
+    "dec": "+16:33:53",
+    "mag": 15.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_569",
+    "name": "Asteroid-569",
+    "ra": "04:00:36",
+    "dec": "+89:21:28",
+    "mag": 12.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_570",
+    "name": "Asteroid-570",
+    "ra": "00:54:22",
+    "dec": "-16:07:47",
+    "mag": 12.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_571",
+    "name": "Asteroid-571",
+    "ra": "06:32:23",
+    "dec": "+34:17:55",
+    "mag": 14.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_572",
+    "name": "Asteroid-572",
+    "ra": "00:57:04",
+    "dec": "-07:26:36",
+    "mag": 16.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_573",
+    "name": "Asteroid-573",
+    "ra": "18:36:21",
+    "dec": "+56:12:54",
+    "mag": 17.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_574",
+    "name": "Asteroid-574",
+    "ra": "16:34:05",
+    "dec": "+55:05:33",
+    "mag": 14.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_575",
+    "name": "Asteroid-575",
+    "ra": "10:10:48",
+    "dec": "-63:11:50",
+    "mag": 11.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_576",
+    "name": "Asteroid-576",
+    "ra": "05:19:00",
+    "dec": "+21:02:46",
+    "mag": 12.33,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_577",
+    "name": "Asteroid-577",
+    "ra": "22:11:42",
+    "dec": "-26:07:46",
+    "mag": 16.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_578",
+    "name": "Asteroid-578",
+    "ra": "17:07:24",
+    "dec": "-65:25:02",
+    "mag": 12.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_579",
+    "name": "Asteroid-579",
+    "ra": "19:17:14",
+    "dec": "-76:42:30",
+    "mag": 11.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_580",
+    "name": "Asteroid-580",
+    "ra": "02:15:21",
+    "dec": "-55:04:53",
+    "mag": 10.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_581",
+    "name": "Asteroid-581",
+    "ra": "23:03:27",
+    "dec": "-19:16:46",
+    "mag": 19.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_582",
+    "name": "Asteroid-582",
+    "ra": "17:20:23",
+    "dec": "-63:33:10",
+    "mag": 16.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_583",
+    "name": "Asteroid-583",
+    "ra": "12:53:46",
+    "dec": "-02:27:15",
+    "mag": 11.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_584",
+    "name": "Asteroid-584",
+    "ra": "04:45:39",
+    "dec": "-10:43:14",
+    "mag": 18.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_585",
+    "name": "Asteroid-585",
+    "ra": "21:52:03",
+    "dec": "-43:19:57",
+    "mag": 12.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_586",
+    "name": "Asteroid-586",
+    "ra": "01:26:21",
+    "dec": "-76:27:33",
+    "mag": 17.67,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_587",
+    "name": "Asteroid-587",
+    "ra": "12:25:52",
+    "dec": "+36:22:48",
+    "mag": 11.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_588",
+    "name": "Asteroid-588",
+    "ra": "08:58:42",
+    "dec": "-40:37:29",
+    "mag": 10.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_589",
+    "name": "Asteroid-589",
+    "ra": "15:24:53",
+    "dec": "+38:36:50",
+    "mag": 10.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_590",
+    "name": "Asteroid-590",
+    "ra": "09:13:42",
+    "dec": "+46:41:28",
+    "mag": 13.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_591",
+    "name": "Asteroid-591",
+    "ra": "23:31:05",
+    "dec": "-22:48:44",
+    "mag": 12.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_592",
+    "name": "Asteroid-592",
+    "ra": "22:13:03",
+    "dec": "+41:14:00",
+    "mag": 19.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_593",
+    "name": "Asteroid-593",
+    "ra": "11:41:54",
+    "dec": "-18:03:37",
+    "mag": 19.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_594",
+    "name": "Asteroid-594",
+    "ra": "06:15:17",
+    "dec": "-25:52:58",
+    "mag": 18.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_595",
+    "name": "Asteroid-595",
+    "ra": "20:40:42",
+    "dec": "+52:37:54",
+    "mag": 18.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_596",
+    "name": "Asteroid-596",
+    "ra": "01:24:41",
+    "dec": "+13:19:22",
+    "mag": 19.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_597",
+    "name": "Asteroid-597",
+    "ra": "13:25:45",
+    "dec": "-66:21:24",
+    "mag": 18.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_598",
+    "name": "Asteroid-598",
+    "ra": "13:36:49",
+    "dec": "+75:23:09",
+    "mag": 17.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_599",
+    "name": "Asteroid-599",
+    "ra": "05:04:37",
+    "dec": "-25:13:34",
+    "mag": 11.2,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_600",
+    "name": "Asteroid-600",
+    "ra": "09:08:53",
+    "dec": "+84:13:37",
+    "mag": 16.48,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_601",
+    "name": "Asteroid-601",
+    "ra": "18:08:59",
+    "dec": "-89:24:24",
+    "mag": 15.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_602",
+    "name": "Asteroid-602",
+    "ra": "03:21:29",
+    "dec": "-39:30:54",
+    "mag": 17.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_603",
+    "name": "Asteroid-603",
+    "ra": "03:56:18",
+    "dec": "+50:54:40",
+    "mag": 11.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_604",
+    "name": "Asteroid-604",
+    "ra": "22:26:40",
+    "dec": "+50:49:39",
+    "mag": 12.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_605",
+    "name": "Asteroid-605",
+    "ra": "19:23:00",
+    "dec": "-77:32:37",
+    "mag": 18.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_606",
+    "name": "Asteroid-606",
+    "ra": "16:02:08",
+    "dec": "+02:37:03",
+    "mag": 16.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_607",
+    "name": "Asteroid-607",
+    "ra": "08:26:23",
+    "dec": "-14:05:00",
+    "mag": 12.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_608",
+    "name": "Asteroid-608",
+    "ra": "02:42:44",
+    "dec": "+19:32:58",
+    "mag": 17.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_609",
+    "name": "Asteroid-609",
+    "ra": "10:05:46",
+    "dec": "+75:36:21",
+    "mag": 16.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_610",
+    "name": "Asteroid-610",
+    "ra": "23:12:11",
+    "dec": "-02:41:30",
+    "mag": 11.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_611",
+    "name": "Asteroid-611",
+    "ra": "00:09:15",
+    "dec": "+33:10:55",
+    "mag": 14.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_612",
+    "name": "Asteroid-612",
+    "ra": "21:33:16",
+    "dec": "+47:52:07",
+    "mag": 17.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_613",
+    "name": "Asteroid-613",
+    "ra": "13:14:23",
+    "dec": "-52:42:16",
+    "mag": 17.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_614",
+    "name": "Asteroid-614",
+    "ra": "01:25:19",
+    "dec": "-22:03:49",
+    "mag": 19.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_615",
+    "name": "Asteroid-615",
+    "ra": "13:30:21",
+    "dec": "-48:29:42",
+    "mag": 11.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_616",
+    "name": "Asteroid-616",
+    "ra": "07:59:13",
+    "dec": "-09:54:59",
+    "mag": 11.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_617",
+    "name": "Asteroid-617",
+    "ra": "21:49:41",
+    "dec": "-12:08:41",
+    "mag": 12.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_618",
+    "name": "Asteroid-618",
+    "ra": "02:29:33",
+    "dec": "+73:09:38",
+    "mag": 19.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_619",
+    "name": "Asteroid-619",
+    "ra": "17:38:13",
+    "dec": "-02:02:34",
+    "mag": 18.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_620",
+    "name": "Asteroid-620",
+    "ra": "14:40:43",
+    "dec": "+43:02:22",
+    "mag": 10.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_621",
+    "name": "Asteroid-621",
+    "ra": "21:44:47",
+    "dec": "+07:49:28",
+    "mag": 18.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_622",
+    "name": "Asteroid-622",
+    "ra": "15:33:32",
+    "dec": "-47:11:20",
+    "mag": 19.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_623",
+    "name": "Asteroid-623",
+    "ra": "08:10:45",
+    "dec": "+16:24:43",
+    "mag": 16.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_624",
+    "name": "Asteroid-624",
+    "ra": "04:22:54",
+    "dec": "+07:19:24",
+    "mag": 11.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_625",
+    "name": "Asteroid-625",
+    "ra": "22:05:18",
+    "dec": "-57:44:16",
+    "mag": 19.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_626",
+    "name": "Asteroid-626",
+    "ra": "16:41:06",
+    "dec": "-01:31:34",
+    "mag": 19.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_627",
+    "name": "Asteroid-627",
+    "ra": "08:47:53",
+    "dec": "-19:25:23",
+    "mag": 13.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_628",
+    "name": "Asteroid-628",
+    "ra": "02:04:13",
+    "dec": "+73:44:26",
+    "mag": 18.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_629",
+    "name": "Asteroid-629",
+    "ra": "07:02:55",
+    "dec": "-63:44:14",
+    "mag": 19.14,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_630",
+    "name": "Asteroid-630",
+    "ra": "00:00:14",
+    "dec": "+39:00:24",
+    "mag": 16.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_631",
+    "name": "Asteroid-631",
+    "ra": "22:52:54",
+    "dec": "+14:32:26",
+    "mag": 15.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_632",
+    "name": "Asteroid-632",
+    "ra": "22:55:33",
+    "dec": "-34:30:04",
+    "mag": 14.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_633",
+    "name": "Asteroid-633",
+    "ra": "15:04:23",
+    "dec": "-32:26:34",
+    "mag": 10.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_634",
+    "name": "Asteroid-634",
+    "ra": "19:56:24",
+    "dec": "-22:34:32",
+    "mag": 19.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_635",
+    "name": "Asteroid-635",
+    "ra": "14:05:31",
+    "dec": "-64:34:46",
+    "mag": 19.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_636",
+    "name": "Asteroid-636",
+    "ra": "03:45:21",
+    "dec": "-42:42:38",
+    "mag": 12.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_637",
+    "name": "Asteroid-637",
+    "ra": "01:49:46",
+    "dec": "-45:19:15",
+    "mag": 16.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_638",
+    "name": "Asteroid-638",
+    "ra": "07:31:08",
+    "dec": "+73:12:34",
+    "mag": 13.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_639",
+    "name": "Asteroid-639",
+    "ra": "06:35:30",
+    "dec": "+55:29:53",
+    "mag": 15.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_640",
+    "name": "Asteroid-640",
+    "ra": "19:57:13",
+    "dec": "+75:01:37",
+    "mag": 11.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_641",
+    "name": "Asteroid-641",
+    "ra": "09:59:53",
+    "dec": "+42:13:21",
+    "mag": 17.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_642",
+    "name": "Asteroid-642",
+    "ra": "23:38:19",
+    "dec": "+01:36:39",
+    "mag": 19.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_643",
+    "name": "Asteroid-643",
+    "ra": "21:09:07",
+    "dec": "-50:14:23",
+    "mag": 13.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_644",
+    "name": "Asteroid-644",
+    "ra": "11:29:55",
+    "dec": "+38:15:19",
+    "mag": 13.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_645",
+    "name": "Asteroid-645",
+    "ra": "14:42:16",
+    "dec": "+76:43:16",
+    "mag": 14.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_646",
+    "name": "Asteroid-646",
+    "ra": "20:44:03",
+    "dec": "-21:56:12",
+    "mag": 13.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_647",
+    "name": "Asteroid-647",
+    "ra": "15:02:53",
+    "dec": "-75:44:46",
+    "mag": 16.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_648",
+    "name": "Asteroid-648",
+    "ra": "08:43:42",
+    "dec": "-00:47:13",
+    "mag": 11.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_649",
+    "name": "Asteroid-649",
+    "ra": "04:41:12",
+    "dec": "-04:52:21",
+    "mag": 11.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_650",
+    "name": "Asteroid-650",
+    "ra": "15:30:29",
+    "dec": "+03:06:56",
+    "mag": 12.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_651",
+    "name": "Asteroid-651",
+    "ra": "11:52:36",
+    "dec": "-58:53:16",
+    "mag": 18.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_652",
+    "name": "Asteroid-652",
+    "ra": "01:02:17",
+    "dec": "-74:28:58",
+    "mag": 12.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_653",
+    "name": "Asteroid-653",
+    "ra": "15:08:59",
+    "dec": "-01:26:35",
+    "mag": 10.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_654",
+    "name": "Asteroid-654",
+    "ra": "18:54:16",
+    "dec": "+83:31:29",
+    "mag": 15.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_655",
+    "name": "Asteroid-655",
+    "ra": "13:41:06",
+    "dec": "-01:55:31",
+    "mag": 12.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_656",
+    "name": "Asteroid-656",
+    "ra": "18:13:08",
+    "dec": "+80:20:35",
+    "mag": 12.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_657",
+    "name": "Asteroid-657",
+    "ra": "01:18:26",
+    "dec": "+07:45:47",
+    "mag": 10.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_658",
+    "name": "Asteroid-658",
+    "ra": "19:45:53",
+    "dec": "+64:10:20",
+    "mag": 15.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_659",
+    "name": "Asteroid-659",
+    "ra": "22:42:46",
+    "dec": "-33:38:41",
+    "mag": 16.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_660",
+    "name": "Asteroid-660",
+    "ra": "18:07:51",
+    "dec": "+72:46:53",
+    "mag": 13.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_661",
+    "name": "Asteroid-661",
+    "ra": "01:42:16",
+    "dec": "+88:18:23",
+    "mag": 19.95,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_662",
+    "name": "Asteroid-662",
+    "ra": "20:14:22",
+    "dec": "+03:47:54",
+    "mag": 14.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_663",
+    "name": "Asteroid-663",
+    "ra": "01:40:50",
+    "dec": "-48:14:01",
+    "mag": 13.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_664",
+    "name": "Asteroid-664",
+    "ra": "05:41:18",
+    "dec": "-25:02:04",
+    "mag": 19.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_665",
+    "name": "Asteroid-665",
+    "ra": "11:53:23",
+    "dec": "+89:32:57",
+    "mag": 13.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_666",
+    "name": "Asteroid-666",
+    "ra": "05:18:42",
+    "dec": "+03:13:55",
+    "mag": 13.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_667",
+    "name": "Asteroid-667",
+    "ra": "14:41:30",
+    "dec": "-01:46:17",
+    "mag": 16.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_668",
+    "name": "Asteroid-668",
+    "ra": "20:23:12",
+    "dec": "+88:10:23",
+    "mag": 18.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_669",
+    "name": "Asteroid-669",
+    "ra": "22:43:25",
+    "dec": "-67:39:07",
+    "mag": 14.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_670",
+    "name": "Asteroid-670",
+    "ra": "14:45:00",
+    "dec": "+02:07:58",
+    "mag": 16.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_671",
+    "name": "Asteroid-671",
+    "ra": "00:46:58",
+    "dec": "-17:24:10",
+    "mag": 10.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_672",
+    "name": "Asteroid-672",
+    "ra": "20:07:31",
+    "dec": "-54:51:02",
+    "mag": 17.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_673",
+    "name": "Asteroid-673",
+    "ra": "17:44:29",
+    "dec": "+63:13:12",
+    "mag": 12.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_674",
+    "name": "Asteroid-674",
+    "ra": "11:00:21",
+    "dec": "+69:47:51",
+    "mag": 18.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_675",
+    "name": "Asteroid-675",
+    "ra": "10:21:25",
+    "dec": "+17:35:52",
+    "mag": 11.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_676",
+    "name": "Asteroid-676",
+    "ra": "02:13:02",
+    "dec": "-75:05:11",
+    "mag": 12.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_677",
+    "name": "Asteroid-677",
+    "ra": "12:57:31",
+    "dec": "+21:48:02",
+    "mag": 11.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_678",
+    "name": "Asteroid-678",
+    "ra": "10:41:28",
+    "dec": "+57:32:42",
+    "mag": 12.31,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_679",
+    "name": "Asteroid-679",
+    "ra": "15:36:57",
+    "dec": "+12:30:45",
+    "mag": 18.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_680",
+    "name": "Asteroid-680",
+    "ra": "23:14:32",
+    "dec": "+86:37:54",
+    "mag": 12.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_681",
+    "name": "Asteroid-681",
+    "ra": "22:03:33",
+    "dec": "+77:35:44",
+    "mag": 11.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_682",
+    "name": "Asteroid-682",
+    "ra": "00:03:24",
+    "dec": "-67:13:19",
+    "mag": 18.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_683",
+    "name": "Asteroid-683",
+    "ra": "20:48:20",
+    "dec": "+53:59:19",
+    "mag": 11.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_684",
+    "name": "Asteroid-684",
+    "ra": "17:27:09",
+    "dec": "+70:16:51",
+    "mag": 10.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_685",
+    "name": "Asteroid-685",
+    "ra": "15:37:37",
+    "dec": "-10:18:56",
+    "mag": 15.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_686",
+    "name": "Asteroid-686",
+    "ra": "20:38:27",
+    "dec": "+36:52:34",
+    "mag": 15.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_687",
+    "name": "Asteroid-687",
+    "ra": "11:37:00",
+    "dec": "-21:44:19",
+    "mag": 11.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_688",
+    "name": "Asteroid-688",
+    "ra": "03:57:04",
+    "dec": "+05:22:51",
+    "mag": 16.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_689",
+    "name": "Asteroid-689",
+    "ra": "09:15:34",
+    "dec": "+57:50:48",
+    "mag": 19.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_690",
+    "name": "Asteroid-690",
+    "ra": "18:47:11",
+    "dec": "+20:45:01",
+    "mag": 17.86,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_691",
+    "name": "Asteroid-691",
+    "ra": "12:07:14",
+    "dec": "-81:49:17",
+    "mag": 16.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_692",
+    "name": "Asteroid-692",
+    "ra": "06:39:25",
+    "dec": "-75:17:06",
+    "mag": 11.08,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_693",
+    "name": "Asteroid-693",
+    "ra": "21:25:23",
+    "dec": "-40:31:31",
+    "mag": 17.79,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_694",
+    "name": "Asteroid-694",
+    "ra": "18:39:22",
+    "dec": "-61:54:22",
+    "mag": 17.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_695",
+    "name": "Asteroid-695",
+    "ra": "22:20:33",
+    "dec": "+42:20:53",
+    "mag": 17.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_696",
+    "name": "Asteroid-696",
+    "ra": "08:36:47",
+    "dec": "+81:57:21",
+    "mag": 16.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_697",
+    "name": "Asteroid-697",
+    "ra": "21:56:27",
+    "dec": "+80:41:27",
+    "mag": 16.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_698",
+    "name": "Asteroid-698",
+    "ra": "15:50:59",
+    "dec": "-58:41:29",
+    "mag": 11.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_699",
+    "name": "Asteroid-699",
+    "ra": "18:05:34",
+    "dec": "+75:12:50",
+    "mag": 12.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_700",
+    "name": "Asteroid-700",
+    "ra": "05:13:40",
+    "dec": "-24:00:45",
+    "mag": 16.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_701",
+    "name": "Asteroid-701",
+    "ra": "08:37:26",
+    "dec": "-03:51:48",
+    "mag": 10.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_702",
+    "name": "Asteroid-702",
+    "ra": "22:26:12",
+    "dec": "+48:40:12",
+    "mag": 17.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_703",
+    "name": "Asteroid-703",
+    "ra": "10:17:27",
+    "dec": "+09:16:53",
+    "mag": 15.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_704",
+    "name": "Asteroid-704",
+    "ra": "05:38:58",
+    "dec": "-59:23:05",
+    "mag": 18.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_705",
+    "name": "Asteroid-705",
+    "ra": "20:42:16",
+    "dec": "+62:54:25",
+    "mag": 12.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_706",
+    "name": "Asteroid-706",
+    "ra": "08:41:56",
+    "dec": "+52:10:12",
+    "mag": 18.93,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_707",
+    "name": "Asteroid-707",
+    "ra": "05:11:30",
+    "dec": "-42:27:07",
+    "mag": 17.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_708",
+    "name": "Asteroid-708",
+    "ra": "17:10:26",
+    "dec": "+08:03:09",
+    "mag": 13.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_709",
+    "name": "Asteroid-709",
+    "ra": "12:46:28",
+    "dec": "-45:10:43",
+    "mag": 12.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_710",
+    "name": "Asteroid-710",
+    "ra": "07:19:35",
+    "dec": "+15:21:48",
+    "mag": 17.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_711",
+    "name": "Asteroid-711",
+    "ra": "22:00:40",
+    "dec": "+42:17:29",
+    "mag": 13.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_712",
+    "name": "Asteroid-712",
+    "ra": "21:48:25",
+    "dec": "-89:41:41",
+    "mag": 16.14,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_713",
+    "name": "Asteroid-713",
+    "ra": "16:48:25",
+    "dec": "+43:10:56",
+    "mag": 12.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_714",
+    "name": "Asteroid-714",
+    "ra": "13:23:20",
+    "dec": "+82:23:19",
+    "mag": 18.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_715",
+    "name": "Asteroid-715",
+    "ra": "08:48:22",
+    "dec": "+39:25:37",
+    "mag": 12.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_716",
+    "name": "Asteroid-716",
+    "ra": "07:57:25",
+    "dec": "-20:35:06",
+    "mag": 11.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_717",
+    "name": "Asteroid-717",
+    "ra": "11:45:17",
+    "dec": "-19:29:25",
+    "mag": 17.49,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_718",
+    "name": "Asteroid-718",
+    "ra": "03:56:38",
+    "dec": "-38:06:39",
+    "mag": 12.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_719",
+    "name": "Asteroid-719",
+    "ra": "00:53:22",
+    "dec": "-66:07:15",
+    "mag": 13.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_720",
+    "name": "Asteroid-720",
+    "ra": "19:00:02",
+    "dec": "+81:30:25",
+    "mag": 12.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_721",
+    "name": "Asteroid-721",
+    "ra": "06:37:40",
+    "dec": "-23:54:45",
+    "mag": 12.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_722",
+    "name": "Asteroid-722",
+    "ra": "01:07:39",
+    "dec": "+72:35:44",
+    "mag": 14.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_723",
+    "name": "Asteroid-723",
+    "ra": "05:04:17",
+    "dec": "-48:54:21",
+    "mag": 13.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_724",
+    "name": "Asteroid-724",
+    "ra": "13:53:45",
+    "dec": "+48:55:18",
+    "mag": 19.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_725",
+    "name": "Asteroid-725",
+    "ra": "12:27:09",
+    "dec": "+05:45:47",
+    "mag": 14.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_726",
+    "name": "Asteroid-726",
+    "ra": "14:33:13",
+    "dec": "+88:29:49",
+    "mag": 16.33,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_727",
+    "name": "Asteroid-727",
+    "ra": "22:56:58",
+    "dec": "-68:09:59",
+    "mag": 13.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_728",
+    "name": "Asteroid-728",
+    "ra": "11:59:57",
+    "dec": "+74:57:07",
+    "mag": 13.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_729",
+    "name": "Asteroid-729",
+    "ra": "17:19:19",
+    "dec": "+50:29:37",
+    "mag": 17.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_730",
+    "name": "Asteroid-730",
+    "ra": "15:32:48",
+    "dec": "+11:37:27",
+    "mag": 15.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_731",
+    "name": "Asteroid-731",
+    "ra": "19:43:54",
+    "dec": "+03:50:10",
+    "mag": 18.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_732",
+    "name": "Asteroid-732",
+    "ra": "15:31:13",
+    "dec": "+45:37:41",
+    "mag": 12.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_733",
+    "name": "Asteroid-733",
+    "ra": "07:20:59",
+    "dec": "-27:00:53",
+    "mag": 12.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_734",
+    "name": "Asteroid-734",
+    "ra": "17:43:38",
+    "dec": "-50:33:41",
+    "mag": 18.98,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_735",
+    "name": "Asteroid-735",
+    "ra": "03:16:43",
+    "dec": "-06:35:31",
+    "mag": 15.9,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_736",
+    "name": "Asteroid-736",
+    "ra": "13:34:53",
+    "dec": "+39:45:20",
+    "mag": 17.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_737",
+    "name": "Asteroid-737",
+    "ra": "06:39:30",
+    "dec": "-44:22:55",
+    "mag": 14.2,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_738",
+    "name": "Asteroid-738",
+    "ra": "01:40:43",
+    "dec": "-76:12:25",
+    "mag": 16.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_739",
+    "name": "Asteroid-739",
+    "ra": "05:55:26",
+    "dec": "-02:35:21",
+    "mag": 10.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_740",
+    "name": "Asteroid-740",
+    "ra": "02:33:47",
+    "dec": "+49:45:55",
+    "mag": 13.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_741",
+    "name": "Asteroid-741",
+    "ra": "08:41:39",
+    "dec": "-39:01:38",
+    "mag": 13.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_742",
+    "name": "Asteroid-742",
+    "ra": "03:36:07",
+    "dec": "-88:50:57",
+    "mag": 13.9,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_743",
+    "name": "Asteroid-743",
+    "ra": "06:18:40",
+    "dec": "-17:43:44",
+    "mag": 12.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_744",
+    "name": "Asteroid-744",
+    "ra": "01:03:47",
+    "dec": "+54:56:55",
+    "mag": 17.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_745",
+    "name": "Asteroid-745",
+    "ra": "15:41:36",
+    "dec": "+45:22:35",
+    "mag": 11.84,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_746",
+    "name": "Asteroid-746",
+    "ra": "15:31:12",
+    "dec": "+72:03:21",
+    "mag": 18.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_747",
+    "name": "Asteroid-747",
+    "ra": "05:55:39",
+    "dec": "-69:48:03",
+    "mag": 10.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_748",
+    "name": "Asteroid-748",
+    "ra": "08:14:54",
+    "dec": "+73:19:11",
+    "mag": 11.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_749",
+    "name": "Asteroid-749",
+    "ra": "20:01:11",
+    "dec": "-31:49:51",
+    "mag": 16.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_750",
+    "name": "Asteroid-750",
+    "ra": "13:25:16",
+    "dec": "+87:03:49",
+    "mag": 11.14,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_751",
+    "name": "Asteroid-751",
+    "ra": "19:45:29",
+    "dec": "+64:53:33",
+    "mag": 15.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_752",
+    "name": "Asteroid-752",
+    "ra": "12:21:43",
+    "dec": "-19:34:21",
+    "mag": 11.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_753",
+    "name": "Asteroid-753",
+    "ra": "18:46:20",
+    "dec": "+39:49:47",
+    "mag": 19.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_754",
+    "name": "Asteroid-754",
+    "ra": "12:07:49",
+    "dec": "+25:02:23",
+    "mag": 17.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_755",
+    "name": "Asteroid-755",
+    "ra": "03:39:33",
+    "dec": "-37:20:48",
+    "mag": 19.33,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_756",
+    "name": "Asteroid-756",
+    "ra": "04:50:51",
+    "dec": "-66:21:44",
+    "mag": 18.44,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_757",
+    "name": "Asteroid-757",
+    "ra": "12:02:25",
+    "dec": "-56:39:34",
+    "mag": 19.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_758",
+    "name": "Asteroid-758",
+    "ra": "07:50:09",
+    "dec": "+61:07:52",
+    "mag": 16.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_759",
+    "name": "Asteroid-759",
+    "ra": "02:30:32",
+    "dec": "-34:44:47",
+    "mag": 10.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_760",
+    "name": "Asteroid-760",
+    "ra": "00:57:05",
+    "dec": "+52:33:29",
+    "mag": 17.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_761",
+    "name": "Asteroid-761",
+    "ra": "17:34:23",
+    "dec": "-47:08:27",
+    "mag": 14.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_762",
+    "name": "Asteroid-762",
+    "ra": "01:17:54",
+    "dec": "+19:53:11",
+    "mag": 14.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_763",
+    "name": "Asteroid-763",
+    "ra": "10:57:27",
+    "dec": "-69:35:12",
+    "mag": 16.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_764",
+    "name": "Asteroid-764",
+    "ra": "06:19:24",
+    "dec": "-37:56:08",
+    "mag": 11.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_765",
+    "name": "Asteroid-765",
+    "ra": "01:52:25",
+    "dec": "+51:39:56",
+    "mag": 13.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_766",
+    "name": "Asteroid-766",
+    "ra": "20:36:08",
+    "dec": "-50:43:11",
+    "mag": 16.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_767",
+    "name": "Asteroid-767",
+    "ra": "00:53:05",
+    "dec": "-17:56:11",
+    "mag": 14.49,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_768",
+    "name": "Asteroid-768",
+    "ra": "04:05:06",
+    "dec": "+42:11:02",
+    "mag": 10.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_769",
+    "name": "Asteroid-769",
+    "ra": "18:05:46",
+    "dec": "+36:57:40",
+    "mag": 19.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_770",
+    "name": "Asteroid-770",
+    "ra": "11:44:32",
+    "dec": "-65:44:11",
+    "mag": 13.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_771",
+    "name": "Asteroid-771",
+    "ra": "13:19:04",
+    "dec": "+09:11:24",
+    "mag": 14.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_772",
+    "name": "Asteroid-772",
+    "ra": "06:09:05",
+    "dec": "-82:46:39",
+    "mag": 14.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_773",
+    "name": "Asteroid-773",
+    "ra": "17:25:06",
+    "dec": "+08:27:28",
+    "mag": 16.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_774",
+    "name": "Asteroid-774",
+    "ra": "05:19:15",
+    "dec": "-62:33:36",
+    "mag": 12.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_775",
+    "name": "Asteroid-775",
+    "ra": "22:12:44",
+    "dec": "+21:36:38",
+    "mag": 19.21,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_776",
+    "name": "Asteroid-776",
+    "ra": "12:37:57",
+    "dec": "+57:18:46",
+    "mag": 18.73,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_777",
+    "name": "Asteroid-777",
+    "ra": "21:25:26",
+    "dec": "+82:33:17",
+    "mag": 19.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_778",
+    "name": "Asteroid-778",
+    "ra": "12:46:39",
+    "dec": "-10:03:45",
+    "mag": 18.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_779",
+    "name": "Asteroid-779",
+    "ra": "20:32:25",
+    "dec": "-26:32:00",
+    "mag": 11.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_780",
+    "name": "Asteroid-780",
+    "ra": "01:41:10",
+    "dec": "-88:47:26",
+    "mag": 17.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_781",
+    "name": "Asteroid-781",
+    "ra": "13:49:09",
+    "dec": "+85:14:55",
+    "mag": 11.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_782",
+    "name": "Asteroid-782",
+    "ra": "14:52:50",
+    "dec": "-07:54:52",
+    "mag": 19.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_783",
+    "name": "Asteroid-783",
+    "ra": "16:06:52",
+    "dec": "+09:11:40",
+    "mag": 10.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_784",
+    "name": "Asteroid-784",
+    "ra": "00:54:39",
+    "dec": "-76:27:14",
+    "mag": 14.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_785",
+    "name": "Asteroid-785",
+    "ra": "21:27:19",
+    "dec": "+80:10:42",
+    "mag": 17.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_786",
+    "name": "Asteroid-786",
+    "ra": "02:39:44",
+    "dec": "-56:58:23",
+    "mag": 15.05,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_787",
+    "name": "Asteroid-787",
+    "ra": "14:46:12",
+    "dec": "-29:47:44",
+    "mag": 12.48,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_788",
+    "name": "Asteroid-788",
+    "ra": "19:47:37",
+    "dec": "+13:19:06",
+    "mag": 10.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_789",
+    "name": "Asteroid-789",
+    "ra": "18:45:48",
+    "dec": "-40:28:53",
+    "mag": 12.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_790",
+    "name": "Asteroid-790",
+    "ra": "19:53:05",
+    "dec": "-59:39:00",
+    "mag": 14.01,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_791",
+    "name": "Asteroid-791",
+    "ra": "04:36:27",
+    "dec": "+37:22:43",
+    "mag": 16.75,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_792",
+    "name": "Asteroid-792",
+    "ra": "16:58:23",
+    "dec": "-19:40:52",
+    "mag": 13.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_793",
+    "name": "Asteroid-793",
+    "ra": "07:34:30",
+    "dec": "-62:37:28",
+    "mag": 11.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_794",
+    "name": "Asteroid-794",
+    "ra": "10:15:18",
+    "dec": "+64:44:31",
+    "mag": 14.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_795",
+    "name": "Asteroid-795",
+    "ra": "04:42:11",
+    "dec": "-43:05:34",
+    "mag": 17.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_796",
+    "name": "Asteroid-796",
+    "ra": "02:07:39",
+    "dec": "-25:37:59",
+    "mag": 15.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_797",
+    "name": "Asteroid-797",
+    "ra": "12:22:15",
+    "dec": "+57:41:53",
+    "mag": 12.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_798",
+    "name": "Asteroid-798",
+    "ra": "04:59:16",
+    "dec": "-39:49:20",
+    "mag": 19.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_799",
+    "name": "Asteroid-799",
+    "ra": "20:52:52",
+    "dec": "+33:25:22",
+    "mag": 14.96,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_800",
+    "name": "Asteroid-800",
+    "ra": "10:37:18",
+    "dec": "+76:50:35",
+    "mag": 16.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_801",
+    "name": "Asteroid-801",
+    "ra": "09:57:28",
+    "dec": "+41:49:28",
+    "mag": 18.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_802",
+    "name": "Asteroid-802",
+    "ra": "16:12:26",
+    "dec": "-40:09:08",
+    "mag": 16.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_803",
+    "name": "Asteroid-803",
+    "ra": "15:58:51",
+    "dec": "-22:52:00",
+    "mag": 10.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_804",
+    "name": "Asteroid-804",
+    "ra": "21:45:51",
+    "dec": "-19:50:55",
+    "mag": 16.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_805",
+    "name": "Asteroid-805",
+    "ra": "16:06:07",
+    "dec": "-73:09:13",
+    "mag": 19.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_806",
+    "name": "Asteroid-806",
+    "ra": "14:46:18",
+    "dec": "+30:46:02",
+    "mag": 16.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_807",
+    "name": "Asteroid-807",
+    "ra": "21:16:16",
+    "dec": "+37:36:19",
+    "mag": 18.08,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_808",
+    "name": "Asteroid-808",
+    "ra": "12:57:43",
+    "dec": "-81:09:28",
+    "mag": 15.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_809",
+    "name": "Asteroid-809",
+    "ra": "21:55:06",
+    "dec": "+65:16:12",
+    "mag": 12.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_810",
+    "name": "Asteroid-810",
+    "ra": "22:24:12",
+    "dec": "+64:28:32",
+    "mag": 19.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_811",
+    "name": "Asteroid-811",
+    "ra": "05:38:12",
+    "dec": "+04:52:47",
+    "mag": 17.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_812",
+    "name": "Asteroid-812",
+    "ra": "14:20:17",
+    "dec": "-65:09:49",
+    "mag": 13.67,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_813",
+    "name": "Asteroid-813",
+    "ra": "08:52:47",
+    "dec": "+09:00:15",
+    "mag": 15.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_814",
+    "name": "Asteroid-814",
+    "ra": "13:15:02",
+    "dec": "+87:04:56",
+    "mag": 12.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_815",
+    "name": "Asteroid-815",
+    "ra": "23:35:11",
+    "dec": "+86:24:44",
+    "mag": 16.9,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_816",
+    "name": "Asteroid-816",
+    "ra": "10:00:46",
+    "dec": "+19:45:58",
+    "mag": 17.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_817",
+    "name": "Asteroid-817",
+    "ra": "21:03:17",
+    "dec": "+50:19:27",
+    "mag": 17.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_818",
+    "name": "Asteroid-818",
+    "ra": "02:47:06",
+    "dec": "-70:30:31",
+    "mag": 14.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_819",
+    "name": "Asteroid-819",
+    "ra": "10:55:30",
+    "dec": "-85:55:14",
+    "mag": 19.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_820",
+    "name": "Asteroid-820",
+    "ra": "14:55:42",
+    "dec": "-61:32:45",
+    "mag": 13.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_821",
+    "name": "Asteroid-821",
+    "ra": "02:26:52",
+    "dec": "+04:26:42",
+    "mag": 10.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_822",
+    "name": "Asteroid-822",
+    "ra": "12:43:34",
+    "dec": "-45:59:23",
+    "mag": 13.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_823",
+    "name": "Asteroid-823",
+    "ra": "15:15:08",
+    "dec": "-62:04:56",
+    "mag": 17.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_824",
+    "name": "Asteroid-824",
+    "ra": "19:58:12",
+    "dec": "-02:40:30",
+    "mag": 16.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_825",
+    "name": "Asteroid-825",
+    "ra": "12:08:21",
+    "dec": "+68:07:20",
+    "mag": 10.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_826",
+    "name": "Asteroid-826",
+    "ra": "00:19:37",
+    "dec": "-08:35:35",
+    "mag": 18.08,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_827",
+    "name": "Asteroid-827",
+    "ra": "16:23:46",
+    "dec": "+41:47:42",
+    "mag": 13.46,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_828",
+    "name": "Asteroid-828",
+    "ra": "12:16:25",
+    "dec": "-09:19:56",
+    "mag": 10.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_829",
+    "name": "Asteroid-829",
+    "ra": "11:54:39",
+    "dec": "-58:37:01",
+    "mag": 10.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_830",
+    "name": "Asteroid-830",
+    "ra": "12:09:11",
+    "dec": "-57:29:01",
+    "mag": 12.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_831",
+    "name": "Asteroid-831",
+    "ra": "12:05:57",
+    "dec": "-22:30:29",
+    "mag": 15.38,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_832",
+    "name": "Asteroid-832",
+    "ra": "11:31:31",
+    "dec": "-63:38:06",
+    "mag": 14.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_833",
+    "name": "Asteroid-833",
+    "ra": "01:37:42",
+    "dec": "+73:09:24",
+    "mag": 18.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_834",
+    "name": "Asteroid-834",
+    "ra": "13:47:56",
+    "dec": "-46:51:16",
+    "mag": 17.29,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_835",
+    "name": "Asteroid-835",
+    "ra": "18:23:03",
+    "dec": "-24:29:41",
+    "mag": 17.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_836",
+    "name": "Asteroid-836",
+    "ra": "10:17:34",
+    "dec": "+65:22:27",
+    "mag": 10.13,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_837",
+    "name": "Asteroid-837",
+    "ra": "22:11:47",
+    "dec": "+01:28:48",
+    "mag": 13.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_838",
+    "name": "Asteroid-838",
+    "ra": "07:23:00",
+    "dec": "+43:39:39",
+    "mag": 13.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_839",
+    "name": "Asteroid-839",
+    "ra": "13:29:00",
+    "dec": "+69:52:35",
+    "mag": 18.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_840",
+    "name": "Asteroid-840",
+    "ra": "20:50:06",
+    "dec": "+56:23:52",
+    "mag": 17.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_841",
+    "name": "Asteroid-841",
+    "ra": "08:45:57",
+    "dec": "-16:59:52",
+    "mag": 14.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_842",
+    "name": "Asteroid-842",
+    "ra": "13:45:18",
+    "dec": "-57:15:41",
+    "mag": 10.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_843",
+    "name": "Asteroid-843",
+    "ra": "01:39:42",
+    "dec": "-10:05:43",
+    "mag": 12.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_844",
+    "name": "Asteroid-844",
+    "ra": "02:48:19",
+    "dec": "+73:43:14",
+    "mag": 10.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_845",
+    "name": "Asteroid-845",
+    "ra": "22:32:48",
+    "dec": "-64:50:12",
+    "mag": 13.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_846",
+    "name": "Asteroid-846",
+    "ra": "15:56:37",
+    "dec": "+69:49:20",
+    "mag": 14.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_847",
+    "name": "Asteroid-847",
+    "ra": "10:05:10",
+    "dec": "+23:35:56",
+    "mag": 19.14,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_848",
+    "name": "Asteroid-848",
+    "ra": "01:07:51",
+    "dec": "+86:16:18",
+    "mag": 14.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_849",
+    "name": "Asteroid-849",
+    "ra": "04:37:01",
+    "dec": "-78:52:12",
+    "mag": 13.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_850",
+    "name": "Asteroid-850",
+    "ra": "08:42:44",
+    "dec": "+25:01:40",
+    "mag": 17.26,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_851",
+    "name": "Asteroid-851",
+    "ra": "16:37:52",
+    "dec": "+83:42:14",
+    "mag": 17.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_852",
+    "name": "Asteroid-852",
+    "ra": "16:45:30",
+    "dec": "-38:59:00",
+    "mag": 13.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_853",
+    "name": "Asteroid-853",
+    "ra": "15:35:29",
+    "dec": "-40:33:10",
+    "mag": 11.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_854",
+    "name": "Asteroid-854",
+    "ra": "13:39:01",
+    "dec": "+09:32:17",
+    "mag": 16.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_855",
+    "name": "Asteroid-855",
+    "ra": "11:40:19",
+    "dec": "+04:52:49",
+    "mag": 11.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_856",
+    "name": "Asteroid-856",
+    "ra": "09:08:11",
+    "dec": "-23:45:43",
+    "mag": 10.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_857",
+    "name": "Asteroid-857",
+    "ra": "03:41:09",
+    "dec": "-79:43:07",
+    "mag": 13.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_858",
+    "name": "Asteroid-858",
+    "ra": "06:14:51",
+    "dec": "+11:48:38",
+    "mag": 14.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_859",
+    "name": "Asteroid-859",
+    "ra": "00:14:56",
+    "dec": "-76:50:54",
+    "mag": 17.11,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_860",
+    "name": "Asteroid-860",
+    "ra": "02:04:45",
+    "dec": "-51:42:30",
+    "mag": 12.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_861",
+    "name": "Asteroid-861",
+    "ra": "00:35:49",
+    "dec": "-07:05:11",
+    "mag": 15.32,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_862",
+    "name": "Asteroid-862",
+    "ra": "06:47:18",
+    "dec": "+71:28:31",
+    "mag": 11.43,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_863",
+    "name": "Asteroid-863",
+    "ra": "17:18:30",
+    "dec": "-40:27:04",
+    "mag": 15.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_864",
+    "name": "Asteroid-864",
+    "ra": "10:59:37",
+    "dec": "+02:04:05",
+    "mag": 17.77,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_865",
+    "name": "Asteroid-865",
+    "ra": "20:05:52",
+    "dec": "-00:41:58",
+    "mag": 14.4,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_866",
+    "name": "Asteroid-866",
+    "ra": "13:14:21",
+    "dec": "+67:09:43",
+    "mag": 19.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_867",
+    "name": "Asteroid-867",
+    "ra": "17:52:55",
+    "dec": "-41:18:35",
+    "mag": 16.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_868",
+    "name": "Asteroid-868",
+    "ra": "01:18:17",
+    "dec": "+09:27:44",
+    "mag": 13.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_869",
+    "name": "Asteroid-869",
+    "ra": "06:59:34",
+    "dec": "-44:40:02",
+    "mag": 19.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_870",
+    "name": "Asteroid-870",
+    "ra": "04:24:31",
+    "dec": "-66:09:45",
+    "mag": 12.34,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_871",
+    "name": "Asteroid-871",
+    "ra": "07:34:50",
+    "dec": "+28:34:03",
+    "mag": 19.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_872",
+    "name": "Asteroid-872",
+    "ra": "21:19:44",
+    "dec": "+46:06:01",
+    "mag": 15.44,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_873",
+    "name": "Asteroid-873",
+    "ra": "08:49:52",
+    "dec": "-59:33:36",
+    "mag": 15.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_874",
+    "name": "Asteroid-874",
+    "ra": "13:11:10",
+    "dec": "+29:47:41",
+    "mag": 17.68,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_875",
+    "name": "Asteroid-875",
+    "ra": "12:47:28",
+    "dec": "-02:27:13",
+    "mag": 18.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_876",
+    "name": "Asteroid-876",
+    "ra": "00:59:02",
+    "dec": "-88:15:31",
+    "mag": 17.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_877",
+    "name": "Asteroid-877",
+    "ra": "14:03:22",
+    "dec": "-13:21:16",
+    "mag": 17.74,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_878",
+    "name": "Asteroid-878",
+    "ra": "04:35:07",
+    "dec": "+06:45:01",
+    "mag": 19.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_879",
+    "name": "Asteroid-879",
+    "ra": "10:36:19",
+    "dec": "+35:59:22",
+    "mag": 12.17,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_880",
+    "name": "Asteroid-880",
+    "ra": "22:59:00",
+    "dec": "-09:05:15",
+    "mag": 17.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_881",
+    "name": "Asteroid-881",
+    "ra": "09:39:02",
+    "dec": "+25:38:15",
+    "mag": 10.62,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_882",
+    "name": "Asteroid-882",
+    "ra": "09:32:02",
+    "dec": "-85:47:04",
+    "mag": 12.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_883",
+    "name": "Asteroid-883",
+    "ra": "12:54:20",
+    "dec": "+84:12:48",
+    "mag": 10.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_884",
+    "name": "Asteroid-884",
+    "ra": "06:05:44",
+    "dec": "-45:52:04",
+    "mag": 16.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_885",
+    "name": "Asteroid-885",
+    "ra": "01:54:07",
+    "dec": "+57:40:41",
+    "mag": 18.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_886",
+    "name": "Asteroid-886",
+    "ra": "22:59:00",
+    "dec": "-48:40:44",
+    "mag": 13.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_887",
+    "name": "Asteroid-887",
+    "ra": "05:52:47",
+    "dec": "+71:14:56",
+    "mag": 16.92,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_888",
+    "name": "Asteroid-888",
+    "ra": "00:22:44",
+    "dec": "+12:57:23",
+    "mag": 12.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_889",
+    "name": "Asteroid-889",
+    "ra": "04:07:35",
+    "dec": "-16:58:58",
+    "mag": 18.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_890",
+    "name": "Asteroid-890",
+    "ra": "21:00:33",
+    "dec": "+59:05:18",
+    "mag": 19.44,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_891",
+    "name": "Asteroid-891",
+    "ra": "00:51:53",
+    "dec": "+09:17:46",
+    "mag": 15.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_892",
+    "name": "Asteroid-892",
+    "ra": "23:40:41",
+    "dec": "-71:52:52",
+    "mag": 16.97,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_893",
+    "name": "Asteroid-893",
+    "ra": "06:11:51",
+    "dec": "+66:27:16",
+    "mag": 14.42,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_894",
+    "name": "Asteroid-894",
+    "ra": "15:35:24",
+    "dec": "-73:52:18",
+    "mag": 18.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_895",
+    "name": "Asteroid-895",
+    "ra": "03:42:06",
+    "dec": "-67:38:23",
+    "mag": 15.36,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_896",
+    "name": "Asteroid-896",
+    "ra": "02:38:07",
+    "dec": "-88:52:45",
+    "mag": 17.81,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_897",
+    "name": "Asteroid-897",
+    "ra": "09:41:50",
+    "dec": "+05:15:59",
+    "mag": 13.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_898",
+    "name": "Asteroid-898",
+    "ra": "13:42:38",
+    "dec": "+88:03:43",
+    "mag": 12.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_899",
+    "name": "Asteroid-899",
+    "ra": "20:19:44",
+    "dec": "-20:39:58",
+    "mag": 11.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_900",
+    "name": "Asteroid-900",
+    "ra": "09:14:18",
+    "dec": "+37:35:39",
+    "mag": 10.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_901",
+    "name": "Asteroid-901",
+    "ra": "01:51:30",
+    "dec": "+30:31:02",
+    "mag": 19.89,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_902",
+    "name": "Asteroid-902",
+    "ra": "06:05:53",
+    "dec": "+69:37:46",
+    "mag": 16.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_903",
+    "name": "Asteroid-903",
+    "ra": "16:08:38",
+    "dec": "+83:36:57",
+    "mag": 19.31,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_904",
+    "name": "Asteroid-904",
+    "ra": "10:36:41",
+    "dec": "-12:01:49",
+    "mag": 17.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_905",
+    "name": "Asteroid-905",
+    "ra": "22:58:12",
+    "dec": "-57:42:19",
+    "mag": 17.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_906",
+    "name": "Asteroid-906",
+    "ra": "20:48:30",
+    "dec": "+66:54:59",
+    "mag": 15.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_907",
+    "name": "Asteroid-907",
+    "ra": "12:17:43",
+    "dec": "-37:01:47",
+    "mag": 10.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_908",
+    "name": "Asteroid-908",
+    "ra": "13:47:41",
+    "dec": "+04:20:32",
+    "mag": 10.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_909",
+    "name": "Asteroid-909",
+    "ra": "09:41:12",
+    "dec": "+48:05:26",
+    "mag": 19.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_910",
+    "name": "Asteroid-910",
+    "ra": "08:00:24",
+    "dec": "-06:16:18",
+    "mag": 15.71,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_911",
+    "name": "Asteroid-911",
+    "ra": "06:15:09",
+    "dec": "-41:27:18",
+    "mag": 16.51,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_912",
+    "name": "Asteroid-912",
+    "ra": "13:37:20",
+    "dec": "-81:01:39",
+    "mag": 13.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_913",
+    "name": "Asteroid-913",
+    "ra": "13:43:32",
+    "dec": "-61:20:38",
+    "mag": 14.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_914",
+    "name": "Asteroid-914",
+    "ra": "11:05:58",
+    "dec": "-21:31:06",
+    "mag": 14.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_915",
+    "name": "Asteroid-915",
+    "ra": "01:33:05",
+    "dec": "+29:32:41",
+    "mag": 19.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_916",
+    "name": "Asteroid-916",
+    "ra": "03:02:02",
+    "dec": "+25:06:20",
+    "mag": 13.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_917",
+    "name": "Asteroid-917",
+    "ra": "23:23:54",
+    "dec": "+54:18:36",
+    "mag": 17.54,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_918",
+    "name": "Asteroid-918",
+    "ra": "20:50:55",
+    "dec": "-45:15:46",
+    "mag": 10.5,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_919",
+    "name": "Asteroid-919",
+    "ra": "02:36:54",
+    "dec": "-86:51:26",
+    "mag": 17.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_920",
+    "name": "Asteroid-920",
+    "ra": "22:01:33",
+    "dec": "+47:01:48",
+    "mag": 11.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_921",
+    "name": "Asteroid-921",
+    "ra": "10:11:03",
+    "dec": "+82:45:34",
+    "mag": 12.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_922",
+    "name": "Asteroid-922",
+    "ra": "03:13:56",
+    "dec": "+49:27:34",
+    "mag": 11.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_923",
+    "name": "Asteroid-923",
+    "ra": "19:02:48",
+    "dec": "-21:56:09",
+    "mag": 18.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_924",
+    "name": "Asteroid-924",
+    "ra": "04:44:27",
+    "dec": "-34:45:43",
+    "mag": 16.83,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_925",
+    "name": "Asteroid-925",
+    "ra": "16:20:30",
+    "dec": "-19:03:15",
+    "mag": 10.88,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_926",
+    "name": "Asteroid-926",
+    "ra": "00:03:12",
+    "dec": "-62:26:28",
+    "mag": 13.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_927",
+    "name": "Asteroid-927",
+    "ra": "08:19:49",
+    "dec": "+57:10:00",
+    "mag": 13.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_928",
+    "name": "Asteroid-928",
+    "ra": "03:13:53",
+    "dec": "-10:44:33",
+    "mag": 19.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_929",
+    "name": "Asteroid-929",
+    "ra": "09:42:22",
+    "dec": "-33:24:35",
+    "mag": 17.35,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_930",
+    "name": "Asteroid-930",
+    "ra": "08:04:26",
+    "dec": "-52:13:38",
+    "mag": 10.59,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_931",
+    "name": "Asteroid-931",
+    "ra": "06:18:29",
+    "dec": "+84:22:20",
+    "mag": 13.31,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_932",
+    "name": "Asteroid-932",
+    "ra": "06:57:16",
+    "dec": "+41:52:38",
+    "mag": 16.18,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_933",
+    "name": "Asteroid-933",
+    "ra": "17:49:44",
+    "dec": "-29:30:30",
+    "mag": 15.64,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_934",
+    "name": "Asteroid-934",
+    "ra": "20:12:01",
+    "dec": "-62:39:20",
+    "mag": 10.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_935",
+    "name": "Asteroid-935",
+    "ra": "06:27:07",
+    "dec": "+48:32:53",
+    "mag": 17.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_936",
+    "name": "Asteroid-936",
+    "ra": "07:28:51",
+    "dec": "+29:15:21",
+    "mag": 19.45,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_937",
+    "name": "Asteroid-937",
+    "ra": "10:46:10",
+    "dec": "-88:34:03",
+    "mag": 13.3,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_938",
+    "name": "Asteroid-938",
+    "ra": "15:19:44",
+    "dec": "+62:53:42",
+    "mag": 17.53,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_939",
+    "name": "Asteroid-939",
+    "ra": "16:55:26",
+    "dec": "-29:19:33",
+    "mag": 13.63,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_940",
+    "name": "Asteroid-940",
+    "ra": "07:14:57",
+    "dec": "+77:09:00",
+    "mag": 10.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_941",
+    "name": "Asteroid-941",
+    "ra": "16:11:30",
+    "dec": "+65:26:27",
+    "mag": 15.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_942",
+    "name": "Asteroid-942",
+    "ra": "17:46:47",
+    "dec": "+35:06:32",
+    "mag": 15.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_943",
+    "name": "Asteroid-943",
+    "ra": "18:08:36",
+    "dec": "-46:01:16",
+    "mag": 16.47,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_944",
+    "name": "Asteroid-944",
+    "ra": "01:52:09",
+    "dec": "+72:37:44",
+    "mag": 15.69,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_945",
+    "name": "Asteroid-945",
+    "ra": "12:57:37",
+    "dec": "-65:29:41",
+    "mag": 12.99,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_946",
+    "name": "Asteroid-946",
+    "ra": "03:37:16",
+    "dec": "-81:07:07",
+    "mag": 14.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_947",
+    "name": "Asteroid-947",
+    "ra": "12:42:21",
+    "dec": "+17:10:12",
+    "mag": 11.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_948",
+    "name": "Asteroid-948",
+    "ra": "01:14:49",
+    "dec": "-67:58:19",
+    "mag": 17.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_949",
+    "name": "Asteroid-949",
+    "ra": "09:12:53",
+    "dec": "+79:37:03",
+    "mag": 16.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_950",
+    "name": "Asteroid-950",
+    "ra": "21:12:44",
+    "dec": "-07:08:04",
+    "mag": 14.03,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_951",
+    "name": "Asteroid-951",
+    "ra": "00:23:16",
+    "dec": "+78:52:14",
+    "mag": 17.04,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_952",
+    "name": "Asteroid-952",
+    "ra": "07:28:09",
+    "dec": "-14:08:45",
+    "mag": 17.07,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_953",
+    "name": "Asteroid-953",
+    "ra": "17:50:12",
+    "dec": "-27:11:22",
+    "mag": 15.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_954",
+    "name": "Asteroid-954",
+    "ra": "02:32:51",
+    "dec": "+26:18:17",
+    "mag": 18.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_955",
+    "name": "Asteroid-955",
+    "ra": "11:26:10",
+    "dec": "+73:03:50",
+    "mag": 14.76,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_956",
+    "name": "Asteroid-956",
+    "ra": "03:02:47",
+    "dec": "-88:44:53",
+    "mag": 11.52,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_957",
+    "name": "Asteroid-957",
+    "ra": "17:00:56",
+    "dec": "+19:05:17",
+    "mag": 19.6,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_958",
+    "name": "Asteroid-958",
+    "ra": "04:16:02",
+    "dec": "-45:19:19",
+    "mag": 13.24,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_959",
+    "name": "Asteroid-959",
+    "ra": "05:54:19",
+    "dec": "-42:47:07",
+    "mag": 16.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_960",
+    "name": "Asteroid-960",
+    "ra": "09:10:51",
+    "dec": "-57:43:06",
+    "mag": 19.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_961",
+    "name": "Asteroid-961",
+    "ra": "03:46:44",
+    "dec": "-39:47:36",
+    "mag": 11.25,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_962",
+    "name": "Asteroid-962",
+    "ra": "10:40:46",
+    "dec": "+74:48:08",
+    "mag": 15.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_963",
+    "name": "Asteroid-963",
+    "ra": "12:12:34",
+    "dec": "-25:03:04",
+    "mag": 13.94,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_964",
+    "name": "Asteroid-964",
+    "ra": "01:05:29",
+    "dec": "-81:33:43",
+    "mag": 12.57,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_965",
+    "name": "Asteroid-965",
+    "ra": "12:04:19",
+    "dec": "+20:34:00",
+    "mag": 13.87,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_966",
+    "name": "Asteroid-966",
+    "ra": "16:15:09",
+    "dec": "+88:04:04",
+    "mag": 12.78,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_967",
+    "name": "Asteroid-967",
+    "ra": "02:27:46",
+    "dec": "-57:56:45",
+    "mag": 18.02,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_968",
+    "name": "Asteroid-968",
+    "ra": "06:33:18",
+    "dec": "+58:46:40",
+    "mag": 12.7,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_969",
+    "name": "Asteroid-969",
+    "ra": "20:51:30",
+    "dec": "+17:50:24",
+    "mag": 17.58,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_970",
+    "name": "Asteroid-970",
+    "ra": "14:16:38",
+    "dec": "-37:00:00",
+    "mag": 16.39,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_971",
+    "name": "Asteroid-971",
+    "ra": "22:03:43",
+    "dec": "-39:46:24",
+    "mag": 18.9,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_972",
+    "name": "Asteroid-972",
+    "ra": "04:01:14",
+    "dec": "-27:01:16",
+    "mag": 13.16,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_973",
+    "name": "Asteroid-973",
+    "ra": "22:30:20",
+    "dec": "-79:21:01",
+    "mag": 16.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_974",
+    "name": "Asteroid-974",
+    "ra": "03:05:52",
+    "dec": "-69:11:44",
+    "mag": 18.8,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_975",
+    "name": "Asteroid-975",
+    "ra": "21:21:15",
+    "dec": "-39:30:52",
+    "mag": 19.28,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_976",
+    "name": "Asteroid-976",
+    "ra": "09:15:45",
+    "dec": "+28:32:46",
+    "mag": 18.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_977",
+    "name": "Asteroid-977",
+    "ra": "05:58:20",
+    "dec": "-34:17:13",
+    "mag": 13.09,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_978",
+    "name": "Asteroid-978",
+    "ra": "08:12:53",
+    "dec": "-73:17:30",
+    "mag": 12.85,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_979",
+    "name": "Asteroid-979",
+    "ra": "01:00:33",
+    "dec": "+31:57:23",
+    "mag": 15.1,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_980",
+    "name": "Asteroid-980",
+    "ra": "20:28:59",
+    "dec": "+55:56:30",
+    "mag": 15.72,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_981",
+    "name": "Asteroid-981",
+    "ra": "17:13:57",
+    "dec": "-88:54:01",
+    "mag": 12.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_982",
+    "name": "Asteroid-982",
+    "ra": "05:10:33",
+    "dec": "+32:52:25",
+    "mag": 16.91,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_983",
+    "name": "Asteroid-983",
+    "ra": "10:43:26",
+    "dec": "+45:49:11",
+    "mag": 12.15,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_984",
+    "name": "Asteroid-984",
+    "ra": "18:18:52",
+    "dec": "-32:04:08",
+    "mag": 16.12,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_985",
+    "name": "Asteroid-985",
+    "ra": "16:55:06",
+    "dec": "-54:19:45",
+    "mag": 18.44,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_986",
+    "name": "Asteroid-986",
+    "ra": "11:16:18",
+    "dec": "+70:01:45",
+    "mag": 18.19,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_987",
+    "name": "Asteroid-987",
+    "ra": "04:12:52",
+    "dec": "-35:24:31",
+    "mag": 17.0,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_988",
+    "name": "Asteroid-988",
+    "ra": "02:20:42",
+    "dec": "+87:48:56",
+    "mag": 10.27,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_989",
+    "name": "Asteroid-989",
+    "ra": "17:57:09",
+    "dec": "+70:34:18",
+    "mag": 17.37,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_990",
+    "name": "Asteroid-990",
+    "ra": "08:55:00",
+    "dec": "-61:11:43",
+    "mag": 18.65,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_991",
+    "name": "Asteroid-991",
+    "ra": "03:47:20",
+    "dec": "-53:11:34",
+    "mag": 17.61,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_992",
+    "name": "Asteroid-992",
+    "ra": "00:26:57",
+    "dec": "+74:15:01",
+    "mag": 14.23,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_993",
+    "name": "Asteroid-993",
+    "ra": "19:40:12",
+    "dec": "-44:41:16",
+    "mag": 18.56,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_994",
+    "name": "Asteroid-994",
+    "ra": "19:03:33",
+    "dec": "+80:10:52",
+    "mag": 16.66,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_995",
+    "name": "Asteroid-995",
+    "ra": "06:38:45",
+    "dec": "-16:19:17",
+    "mag": 14.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_996",
+    "name": "Asteroid-996",
+    "ra": "22:56:34",
+    "dec": "-21:35:30",
+    "mag": 13.82,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_997",
+    "name": "Asteroid-997",
+    "ra": "15:17:47",
+    "dec": "-50:17:41",
+    "mag": 16.55,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_998",
+    "name": "Asteroid-998",
+    "ra": "21:07:59",
+    "dec": "+35:15:17",
+    "mag": 17.41,
+    "constellation": "N/A"
+  },
+  {
+    "id": "ASTEROID_999",
+    "name": "Asteroid-999",
+    "ra": "00:07:02",
+    "dec": "-11:39:37",
+    "mag": 14.08,
+    "constellation": "N/A"
+  }
+]

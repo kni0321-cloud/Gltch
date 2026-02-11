@@ -1,0 +1,478 @@
+import { useRef, useEffect, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { useStore } from '../store/useStore'
+import { vibeService } from '../services/vibeService'
+import { aiService } from '../services/aiService'
+
+const ScanPage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => void }) => {
+    const videoRef = useRef<HTMLVideoElement>(null)
+    const canvasRef = useRef<HTMLCanvasElement>(null)
+    const [isRitualActive, setIsRitualActive] = useState(false)
+    const [ritualText, setRitualText] = useState('')
+    const [oracleResult, setOracleResult] = useState<string | null>(null)
+    const [isShutter, setIsShutter] = useState(false)
+
+    const credits = useStore(state => state.credits)
+    const consumeCredit = useStore(state => state.consumeCredit)
+    const voidMode = useStore(state => state.voidMode)
+    const [gyroData, setGyroData] = useState({ x: 0, y: 0 })
+
+    useEffect(() => {
+        const startCamera = async () => {
+            const constraints = [
+                { video: { facingMode: 'environment' } },
+                { video: { facingMode: 'user' } },
+                { video: true } // Ultimate fallback
+            ];
+
+            for (const constraint of constraints) {
+                try {
+                    console.log("GLTCH: Attempting camera context...", constraint);
+                    const stream = await navigator.mediaDevices.getUserMedia(constraint);
+                    if (videoRef.current) {
+                        videoRef.current.srcObject = stream;
+                        // Important: Ensure video is actually playing
+                        videoRef.current.onloadedmetadata = () => {
+                            videoRef.current?.play();
+                            if (canvasRef.current && videoRef.current) {
+                                canvasRef.current.width = videoRef.current.videoWidth;
+                                canvasRef.current.height = videoRef.current.videoHeight;
+                            }
+                        };
+                        return; // Success
+                    }
+                } catch (err) {
+                    console.warn("GLTCH: Constraint failed, trying next...", err);
+                }
+            }
+            alert("MATRIX_ERROR: Unable to bridge camera flow.");
+        }
+        startCamera()
+    }, [])
+
+    // Canvas Frame Processing (CMO Requirement: Purple Tint / Chromatic Aberration)
+    useEffect(() => {
+        let animationFrameId: number;
+
+        const render = () => {
+            if (videoRef.current && canvasRef.current) {
+                const ctx = canvasRef.current.getContext('2d', { alpha: false });
+                if (ctx) {
+                    const { width, height } = canvasRef.current;
+
+                    // Basic draw
+                    ctx.drawImage(videoRef.current, 0, 0, width, height);
+
+                    // Digital Filter: Grayscale + Purple Tint
+                    ctx.globalCompositeOperation = 'saturation';
+                    ctx.fillStyle = 'gray';
+                    ctx.fillRect(0, 0, width, height);
+
+                    ctx.globalCompositeOperation = 'screen';
+                    ctx.fillStyle = 'rgba(191, 0, 255, 0.2)'; // Magic Purple
+                    ctx.fillRect(0, 0, width, height);
+
+                    // Simulated Chromatic Aberration
+                    ctx.globalCompositeOperation = 'overlay';
+                    ctx.drawImage(videoRef.current, 2, 0, width, height); // Offset Red/Purple
+
+                    ctx.globalCompositeOperation = 'source-over';
+                }
+            }
+            animationFrameId = requestAnimationFrame(render);
+        }
+        render();
+        return () => cancelAnimationFrame(animationFrameId);
+    }, []);
+
+    // 0. Silence Protocol: Gyro Tracking
+    useEffect(() => {
+        if (!voidMode) return;
+        const handleOrientation = (e: DeviceOrientationEvent) => {
+            setGyroData({
+                x: (e.beta || 0) / 90, // -1 to 1 approx
+                y: (e.gamma || 0) / 90
+            });
+        };
+        window.addEventListener('deviceorientation', handleOrientation);
+        return () => window.removeEventListener('deviceorientation', handleOrientation);
+    }, [voidMode]);
+
+    // Ritual Latency HUD Logic
+    useEffect(() => {
+        if (isRitualActive) {
+            let i = 0;
+            const interval = setInterval(() => {
+                setRitualText(vibeService.ritualPhrases[i % vibeService.ritualPhrases.length]);
+                i++;
+            }, 600);
+            return () => clearInterval(interval);
+        }
+    }, [isRitualActive]);
+
+    const vibeNodes = useStore(state => state.vibeNodes)
+    const [isDecoding, setIsDecoding] = useState(false)
+    const [showReveal, setShowReveal] = useState(false)
+    const [displayedOracle, setDisplayedOracle] = useState('')
+    const [displayedGuide, setDisplayedGuide] = useState('')
+    const [displayedLabels, setDisplayedLabels] = useState<string[]>([])
+    const [decodingText, setDecodingText] = useState('')
+    const [oracleData, setOracleData] = useState<{ oracle: string, guide: string, labels: string[] } | null>(null)
+    const [showConfirmation, setShowConfirmation] = useState(false)
+    const [confirmationAnswer, setConfirmationAnswer] = useState('')
+
+    // Hacker Decoder Simulation
+    useEffect(() => {
+        if (isDecoding) {
+            const ancientScripts = "αβγδεζηθικλμνξοπρστυφχψωअआइईउऊऋएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमय रलवशषसह";
+            const chars = "ABCDEF0123456789$#!@%^&*()_+-=[]{}|;':,.<>/?";
+            const combined = ancientScripts + chars;
+            const interval = setInterval(() => {
+                let str = "";
+                for (let i = 0; i < 40; i++) str += combined[Math.floor(Math.random() * combined.length)];
+                setDecodingText(str);
+            }, 40);
+            return () => clearInterval(interval);
+        }
+    }, [isDecoding]);
+
+    // Complex Typewriter Sequence
+    useEffect(() => {
+        if (showReveal && oracleData) {
+            let i = 0;
+            const seq1 = setInterval(() => {
+                setDisplayedOracle(oracleData.oracle.slice(0, i));
+                i++;
+                if (i > oracleData.oracle.length) {
+                    clearInterval(seq1);
+                    // Start guide after oracle
+                    let j = 0;
+                    const seq2 = setInterval(() => {
+                        setDisplayedGuide(oracleData.guide.slice(0, j));
+                        j++;
+                        if (j > oracleData.guide.length) {
+                            clearInterval(seq2);
+                            setDisplayedLabels(oracleData.labels);
+                        }
+                    }, 3000 / oracleData.guide.length); // Dynamic speed
+                }
+            }, 20);
+            return () => { clearInterval(seq1); };
+        }
+    }, [showReveal, oracleData]);
+
+    const handleExtract = async () => {
+        if (!consumeCredit()) return;
+
+        // 1. Shutter Flash
+        setIsShutter(true);
+        setTimeout(() => setIsShutter(false), 100);
+
+        setIsRitualActive(true);
+        setOracleData(null);
+        setDisplayedOracle('');
+        setDisplayedGuide('');
+        setDisplayedLabels([]);
+
+        const frame = canvasRef.current?.toDataURL('image/webp', 0.5);
+
+        if (frame) {
+            try {
+                // 2. AI Request (Enriched)
+                const response = await aiService.analyze({ image: frame });
+
+                // 3. Calibrating Matrix Ritual
+                setIsRitualActive(false);
+                setIsDecoding(true);
+                await new Promise(r => setTimeout(r, 2000));
+                setIsDecoding(false);
+
+                const stableId = vibeService.generateStableHash(response.labels.join(','));
+                const systemTags = vibeService.mapGeminiToVibe(response.labels);
+
+                const existingNode = vibeNodes.find(n => n.id === stableId);
+                const frequency = existingNode ? existingNode.frequency + 1 : 1;
+                const finalOracle = vibeService.getEvolutionaryOracle(frequency, response.oracle_text);
+
+                // Add to store
+                useStore.getState().addVibeNode({
+                    id: stableId,
+                    type: 'ORACLE',
+                    labels: systemTags,
+                    oracle: finalOracle,
+                    hacking_guide: response.hacking_guide,
+                    timestamp: Date.now()
+                });
+
+                // Show confirmation first
+                setShowConfirmation(true);
+
+            } catch (err) {
+                console.error("ALIGN_FAILED", err);
+                alert("VOID_REACHED: Matrix calibration failed.");
+                setIsRitualActive(false);
+                setIsDecoding(false);
+            }
+        }
+    }
+
+    const handleIntegrate = () => {
+        // Trigger "Shatter/Zoom" transition
+        onNavigate('sandbox');
+    }
+
+    return (
+        <div className="flex flex-col h-screen relative bg-black font-mono overflow-hidden">
+            {/* PHYSICAL EXIT BUTTON */}
+            <button 
+                onClick={() => onNavigate('orb')}
+                className="absolute top-8 right-8 z-[200] w-12 h-12 border border-white/20 bg-black/40 flex items-center justify-center hover:bg-white/10 active:scale-90 transition-all rounded-full"
+            >
+                <span className="material-symbols-outlined text-white text-[24px]">close</span>
+            </button>
+            {/* Background Camera/Canvas or Gyro Alignment */}
+            <video ref={videoRef} autoPlay playsInline muted className="hidden" />
+            {!voidMode ? (
+                <canvas ref={canvasRef} className="absolute inset-0 w-full h-full object-cover opacity-50 filter grayscale contrast-150" />
+            ) : (
+                <div className="absolute inset-x-0 bottom-0 top-0 bg-[#050505] flex items-center justify-center overflow-hidden">
+                    <div className="relative w-80 h-80 flex items-center justify-center">
+                        <motion.div
+                            animate={{
+                                scale: [1, 1.2, 1],
+                                rotate: gyroData.x * 20
+                            }}
+                            transition={{ duration: 4, repeat: Infinity }}
+                            className="absolute inset-0 border border-primary/20 rounded-full"
+                        />
+                        <div className="absolute inset-10 border-2 border-primary/40 rounded-full flex items-center justify-center">
+                            <motion.div
+                                animate={{
+                                    x: gyroData.y * 100,
+                                    y: gyroData.x * 100
+                                }}
+                                className="w-4 h-4 bg-primary shadow-[0_0_20px_#BF00FF] rounded-full"
+                            />
+                        </div>
+                        <p className="absolute -bottom-16 text-[8px] text-primary/60 tracking-[0.4em] font-black uppercase">
+                            GYRO_ALIGNMENT_PENDING
+                        </p>
+                    </div>
+                </div>
+            )}
+
+            {/* Shutter Flash */}
+            {isShutter && <div className="absolute inset-0 bg-white z-[100] pointer-events-none" />}
+
+            {/* CALIBRATING OVERLAY */}
+            <AnimatePresence>
+                {isDecoding && (
+                    <motion.div
+                        initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+                        className="absolute inset-0 z-[150] bg-black flex flex-col items-center justify-center p-6"
+                    >
+                        <div className="w-full max-w-sm">
+                            <div className="text-primary text-[10px] tracking-[0.4em] mb-4 flex justify-between font-bold">
+                                <span>CALIBRATING_DENSITY...</span>
+                                <span className="animate-pulse">STABLE</span>
+                            </div>
+                            <div className="h-48 overflow-hidden border border-primary/20 bg-primary/5 p-4 relative">
+                                <div className="text-primary/40 text-[8px] break-all leading-relaxed whitespace-pre-wrap">
+                                    {decodingText.repeat(30)}
+                                </div>
+                                <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black to-transparent" />
+                            </div>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* RIGHT OF CONFIRMATION */}
+            <AnimatePresence>
+                {showConfirmation && (
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 1.05 }}
+                        className="absolute inset-x-6 top-1/2 -translate-y-1/2 z-[160] bg-[#0a0a0a] border border-primary/40 p-8 shadow-[0_0_50px_rgba(191,0,255,0.2)]"
+                    >
+                        <div className="text-primary text-[10px] tracking-[0.4em] font-black mb-6 uppercase">Right_of_Confirmation</div>
+                        <p className="text-white/80 text-sm mb-8 leading-relaxed font-serif italic">
+                            “During the scan, did you perceive echoes of PAST_MEMORY or whispers of FUTURE_INTUITION?”
+                        </p>
+                        <div className="grid grid-cols-1 gap-4">
+                            <button
+                                onClick={() => {
+                                    const { activeTasks } = useStore.getState();
+                                    onNavigate('oracle', activeTasks[0]?.id);
+                                }}
+                                className="w-full py-4 border border-primary/20 text-primary text-[10px] tracking-widest font-black uppercase hover:bg-primary/10"
+                            >
+                                PAST_MEMORY // Echoes
+                            </button>
+                            <button
+                                onClick={() => {
+                                    const { activeTasks } = useStore.getState();
+                                    onNavigate('oracle', activeTasks[0]?.id);
+                                }}
+                                className="px-6 py-3 bg-primary/20 border border-primary/40 text-primary text-xs font-bold tracking-[0.3em] uppercase hover:bg-primary/30 transition-all"
+                            >
+                                FUTURE_INTUITION // Whispers
+                            </button>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* REVEAL OVERLAY (The Payoff) */}
+            <AnimatePresence>
+                {showReveal && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ scale: 2, opacity: 0, filter: "blur(40px)" }}
+                        transition={{ duration: 0.8, ease: "circIn" }}
+                        className="absolute inset-0 z-[200] bg-black flex flex-col items-center justify-center p-8 overflow-hidden"
+                    >
+                        {/* Purple Energy Nebula Background */}
+                        <div className="absolute inset-0 -z-10 opacity-30">
+                            <div className="absolute top-1/4 left-1/4 w-[200%] h-[200%] bg-[radial-gradient(circle,rgba(191,0,255,0.4)_0%,transparent_60%)] animate-pulse" />
+                        </div>
+
+                        <div className="w-full flex flex-col gap-10 max-w-md relative z-10">
+                            <header className="flex flex-col gap-2">
+                                <div className="flex items-center gap-2">
+                                    <div className="w-2 h-2 bg-primary animate-ping" />
+                                    <span className="text-primary text-[10px] tracking-[0.6em] font-black uppercase">Fate_Integrity // SECURE</span>
+                                </div>
+                                <div className="h-[1px] w-full bg-gradient-to-r from-primary via-primary/50 to-transparent" />
+                            </header>
+
+                            <div className="flex flex-wrap gap-2">
+                                {displayedLabels.map((tag, idx) => (
+                                    <motion.span
+                                        initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}
+                                        key={idx}
+                                        className="px-2 py-0.5 border border-primary/40 text-primary text-[9px] font-bold tracking-widest uppercase"
+                                    >
+                                        #{tag}
+                                    </motion.span>
+                                ))}
+                            </div>
+
+                            <div className="flex flex-col gap-6">
+                                <div className="min-h-[100px]">
+                                    <p className="text-primary text-xl font-black leading-tight tracking-tighter [text-shadow:0_0_15px_rgba(191,0,255,0.6)]">
+                                        {displayedOracle}
+                                        {displayedOracle.length < (oracleData?.oracle.length || 0) && <span className="inline-block w-2 h-6 bg-primary animate-pulse ml-2" />}
+                                    </p>
+                                </div>
+
+                                {displayedGuide && (
+                                    <motion.div
+                                        initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+                                        className="p-4 bg-primary/10 border-l-2 border-primary"
+                                    >
+                                        <div className="text-[9px] text-primary/60 mb-2 font-bold tracking-[0.2em] uppercase">Hacking_Guide:</div>
+                                        <p className="text-[12px] text-white/90 italic font-mono uppercase tracking-tight">
+                                            {displayedGuide}
+                                        </p>
+                                    </motion.div>
+                                )}
+                            </div>
+
+                            <footer className="mt-8 flex flex-col items-start gap-10">
+                                <div className="flex flex-col gap-1 opacity-40">
+                                    <span className="text-[7px] tracking-widest uppercase">ID: {vibeService.generateStableHash(oracleData?.oracle || '')}</span>
+                                    <span className="text-[7px] tracking-widest uppercase">Protocol: Merge_Reality_V1.0</span>
+                                </div>
+
+                                <button
+                                    onClick={handleIntegrate}
+                                    className="group relative w-full py-5 bg-primary text-black font-black text-[11px] tracking-[0.5em] uppercase hover:scale-[1.02] active:scale-95 transition-all shadow-[0_0_30px_rgba(191,0,255,0.3)]"
+                                >
+                                    <span className="relative z-10">Integrate Reality</span>
+                                </button>
+                            </footer>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* Viewfinder Header */}
+            <header className="relative z-10 flex justify-between items-start px-6 pt-14 pb-4">
+                <div className="flex flex-col gap-1">
+                    <div className="flex items-center gap-2">
+                        <span className="w-2.5 h-2.5 bg-primary rounded-full animate-pulse"></span>
+                        <span className="text-[10px] tracking-[0.5em] text-primary font-black uppercase">SCANNER_INFRA</span>
+                    </div>
+                </div>
+                <div className="flex flex-col items-end gap-1">
+                    <span className="text-[8px] text-white/40 tracking-[0.2em] uppercase">Energy_Res</span>
+                    <div className="flex gap-1">
+                        {[1, 2, 3].map(i => (
+                            <div key={i} className={`w-3 h-1 ${i <= credits ? 'bg-primary' : 'bg-white/10'}`} />
+                        ))}
+                    </div>
+                </div>
+            </header>
+
+            {/* Viewfinder Main */}
+            <main className="relative z-10 flex-1 flex flex-col items-center justify-center p-6">
+                <div className="relative w-64 h-64 flex items-center justify-center">
+                    <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-primary/60" />
+                    <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-primary/60" />
+                    <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-primary/60" />
+                    <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-primary/60" />
+
+                    <AnimatePresence>
+                        {isRitualActive && (
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}
+                                className="absolute inset-0 flex flex-col items-center justify-center"
+                            >
+                                <div className="text-[14px] text-primary tracking-[0.4em] font-black text-center px-4 uppercase drop-shadow-md">
+                                    {ritualText}
+                                </div>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+                </div>
+
+                <div className="mt-auto w-full mb-12">
+                    <button
+                        onClick={handleExtract}
+                        disabled={isRitualActive || credits === 0 || isDecoding || showReveal}
+                        className={`w-full py-4 font-black text-[11px] tracking-[0.6em] uppercase transition-all
+              ${credits === 0 ? 'bg-white/10 text-white/30' : 'bg-primary text-black shadow-[0_0_40px_rgba(191,0,255,0.4)] hover:shadow-primary/60'}`}
+                    >
+                        {credits === 0 ? 'ENERGY_VOID' : (isRitualActive || isDecoding ? 'CALIBRATING...' : 'HARVEST_RESONANCE')}
+                    </button>
+                </div>
+            </main>
+
+            <nav className="pb-10 pt-4 bg-black/80 backdrop-blur-md border-t border-white/5 relative z-10 w-full">
+                <div className="flex justify-around items-center px-4">
+                    <button onClick={() => onNavigate('orb')} className="flex flex-col items-center gap-1.5 opacity-40 hover:opacity-100 transition-opacity">
+                        <span className="material-symbols-outlined text-[24px]">lens_blur</span>
+                        <span className="text-[8px] tracking-[0.3em] uppercase font-bold">Orb</span>
+                    </button>
+                    <button className="flex flex-col items-center gap-1.5 text-primary">
+                        <span className="material-symbols-outlined text-[28px] [text-shadow:0_0_10px_#BF00FF]">center_focus_weak</span>
+                        <span className="text-[9px] tracking-[0.3em] uppercase font-black">Scan</span>
+                    </button>
+                    <button onClick={() => onNavigate('sandbox')} className="flex flex-col items-center gap-1.5 opacity-40 hover:opacity-100 transition-opacity">
+                        <span className="material-symbols-outlined text-[24px]">widgets</span>
+                        <span className="text-[8px] tracking-[0.3em] uppercase font-bold">Sandbox</span>
+                    </button>
+                    <button onClick={() => onNavigate('me')} className="flex flex-col items-center gap-1.5 opacity-40 hover:opacity-100 transition-opacity">
+                        <span className="material-symbols-outlined text-[24px]">person_4</span>
+                        <span className="text-[8px] tracking-[0.3em] uppercase font-bold">Me</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    )
+}
+
+export default ScanPage

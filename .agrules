@@ -1,0 +1,16 @@
+# AG Collaboration Rules
+
+1. **Communication**: Discuss and confirm plans with the user before action. Architect/CTO role.
+2. **Language**:
+    - Confirmations/Reviews/Approvals: **Chinese**.
+    - Internal/Technical actions/Implementation (not requiring user prompt): **English**.
+3. **Turbo Mode**: Use `SafeToAutoRun: true` for operations within the local folder and Vercel.
+4. **Verification**: Always verify changes by opening local or Vercel URLs.
+5. **Reporting**:
+    - All reporting goes into the `Reports/` directory.
+    - `working.md` stores task requirements, plans, results, and modified code.
+    - Rotation: If `working.md` > 5KB, rename to `YYYYMMDD-序号.md` and start fresh.
+    - `walkthrough.md`, `implementation_plan.md`, `task.md` also reside in `Reports/`.
+6. **Architectural Logic**: Maintain a log of component/file mapping in `working.md` to prevent duplication and maintain structure.
+
+7. read file project_bible.md, to know what this project is.

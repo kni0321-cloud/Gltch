@@ -418,12 +418,53 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
         }, 1200)
     }
 
+    const [showGuideGlow, setShowGuideGlow] = useState(false);
+    const firstInteractionReported = useRef(false);
+    const mountTime = useRef(performance.now());
+
+    useEffect(() => {
+        // Track View Success
+        import('../services/trackingService').then(({ trackingService }) => {
+            trackingService.trackEvent("Lifecycle", "Orb_View_Success");
+        });
+
+        // 5s Inactivity Guide
+        const guideTimer = setTimeout(() => {
+            if (!firstInteractionReported.current) {
+                setShowGuideGlow(true);
+                import('../services/trackingService').then(({ trackingService }) => {
+                    trackingService.trackEvent("Interaction", "Guide_Glow_Displayed");
+                });
+            }
+        }, 5000);
+
+        return () => clearTimeout(guideTimer);
+    }, []);
+
+    const reportFirstInteraction = () => {
+        if (!firstInteractionReported.current) {
+            firstInteractionReported.current = true;
+            setShowGuideGlow(false);
+            const timeToFirst = performance.now() - mountTime.current;
+            import('../services/trackingService').then(({ trackingService }) => {
+                trackingService.trackEvent("Interaction", "First_Interaction", "Time_To_Action", Math.round(timeToFirst));
+            });
+        }
+    };
+
     return (
         <div
             onClick={(e) => {
+                reportFirstInteraction();
                 // Ignore clicks on inputs or buttons to allow interaction
                 const target = e.target as HTMLElement;
                 if (target.tagName === 'INPUT' || target.tagName === 'BUTTON') return;
+
+                // Detective Tracking: Click Attempt
+                import('../services/trackingService').then(({ trackingService }) => {
+                    trackingService.trackClick(e.clientX, e.clientY, "Orb_Page_Root", false);
+                });
+
                 onNavigate('me');
             }}
             className="flex flex-col h-[100dvh] relative bg-black font-mono overflow-hidden cursor-pointer"
@@ -499,7 +540,10 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                 </motion.div>
                 <div className="flex items-center gap-4">
                     <button
-                        onClick={() => setShowVoidGuide(true)}
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            setShowVoidGuide(true);
+                        }}
                         className="w-8 h-8 flex items-center justify-center border border-primary/20 rounded-full relative overflow-hidden group"
                     >
                         <motion.div
@@ -537,7 +581,7 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                                         "The matrix is stable. Go to the Sandbox and scavenge for system shards to evolve."}
                             </p>
                             <button
-                                onClick={() => setShowVoidGuide(false)}
+                                onClick={(e) => { e.stopPropagation(); setShowVoidGuide(false); }}
                                 className="w-full py-3 bg-primary text-black font-black text-[10px] tracking-widest uppercase"
                             >
                                 ACKNOWLEDGED
@@ -558,6 +602,35 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                 />
 
                 <div className="relative w-[60vw] h-[60vw] max-w-[280px] max-h-[280px] flex items-center justify-center">
+                    {/* HITBOX EXTENSION: 20px extra padding for click area */}
+                    <div
+                        className="absolute inset-[-20px] rounded-full z-[40]"
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            reportFirstInteraction();
+                            import('../services/trackingService').then(({ trackingService }) => {
+                                trackingService.trackClick(e.clientX, e.clientY, "Orb_Extended_Hitbox", true);
+                            });
+                            onNavigate('me');
+                        }}
+                    />
+
+                    {/* 5S GUIDE GLOW */}
+                    <AnimatePresence>
+                        {showGuideGlow && (
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                animate={{
+                                    opacity: [0.2, 0.5, 0.2],
+                                    scale: [1, 1.1, 1],
+                                    filter: ["blur(10px)", "blur(20px)", "blur(10px)"]
+                                }}
+                                transition={{ duration: 2, repeat: Infinity }}
+                                className="absolute inset-[-30px] rounded-full bg-yellow-500/20 z-[20] pointer-events-none"
+                            />
+                        )}
+                    </AnimatePresence>
+
                     <AnimatePresence>
                         {bubbles.filter(b => b.active).map(bubble => (
                             <motion.div
@@ -566,7 +639,8 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                                 animate={{ opacity: 1, scale: 1, y: 0 }}
                                 exit={{ opacity: 0, scale: 1.1 }}
                                 transition={{ delay: bubble.delay }}
-                                className={`absolute z-30 ${bubble.pos} p-[2vw] w-[45vw] max-w-[200px] flex flex-col gap-1.5 transition-all
+                                onClick={(e) => e.stopPropagation()}
+                                className={`absolute z-[50] ${bubble.pos} p-[2vw] w-[45vw] max-w-[200px] flex flex-col gap-1.5 transition-all
                                     ${bubble.type === 'primary' ? 'bg-black/90 border border-primary/40 speech-bubble-tail vibe-dots' :
                                         bubble.type === 'warning' ? 'bg-black/90 border border-primary/30 speech-bubble-tail vibe-dots' :
                                             bubble.type === 'system' ? 'system-glow font-mono p-3 w-64' :
@@ -586,13 +660,13 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                                 {bubble.type !== 'system' && (
                                     <div className="flex gap-3 mt-1">
                                         <button
-                                            onClick={() => handleInteract(bubble.id, 'YES', bubble.taskId)}
+                                            onClick={(e) => { e.stopPropagation(); handleInteract(bubble.id, 'YES', bubble.taskId); }}
                                             className="text-primary text-[8px] tracking-widest hover:text-white transition-colors uppercase font-black"
                                         >
                                             [ CONFIRM ]
                                         </button>
                                         <button
-                                            onClick={() => handleInteract(bubble.id, 'NO', bubble.taskId)}
+                                            onClick={(e) => { e.stopPropagation(); handleInteract(bubble.id, 'NO', bubble.taskId); }}
                                             className="text-white/30 text-[8px] tracking-widest hover:text-white transition-colors uppercase font-black"
                                         >
                                             [ DISMISS ]
@@ -657,14 +731,17 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                     </div>
                 </div>
 
-                <div className={`mt-[5vh] w-full px-6 flex flex-col items-center max-w-sm transition-all duration-300 ${isInputFocused ? 'ring-1 ring-primary/40' : ''}`}>
+                <div
+                    className={`mt-[5vh] w-full px-6 flex flex-col items-center max-w-sm transition-all duration-300 ${isInputFocused ? 'ring-1 ring-primary/40' : ''}`}
+                    onClick={(e) => e.stopPropagation()} // Prevent bubble navigation
+                >
                     <div className="w-full relative group">
                         <input
                             type="text"
                             placeholder="TYPE 'I AM REAL' TO INITIALIZE..."
                             className="w-full bg-transparent border-b-2 border-primary/40 px-4 py-3 text-[10px] text-primary placeholder:text-primary/30 focus:outline-none focus:border-primary focus:shadow-[0_4px_12px_-2px_rgba(191,0,255,0.4)] transition-all font-mono caret-primary"
                             value={inputText}
-                            onFocus={() => setIsInputFocused(true)}
+                            onFocus={() => { setIsInputFocused(true); reportFirstInteraction(); }}
                             onBlur={() => setIsInputFocused(false)}
                             onChange={(e) => {
                                 setInputText(e.target.value);
@@ -684,7 +761,11 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                     </div>
 
                     <button
-                        onClick={inputText.trim() ? handleVoidSubmit : handleInitiate}
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            reportFirstInteraction();
+                            inputText.trim() ? handleVoidSubmit() : handleInitiate();
+                        }}
                         disabled={isLinking || isMorphing}
                         className={`mt-6 w-full py-4 text-black font-bold text-xs tracking-[0.6em] uppercase active:scale-95 transition-all
                             ${isRedMode ? 'bg-danger shadow-[0_0_30px_#ff0000]' : 'bg-primary shadow-[0_0_30px_#BF00FF]'}`}

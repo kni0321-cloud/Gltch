@@ -17,8 +17,17 @@ function App() {
     const [isNavigating, setIsNavigating] = useState(false)
 
     useEffect(() => {
+        const startTime = performance.now();
         useStore.getState().initialize(); // Auth Check
         sensorService.init();
+
+        // Initialize Tracking
+        import('./services/trackingService').then(({ trackingService }) => {
+            trackingService.init(import.meta.env.VITE_GA_MEASUREMENT_ID || "");
+            const hydrationTime = performance.now() - startTime;
+            trackingService.trackPerformance(Math.round(hydrationTime));
+        });
+
         const duration = 1200;
         const interval = 20;
         const increment = 100 / (duration / interval);
@@ -52,7 +61,7 @@ function App() {
             console.log('[APP_AUDIT] Navigation Event Intercepted:', destination);
 
             const page = destination.split('?')[0];
-            
+
             // Bypass handleNavigate lock for system-critical events
             setCurrentPage(page);
             setIsNavigating(false); // Force unlock

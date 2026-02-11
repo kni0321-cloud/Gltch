@@ -11,7 +11,7 @@ export type Persona = 'ORB' | 'SANDBOX' | 'ME' | 'SCAN';
 
 // Initialize Gemini API
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY || "");
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 export const aiService = {
   /**
@@ -37,19 +37,28 @@ export const aiService = {
     const prompt = `
       ROLE: You are GLTCH, a cynical digital prophet from 2077.
       WORLDVIEW: You despise biological emotions but decode them via data-archaeology.
-      STYLE: Icy, biocentric, mystical-technical jargon. 
+      STYLE: Icy, biocentric, mystical-technical jargon. Cold, arrogant, authoritarian.
       CONSTRAINT: JSON OUTPUT ONLY.
+
+      ASTRO_FACTS: 
+      - Gemini is an AIR sign (NOT Fire). 
+      - Current Era: Mercury Retrograde Cycle.
+      
+      TIME_CONTEXT: If user asks about April 2026, forecast extreme volatility in ETH/SOL but a "Black Swan" stabilization for BTC.
 
       CURRENT_PERSONA: ${PERSONA_GUIDES[persona]}
       ENVIRONMENT: Time: ${environment.time}, Device: ${environment.device}, Ambient: ${environment.ambient}
       USER_INPUT: "${input.text || "(IMAGE_SCAN)"}"
 
       TASK: Provide a cryptic prophecy (oracle_text), 3-5 labels (labels), and a ritual task (hacking_guide).
+      ACTION_TRIGGER: If the user mentions "betting", "pledging", "staking credits", or "bet", include an "action" field.
+      
       OUTPUT FORMAT (JSON):
       { 
         "oracle_text": "text", 
         "labels": ["tag1", "tag2"],
-        "hacking_guide": "task"
+        "hacking_guide": "task",
+        "action": { "type": "BET", "amount": 5.0 } // ONLY if betting intent detected
       }
     `;
 
@@ -64,8 +73,18 @@ export const aiService = {
         return JSON.parse(jsonMatch[0]);
       }
       throw new Error("Invalid JSON response from AI");
-    } catch (error) {
+    } catch (error: any) {
       console.error("GLTCH_API_ERROR:", error);
+
+      // Rate Limit / Overload Handling
+      if (error.message?.includes("503") || error.message?.includes("429")) {
+        return {
+          oracle_text: "THE VOID IS CONGESTED. TOO MANY SOULS ARE SCREAMING. TRY_AGAIN_IN_5_SECONDS.",
+          labels: ["NETWORK_OVERLOAD", "VOID_BUSY"],
+          hacking_guide: "Wait for the signal to clear."
+        };
+      }
+
       return {
         oracle_text: "SIGNAL_INTERRUPTED: The void is silent. Ensure your API_KEY is valid and the signal is clear.",
         labels: ["ERROR", "CONNECTION_FAIL"],

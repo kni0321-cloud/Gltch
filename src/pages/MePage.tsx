@@ -159,8 +159,29 @@ const MePage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => voi
         setLogText("");
 
         // Action B: Fetch AI Prophet response
-        const response = await aiService.analyze({ text: currentInput, persona: 'ME' });
-        useStore.getState().addDialogue({ role: 'assistant', content: response.oracle_text });
+        const response = await aiService.analyze({ text: currentInput, persona: 'ME' }) as any;
+
+        // Task 7: Automated Betting Logic
+        if (response.action?.type === 'BET') {
+            const betAmount = response.action.amount || 5.0;
+            const currentCredits = useStore.getState().credits;
+
+            if (currentCredits < betAmount) {
+                useStore.getState().addDialogue({
+                    role: 'assistant',
+                    content: "BARREN_SOUL_DETECTED: You lack the currency to stake against fate. Your poverty is a signal I cannot decode."
+                });
+            } else {
+                useStore.getState().placeVaultBet(betAmount, 'PROPHET_PLEDGE_' + Date.now().toString().slice(-4));
+                useStore.getState().addDialogue({ role: 'assistant', content: response.oracle_text });
+                useStore.getState().addDialogue({
+                    role: 'assistant',
+                    content: `SYSTEM_NOTICE: ${betAmount} Credits locked in the Vault. Reveal in 24H.`
+                });
+            }
+        } else {
+            useStore.getState().addDialogue({ role: 'assistant', content: response.oracle_text });
+        }
     };
 
     // Dialogue Display Component (Typewriter-ish)

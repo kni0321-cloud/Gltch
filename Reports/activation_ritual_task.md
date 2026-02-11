@@ -24,6 +24,6 @@
 - [x] Capture evidence of real API feedback
 
 ## Phase 6: GitHub Integration
-- [ ] Configure remote origin: `https://github.com/kni0321-cloud/Gltch.git`
-- [ ] Stage and commit all changes (respecting `.gitignore`)
-- [ ] Push to `main` branch
+- [x] Configure remote origin: `https://github.com/kni0321-cloud/Gltch.git`
+- [x] Stage and commit all changes (respecting `.gitignore`)
+- [x] Push to `main` branch

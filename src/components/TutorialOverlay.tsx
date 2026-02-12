@@ -14,19 +14,22 @@ export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) 
             id: 0,
             text: "TAP THE EYE TO SEE YOUR LUCK.",
             targetClass: "top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2", // Orb Position (Approx)
-            arrowRot: 0
+            arrowRot: 0,
+            triggerId: "orb-trigger"
         },
         {
             id: 1,
-            text: "TYPE HOW YOU FEEL RIGHT NOW.",
-            targetClass: "top-[60%] left-1/2 -translate-x-1/2", // Input Position (Approx)
-            arrowRot: 180
+            text: "TYPE YOUR SOUL FREQUENCY.",
+            targetClass: "top-[20%] left-1/2 -translate-x-1/2", // MATCHES TELEPORTED INPUT POSITION
+            arrowRot: 180,
+            triggerId: "input-trigger"
         },
         {
             id: 2,
             text: "COLLECT FREE ENERGY HERE.",
             targetClass: "bottom-4 right-8", // Me Tab Position (Approx)
-            arrowRot: 45
+            arrowRot: 45,
+            triggerId: "nav-me-trigger" // Needs to be added to BottomNav if we want true sim, or we just rely on onNext logic for this one.
         }
     ];
 
@@ -47,14 +50,14 @@ export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="absolute inset-0 z-[999] pointer-events-none"
+                className="absolute inset-0 z-[1100] pointer-events-none"
             >
                 {/* Backdrop with "Hole" effect (Simulated via localized minimal opacity or just pure overlay with instructions) */}
                 {/* CMO said: "Mask transparency can be slightly lowered". Let's use a dark overlay but keep target visible-ish */}
                 <div className="absolute inset-0 bg-black/80" />
 
                 {/* SKIP BUTTON (Always Interactive) */}
-                <div className="absolute top-4 right-4 z-[1001] pointer-events-auto">
+                <div className="absolute top-4 right-4 z-[1101] pointer-events-auto">
                     <button
                         onClick={onSkip}
                         className="text-white/40 text-xs font-bold border border-white/20 px-3 py-1 rounded-full hover:bg-white/10 hover:text-white transition-all uppercase tracking-widest"
@@ -64,7 +67,7 @@ export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) 
                 </div>
 
                 {/* Content Container */}
-                <div className={`absolute ${currentStep.targetClass} z-[1000] flex flex-col items-center gap-4 w-64 pointer-events-none`}>
+                <div className={`absolute ${currentStep.targetClass} z-[1100] flex flex-col items-center gap-4 w-64 pointer-events-none`}>
 
                     {/* Giant Finger / Indicator */}
                     <motion.div
@@ -81,8 +84,8 @@ export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) 
                     <motion.h2
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        className="text-white text-[28px] font-bold leading-tight text-center drop-shadow-md uppercase font-sans"
-                        style={{ textShadow: '0 2px 10px rgba(0,0,0,0.8)' }}
+                        className="text-primary text-[24px] font-black leading-tight text-center drop-shadow-[0_2px_10px_rgba(0,0,0,1)] uppercase font-mono tracking-tighter"
+                        style={{ textShadow: '0 0 20px rgba(191,0,255,0.5)' }}
                     >
                         {currentStep.text}
                     </motion.h2>
@@ -91,16 +94,24 @@ export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) 
                 {/* CLICK CAPTURE ZONE (The "Hole") */}
                 {/* This invisible button sits over the target area and advances the tutorial when clicked */}
                 <div
-                    className={`absolute ${currentStep.targetClass} z-[1001] w-32 h-32 cursor-pointer pointer-events-auto flex items-center justify-center`}
+                    className={`absolute ${currentStep.targetClass} z-[1101] w-32 h-32 cursor-pointer pointer-events-auto flex items-center justify-center`}
                     onClick={(e) => {
-                        // Propagate click to underlying elements if possible? 
-                        // Actually, for "Dummy Guide", we might just want to advance step and let user "simulate" the action.
-                        // But CMO said "Don't Think". 
-                        // Step 1: Click Sphere -> Triggers Orb Animation? 
-                        // Let's just advance the tutorial step. Real interaction happens *after* tutorial or we simulate it?
-                        // "Step 1: Tap to see luck." -> User taps -> Tutorial advances.
-                        // Let's keep it simple: Click advances.
                         e.stopPropagation();
+
+                        // SCHEME A: SIMULATE CLICK (CMO REQUIREMENT)
+                        if (currentStep.triggerId) {
+                            const target = document.getElementById(currentStep.triggerId);
+                            if (target) {
+                                console.log(`[TUTORIAL] Simulating click on #${currentStep.triggerId}`);
+                                target.click();
+                                // For inputs, click might not focus if it's a div wrapper.
+                                if (currentStep.id === 1) {
+                                    const input = target.querySelector('input');
+                                    input?.focus();
+                                }
+                            }
+                        }
+
                         onNext();
                     }}
                 >

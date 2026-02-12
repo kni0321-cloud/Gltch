@@ -30,6 +30,7 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
     const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
     const idleTimerRef = useRef<any>(null)
     const [isInputFocused, setIsInputFocused] = useState(false)
+    const inputRef = useRef<HTMLInputElement>(null)
 
     const isRedMode = cosmicEvent === 'ENERGY_RED'
 
@@ -605,6 +606,7 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                 <div className="relative w-[60vw] h-[60vw] max-w-[280px] max-h-[280px] flex items-center justify-center">
                     {/* HITBOX EXTENSION: 20px extra padding for click area */}
                     <div
+                        id="orb-trigger"
                         className="absolute inset-[-20px] rounded-full z-[40]"
                         onClick={(e) => {
                             e.stopPropagation();
@@ -612,7 +614,17 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                             import('../services/trackingService').then(({ trackingService }) => {
                                 trackingService.trackClick(e.clientX, e.clientY, "Orb_Extended_Hitbox", true);
                             });
-                            onNavigate('me');
+                            // Tutorial Logic: Step 1 click does NOT navigate, it just shakes.
+                            // Real click: Navigates. 
+                            // We need to differentiate? 
+                            // Actually, CMO said: "Step 1 click -> Shake + Focus Input".
+                            // If tutorial is active, we prevent navigation.
+                            if (tutorialStatus !== 'ACTIVE') {
+                                onNavigate('me');
+                            } else {
+                                setIsShaking(true);
+                                setTimeout(() => setIsShaking(false), 500);
+                            }
                         }}
                     />
 
@@ -733,11 +745,14 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                 </div>
 
                 <div
-                    className={`mt-[5vh] w-full px-6 flex flex-col items-center max-w-sm transition-all duration-300 ${isInputFocused ? 'ring-1 ring-primary/40' : ''}`}
+                    id="input-trigger"
+                    className={`mt-[5vh] w-full px-6 flex flex-col items-center max-w-sm transition-all duration-300 ${isInputFocused ? 'ring-1 ring-primary/40' : ''} 
+                        ${tutorialStatus === 'ACTIVE' && tutorialStep === 1 ? 'fixed top-[20%] z-[1002] left-0 right-0 bg-black/90 pb-8 px-8 border-b border-primary/20 shadow-[0_10px_40px_rgba(0,0,0,0.8)]' : ''}`}
                     onClick={(e) => e.stopPropagation()} // Prevent bubble navigation
                 >
                     <div className="w-full relative group">
                         <input
+                            ref={inputRef}
                             type="text"
                             placeholder="TYPE 'I AM REAL' TO INITIALIZE..."
                             className="w-full bg-transparent border-b-2 border-primary/40 px-4 py-3 text-[10px] text-primary placeholder:text-primary/30 focus:outline-none focus:border-primary focus:shadow-[0_4px_12px_-2px_rgba(191,0,255,0.4)] transition-all font-mono caret-primary"
@@ -789,10 +804,25 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                     step={tutorialStep || 0}
                     onNext={() => {
                         const current = tutorialStep || 0;
+
+                        // INTERACTION SIMULATION (CMO AUDIT FIX)
+                        if (current === 0) {
+                            // Step 1: Orb Click -> Shake + Focus Input
+                            setIsShaking(true);
+                            setTimeout(() => setIsShaking(false), 500);
+                            setTimeout(() => inputRef.current?.focus(), 100);
+                        } else if (current === 1) {
+                            // Step 2: Input Click -> Blur (Hide Keyboard) to show BottomNav
+                            inputRef.current?.blur();
+                        } else if (current === 2) {
+                            // Step 3: Nav Click -> Navigate
+                            useStore.setState({ tutorialStatus: 'COMPLETED' });
+                            onNavigate('me');
+                            return; // Stop here, don't increment step
+                        }
+
                         if (current < 2) {
                             useStore.setState({ tutorialStep: current + 1 });
-                        } else {
-                            useStore.setState({ tutorialStatus: 'COMPLETED' });
                         }
                     }}
                     onSkip={() => useStore.setState({ tutorialStatus: 'COMPLETED' })}

@@ -26,12 +26,13 @@ export function BottomNav({ current, onNavigate, cosmicEvent = 'NORMAL' }: Botto
                     return (
                         <button
                             key={item.id}
+                            id={item.id === 'me' ? 'nav-me-trigger' : undefined}
                             onClick={() => onNavigate(item.id)}
                             className={`flex flex-col items-center gap-1.5 transition-all ${isActive
-                                    ? isSandbox && isRedMode
-                                        ? 'text-danger'
-                                        : 'text-primary'
-                                    : 'opacity-40 hover:opacity-100'
+                                ? isSandbox && isRedMode
+                                    ? 'text-danger'
+                                    : 'text-primary'
+                                : 'opacity-40 hover:opacity-100'
                                 }`}
                         >
                             <span

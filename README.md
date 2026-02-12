@@ -1,6 +1,6 @@
 # GLTCH — Cyber-Mysticism Prophecy Engine
 
-**LIVE_DEPLOY_URL**: [gltch-zeta.vercel.app](https://gltch-zeta.vercel.app)
+**LIVE_DEPLOY_URL**: [gltch-delta.vercel.app](https://gltch-delta.vercel.app)
 
 ---
 
@@ -115,3 +115,5 @@ GLTCH's prophecy system is a **three-layer pipeline** designed to feel supernatu
 - [ ] Achievement System Integration (Next Sprint)
 - [ ] Audio Engine 2.0
 - [ ] Sovereignty Marketplace
+
+© 2026 MCNIA & Companies Inc. All rights reserved

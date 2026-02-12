@@ -307,6 +307,18 @@ const MePage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => voi
                                     <span>Reset_Guide</span>
                                     <span className="material-symbols-outlined text-sm">restart_alt</span>
                                 </button>
+
+                                <div className="mt-6 pt-6 border-t border-white/5 space-y-2 opacity-30 select-none">
+                                    <div className="text-[7px] font-mono tracking-tighter text-white/60">
+                                        SYSTEM_ORIGIN: MCNIA & Companies Inc.
+                                    </div>
+                                    <div className="text-[7px] font-mono tracking-tighter text-white/60 uppercase">
+                                        REGISTRY_ID: 10041954 | MANITOBA_NODE
+                                    </div>
+                                    <div className="text-[7px] font-mono tracking-tighter text-white/40 uppercase">
+                                        © 2026. ALL RIGHTS RESERVED.
+                                    </div>
+                                </div>
                             </div>
                         </motion.div>
                     )}

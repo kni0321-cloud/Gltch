@@ -16,3 +16,4 @@ yarn-error.log*
 .agent/
 brain/
 Reports/task.md.resolved*
+Reports/

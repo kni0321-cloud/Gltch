@@ -14,3 +14,9 @@
 6. **Architectural Logic**: Maintain a log of component/file mapping in `working.md` to prevent duplication and maintain structure.
 
 7. read file project_bible.md, to know what this project is.
+8. **Reports Directory**: `Reports/` is LOCAL ONLY. Do not commit to git.
+9. **Dummy Guide Standard**:
+    - **Font**: >24px, Bold (700).
+    - **Visuals**: Black backdrop with high contrast.
+    - **Logic**: 3-Click Rule (Orb -> Input -> Me).
+    - **Intervention**: Always provide [ SKIP ] button.

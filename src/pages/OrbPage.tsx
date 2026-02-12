@@ -4,6 +4,7 @@ import { useStore } from '../store/useStore'
 import { aiService } from '../services/aiService'
 import { vibeService } from '../services/vibeService'
 import { BottomNav } from '../components/BottomNav'
+import { TutorialOverlay } from '../components/TutorialOverlay'
 
 interface Bubble {
     id: string;
@@ -17,7 +18,7 @@ interface Bubble {
 }
 
 const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigate: (page: string, id?: string) => void }) => {
-    const { dialogueLog, addDialogue, activeTasks, lastSettlementReport, completeTask, checkDailySettlement, cosmicEvent, lastScanTime, lastScannedNodeId, vibeNodes, addVibeNode, narrativeStack, lastImpactSector, lastSessionStatus, setCurrentViewTaskId } = useStore()
+    const { dialogueLog, addDialogue, activeTasks, lastSettlementReport, completeTask, checkDailySettlement, cosmicEvent, lastScanTime, lastScannedNodeId, vibeNodes, addVibeNode, narrativeStack, lastImpactSector, lastSessionStatus, setCurrentViewTaskId, tutorialStatus, tutorialStep } = useStore()
     const [isLinking, setIsLinking] = useState(false)
     const [isMorphing, setIsMorphing] = useState(false) // Orb to soundwave morph
     const [inputText, setInputText] = useState("")
@@ -781,6 +782,22 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
 
             {/* Global Bottom Navigation */}
             <BottomNav current="orb" onNavigate={onNavigate} cosmicEvent={cosmicEvent} />
+
+            {/* Dummy Guide Tutorial Overlay */}
+            {tutorialStatus === 'ACTIVE' && (
+                <TutorialOverlay
+                    step={tutorialStep || 0}
+                    onNext={() => {
+                        const current = tutorialStep || 0;
+                        if (current < 2) {
+                            useStore.setState({ tutorialStep: current + 1 });
+                        } else {
+                            useStore.setState({ tutorialStatus: 'COMPLETED' });
+                        }
+                    }}
+                    onSkip={() => useStore.setState({ tutorialStatus: 'COMPLETED' })}
+                />
+            )}
         </div>
     )
 }

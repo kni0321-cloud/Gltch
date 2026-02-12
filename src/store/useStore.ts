@@ -134,6 +134,7 @@ interface GltchState {
     lastSystemMessage: { text: string; id: number } | null; // Task 2: System Feedback
     unlockedSectors: string[];
     tutorialStatus: 'ACTIVE' | 'COMPLETED';
+    tutorialStep?: number;
 
     // Oracle Progress (Persistence)
     oracleProgress: {
@@ -232,7 +233,7 @@ export const useStore = create<GltchState>()(
             entitiesCollapsed: 0,
             lastSystemMessage: null,
             unlockedSectors: ['SECTOR_001'],
-            tutorialStatus: 'COMPLETED',
+            tutorialStatus: 'ACTIVE',
             oracleProgress: {
                 taskId: null,
                 step: 0,

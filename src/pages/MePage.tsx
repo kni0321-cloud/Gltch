@@ -7,6 +7,7 @@ import { aiService } from '../services/aiService'
 import { getNarrativeById, NarrativeFragment, NARRATIVE_CATALOG } from '../data/narrative_catalog'
 import { GAME_CONFIG } from '../config/gameConfig'
 import { PuzzleBoard } from '../components/PuzzleBoard'
+import { TutorialOverlay } from '../components/TutorialOverlay'
 
 const MemoryFragmentItem = ({ fragment }: { fragment: any }) => {
     const [story, setStory] = useState<NarrativeFragment | null>(null);
@@ -60,7 +61,7 @@ const MemoryFragmentItem = ({ fragment }: { fragment: any }) => {
 };
 
 const MePage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => void }) => {
-    const { vibeNodes, celestialProgress, updateCelestial, voidMode, toggleVoidMode, ghostFragments, dataShards, unlockedMedals } = useStore()
+    const { vibeNodes, celestialProgress, updateCelestial, voidMode, toggleVoidMode, ghostFragments, dataShards, unlockedMedals, hasSeenMeGuide, isSoundEnabled } = useStore()
     const [isJumping, setIsJumping] = useState(false)
     const [viewMode, setViewMode] = useState<'galaxy' | 'planet' | 'codex'>('galaxy')
     const [showImpactDrawer, setShowImpactDrawer] = useState(false)
@@ -73,6 +74,7 @@ const MePage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => voi
     // Puzzle State
     const [showPuzzle, setShowPuzzle] = useState(false);
     const [showRitualToast, setShowRitualToast] = useState(false);
+    const [showSettings, setShowSettings] = useState(false);
 
     // Trigger Yellow Alert if enough fragments
     useEffect(() => {
@@ -268,8 +270,50 @@ const MePage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => voi
             </AnimatePresence>
 
             <header className="px-6 pt-14 pb-4 z-[110] relative">
+                {/* SETTINGS ICON */}
+                <div className="absolute top-14 right-6 flex gap-3 z-[120]">
+                    <button
+                        onClick={() => setShowSettings(!showSettings)}
+                        className="w-10 h-10 flex items-center justify-center border border-primary/20 bg-black/40 hover:bg-white/10 active:scale-90 transition-all rounded-full"
+                    >
+                        <span className="material-symbols-outlined text-primary text-[20px]">settings</span>
+                    </button>
+                </div>
+
+                {/* SETTINGS MENU */}
+                <AnimatePresence>
+                    {showSettings && (
+                        <motion.div
+                            initial={{ opacity: 0, y: -20, scale: 0.95 }}
+                            animate={{ opacity: 1, y: 0, scale: 1 }}
+                            exit={{ opacity: 0, y: -20, scale: 0.95 }}
+                            className="absolute top-28 right-6 w-48 bg-black/95 border border-primary/40 p-4 z-[130] shadow-[0_10px_40px_rgba(0,0,0,0.8)]"
+                        >
+                            <div className="space-y-4">
+                                <button
+                                    onClick={() => useStore.setState({ isSoundEnabled: !isSoundEnabled })}
+                                    className="w-full flex justify-between items-center text-[10px] font-black tracking-widest uppercase hover:text-primary transition-colors"
+                                >
+                                    <span>{isSoundEnabled ? 'Sound_On' : 'Sound_Off'}</span>
+                                    <span className="material-symbols-outlined text-sm">{isSoundEnabled ? 'volume_up' : 'volume_off'}</span>
+                                </button>
+                                <button
+                                    onClick={() => {
+                                        useStore.getState().hardReset();
+                                        window.location.reload();
+                                    }}
+                                    className="w-full flex justify-between items-center text-[10px] font-black tracking-widest uppercase text-danger hover:text-white transition-colors"
+                                >
+                                    <span>Reset_Guide</span>
+                                    <span className="material-symbols-outlined text-sm">restart_alt</span>
+                                </button>
+                            </div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+
                 {/* Real-time Ephemeris Clock (Astro-Core Dashboard) */}
-                <div className="mb-4 grid grid-cols-3 gap-2 py-2 border-b border-primary/10">
+                <div id="me-weather-trigger" className="mb-4 grid grid-cols-3 gap-2 py-2 border-b border-primary/10">
                     {ephemeris.slice(2, 5).map(e => {
                         const bodyName = e.body.toLowerCase();
                         const isRetrograde = (cosmicWeather as any)[bodyName] === 'RETROGRADE';
@@ -312,6 +356,23 @@ const MePage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => voi
             </header>
 
             <main className="flex-1 flex flex-col relative overflow-y-auto w-full">
+                {/* Dummy Guide Tutorial Overlay */}
+                {!hasSeenMeGuide && (
+                    <TutorialOverlay
+                        step={0}
+                        onNext={() => useStore.setState({ hasSeenMeGuide: true })}
+                        onSkip={() => useStore.setState({ hasSeenMeGuide: true })}
+                        steps={[
+                            {
+                                id: 0,
+                                text: "MONITOR COSMIC WEATHER & YOUR SOUL PROGRESS.",
+                                targetClass: "top-[15%] left-1/2 -translate-x-1/2",
+                                arrowRot: 180,
+                                triggerId: "me-weather-trigger"
+                            }
+                        ]}
+                    />
+                )}
                 {/* Codex View (Overlay) */}
                 <AnimatePresence>
                     {viewMode === 'codex' && (

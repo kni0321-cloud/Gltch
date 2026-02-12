@@ -18,7 +18,7 @@ interface Bubble {
 }
 
 const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigate: (page: string, id?: string) => void }) => {
-    const { dialogueLog, addDialogue, activeTasks, lastSettlementReport, completeTask, checkDailySettlement, cosmicEvent, lastScanTime, lastScannedNodeId, vibeNodes, addVibeNode, narrativeStack, lastImpactSector, lastSessionStatus, setCurrentViewTaskId, tutorialStatus, tutorialStep } = useStore()
+    const { dialogueLog, addDialogue, activeTasks, lastSettlementReport, completeTask, checkDailySettlement, cosmicEvent, lastScanTime, lastScannedNodeId, vibeNodes, addVibeNode, narrativeStack, lastImpactSector, lastSessionStatus, setCurrentViewTaskId, tutorialStatus, tutorialStep, hasSeenOrbGuide } = useStore()
     const [isLinking, setIsLinking] = useState(false)
     const [isMorphing, setIsMorphing] = useState(false) // Orb to soundwave morph
     const [inputText, setInputText] = useState("")
@@ -95,6 +95,8 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
 
     const handleVoidSubmit = async () => {
         if (!inputText.trim() || isLinking) return;
+
+        if (vibeService.handleSmartCommands(inputText)) return;
 
         const input = inputText.toLowerCase();
         let customResponse = "";
@@ -799,7 +801,7 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
             <BottomNav current="orb" onNavigate={onNavigate} cosmicEvent={cosmicEvent} />
 
             {/* Dummy Guide Tutorial Overlay */}
-            {tutorialStatus === 'ACTIVE' && (
+            {!hasSeenOrbGuide && (
                 <TutorialOverlay
                     step={tutorialStep || 0}
                     onNext={() => {
@@ -816,7 +818,7 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                             inputRef.current?.blur();
                         } else if (current === 2) {
                             // Step 3: Nav Click -> Navigate
-                            useStore.setState({ tutorialStatus: 'COMPLETED' });
+                            useStore.setState({ hasSeenOrbGuide: true });
                             onNavigate('me');
                             return; // Stop here, don't increment step
                         }
@@ -825,7 +827,7 @@ const OrbPage = ({ onInitiate, onNavigate }: { onInitiate: () => void, onNavigat
                             useStore.setState({ tutorialStep: current + 1 });
                         }
                     }}
-                    onSkip={() => useStore.setState({ tutorialStatus: 'COMPLETED' })}
+                    onSkip={() => useStore.setState({ hasSeenOrbGuide: true })}
                 />
             )}
         </div>

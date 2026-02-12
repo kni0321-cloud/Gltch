@@ -135,6 +135,10 @@ interface GltchState {
     unlockedSectors: string[];
     tutorialStatus: 'ACTIVE' | 'COMPLETED';
     tutorialStep?: number;
+    hasSeenOrbGuide: boolean;
+    hasSeenSandboxGuide: boolean;
+    hasSeenMeGuide: boolean;
+    isSoundEnabled: boolean;
 
     // Oracle Progress (Persistence)
     oracleProgress: {
@@ -234,6 +238,10 @@ export const useStore = create<GltchState>()(
             lastSystemMessage: null,
             unlockedSectors: ['SECTOR_001'],
             tutorialStatus: 'ACTIVE',
+            hasSeenOrbGuide: false,
+            hasSeenSandboxGuide: false,
+            hasSeenMeGuide: false,
+            isSoundEnabled: true,
             oracleProgress: {
                 taskId: null,
                 step: 0,
@@ -688,7 +696,12 @@ export const useStore = create<GltchState>()(
                     dialogueLog: [],
                     lastSettlementTime: Date.now(), // Suppress immediate settlement popup
                     lastSettlementReport: null,
-                    currentViewTaskId: null
+                    currentViewTaskId: null,
+                    hasSeenOrbGuide: false,
+                    hasSeenSandboxGuide: false,
+                    hasSeenMeGuide: false,
+                    tutorialStatus: 'ACTIVE',
+                    tutorialStep: 0
                 });
             },
 
@@ -838,6 +851,10 @@ export const useStore = create<GltchState>()(
                 publicSecrets: state.publicSecrets,
                 unlockedSectors: state.unlockedSectors,
                 calibrationLocks: state.calibrationLocks,
+                hasSeenOrbGuide: state.hasSeenOrbGuide,
+                hasSeenSandboxGuide: state.hasSeenSandboxGuide,
+                hasSeenMeGuide: state.hasSeenMeGuide,
+                isSoundEnabled: state.isSoundEnabled,
                 // Critical Persistence for Network Audit
                 oracleProgress: state.oracleProgress,
                 sovereignty: state.sovereignty,

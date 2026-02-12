@@ -3,9 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useStore, VibeNode, Connection } from '../store/useStore';
 import OracleCard from '../components/OracleCard';
 import { aiService } from '../services/aiService';
+import { TutorialOverlay } from '../components/TutorialOverlay';
 
 const SandboxPage = ({ onNavigate }: { onNavigate: (page: string, id?: string) => void }) => {
-    const { vibeNodes, connections, cosmicEvent, generateGhostEchoes, knowledgePoints, missionState, stabilizeNode, lastImpactSector, dataShards, ghostFragments, consumeGhostFragment, addGhostFragment } = useStore();
+    const { vibeNodes, connections, cosmicEvent, generateGhostEchoes, knowledgePoints, missionState, stabilizeNode, lastImpactSector, dataShards, ghostFragments, consumeGhostFragment, addGhostFragment, hasSeenSandboxGuide } = useStore();
     const isRedMode = cosmicEvent === 'ENERGY_RED';
     const containerRef = useRef<HTMLDivElement>(null);
 
@@ -804,6 +805,23 @@ const SandboxPage = ({ onNavigate }: { onNavigate: (page: string, id?: string) =
                     </motion.div>
                 )}
             </AnimatePresence>
+
+            {!hasSeenSandboxGuide && nodes.some(n => n.type === 'GHOST_ECHO') && (
+                <TutorialOverlay
+                    step={0}
+                    onNext={() => useStore.setState({ hasSeenSandboxGuide: true })}
+                    onSkip={() => useStore.setState({ hasSeenSandboxGuide: true })}
+                    steps={[
+                        {
+                            id: 0,
+                            text: "TOUCH A GHOST ECHO TO RECLAIM MEMORY.",
+                            targetClass: `top-[${Math.round((nodes.find(n => n.type === 'GHOST_ECHO')?.y || 200) / window.innerHeight * 100)}%] left-[${Math.round((nodes.find(n => n.type === 'GHOST_ECHO')?.x || 200) / window.innerWidth * 100)}%]`,
+                            arrowRot: 0,
+                            triggerId: nodes.find(n => n.type === 'GHOST_ECHO')?.id
+                        }
+                    ]}
+                />
+            )}
         </div >
     );
 };

@@ -167,5 +167,18 @@ export const vibeService = {
             badge: isRebel ? fragment.unlock_reward : undefined,
             isCorrupted: isRebel
         };
+    },
+
+    // Task: Smart Command Interceptor
+    handleSmartCommands: (input: string): boolean => {
+        const cmd = input.toLowerCase().trim();
+        if (cmd === 'help') {
+            console.log("[vibeService] help command detected. Triggering RESET_GUIDE.");
+            localStorage.clear();
+            sessionStorage.clear();
+            window.location.href = '/';
+            return true;
+        }
+        return false;
     }
 };

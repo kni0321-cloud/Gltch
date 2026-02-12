@@ -5,11 +5,12 @@ interface TutorialOverlayProps {
     step: number;
     onNext: () => void;
     onSkip: () => void;
+    steps?: { id: number, text: string, targetClass: string, arrowRot: number, triggerId?: string }[];
 }
 
-export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) => {
+export const TutorialOverlay = ({ step, onNext, onSkip, steps: customSteps }: TutorialOverlayProps) => {
     // Step Definitions
-    const steps = [
+    const defaultSteps = [
         {
             id: 0,
             text: "TAP THE EYE TO SEE YOUR LUCK.",
@@ -33,6 +34,7 @@ export const TutorialOverlay = ({ step, onNext, onSkip }: TutorialOverlayProps) 
         }
     ];
 
+    const steps = customSteps || defaultSteps;
     const currentStep = steps[step] || steps[0];
 
     // Auto-focus logic for Step 1 (Input)
